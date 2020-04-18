@@ -1,0 +1,42 @@
+.info {
+  display: flex;
+  width: 28rem;
+}
+
+.avatar {
+  display: block;
+  height: 96px;
+  margin-right: 1rem;
+  position: relative;
+  width: 96px;
+
+  img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.stat {
+  align-items: center;
+  display: flex;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  margin-right: 1rem;
+}
+
+.stat-bar {
+  flex: 1;
+  height: 0.5rem;
+}
+
+.main-menu {
+  width: 28rem;
+
+  li {
+    font-size: 1.25rem;
+    margin: 1.5rem 0;
+  }
+}

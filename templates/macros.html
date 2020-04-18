@@ -1,0 +1,26 @@
+{% macro stat_bar(current, total, color) %}
+  <div class="stat-bar is-flex">
+    <div style="width: {{ (current / total) * 100 }}%; background-color: {{ color }};"></div>
+    <div style="width: {{ ((total - current) / total) * 100 }}%; background-color: slategray;"></div>
+  </div>
+{% endmacro %}
+
+{% macro player_info() %}
+  <div class="info is-centered-y">
+    <figure class="avatar">
+      <img src="images/avatar.png" />
+    </figure>
+    <div>
+      <h1>Darshak Parikh</h1>
+      <h2>Developer (Lv. 27)</h2>
+      <div class="stat">
+        <label class="stat-label">HP 206/254</label>
+        {{ macros::stat_bar(current=206, total=254, color="limegreen") }}
+      </div>
+      <div class="stat">
+        <label class="stat-label">MP 312/349</label>
+        {{ macros::stat_bar(current=312, total=349, color="royalblue") }}
+      </div>
+    </div>
+  </div>
+{% endmacro %}

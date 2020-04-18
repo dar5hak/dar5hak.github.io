@@ -1,0 +1,30 @@
+{% import "macros.html" as macros %}
+
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  Home
+{% endblock %}
+
+{% block content %}
+  <main class="is-centered is-flex-column">
+    {{ macros::player_info() }}
+    <ul class="main-menu">
+      <li><a href="/blog">blog</a></li>
+      <li><a href="/art">pixel art</a></li>
+      <li><a href="/projects">projects</a></li>
+      <li><a href="/about">about</a></li>
+    </ul>
+  </main>
+{% endblock %}
+
+{% block footer %}
+  <footer class="is-centered">
+    <ul class="footer-menu">
+      <li><a href="https://github.com/dar5hak" target="_blank">GitHub</a></li>
+      <li><a href="https://im-in.space/@dubiousdisc" target="_blank">Mastodon</a></li>
+      <li><a href="https://twitter.com/dar5hak" target="_blank">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/darshak-parikh" target="_blank">LinkedIn</a></li>
+    </ul>
+  </footer>
+{% endblock %}

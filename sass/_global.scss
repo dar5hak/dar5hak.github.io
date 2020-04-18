@@ -1,0 +1,101 @@
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  line-height: 1.4rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 0.75rem;
+}
+
+a {
+  color: unset;
+  outline: none;
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.25rem;
+
+  &::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 0.25rem;
+    visibility: hidden;
+  }
+
+  &:focus::before {
+    visibility: visible;
+  }
+}
+
+main {
+  flex-grow: 1;
+  padding: 3rem 0;
+}
+
+.is-centered-x,
+%is-centered-x {
+  display: flex;
+  justify-content: center;
+}
+
+.is-centered-y,
+%is-centered-y {
+  align-items: center;
+  display: flex;
+}
+
+.is-centered {
+  @extend %is-centered-x;
+  @extend %is-centered-y;
+}
+
+.is-flex {
+  display: flex;
+}
+
+.is-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+.page {
+  align-items: stretch;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.page-content {
+  width: 100%;
+}
+
+.page-content article {
+  max-width: 40rem;
+  width: 100%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 1rem 0;
+  }
+}
+
+
+.body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  margin: 2rem 0;
+}

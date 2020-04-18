@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block htmltitle %} {% endblock %} · Dubious Disc</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="page">
+      <header class="is-centered">
+        <img src="images/logo-32x32.png" class="logo">
+        <h1>Dubious Disc</h1>
+      </header>
+      {% block content %} {% endblock %}
+      {% block footer %} {% endblock %}
+    </section>
+  </body>
+</html>
