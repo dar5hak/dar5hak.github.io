@@ -17,14 +17,14 @@ a {
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
 
-  &::before[data-focusable] {
+  &[data-focusable]::before {
     content: '▶';
     display: inline-block;
     margin-right: 0.25rem;
     visibility: hidden;
   }
 
-  &:focus::before[data-focusable] {
+  &[data-focusable]:focus::before {
     visibility: visible;
   }
 }
