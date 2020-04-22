@@ -17,14 +17,14 @@ a {
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.25rem;
 
-  &::before {
+  &::before[data-focusable] {
     content: '▶';
     display: inline-block;
     margin-right: 0.25rem;
     visibility: hidden;
   }
 
-  &:focus::before {
+  &:focus::before[data-focusable] {
     visibility: visible;
   }
 }
@@ -90,6 +90,10 @@ main {
   h6,
   p {
     margin: 1rem 0;
+  }
+
+  a {
+    text-decoration-thickness: 2px;
   }
 }
 
