@@ -14,7 +14,7 @@ h2 {
 a {
   color: unset;
   outline: none;
-  text-decoration-thickness: 0.25rem;
+  text-decoration-thickness: 2px;
   text-underline-offset: 0.25rem;
 
   &[data-focusable]::before {
