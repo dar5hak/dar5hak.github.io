@@ -20,14 +20,14 @@ a {
   text-underline-offset: -10%;
 }
 
-&[data-focusable]::before {
+[data-focusable]::before {
   content: '▶';
   display: inline-block;
   margin-right: 0.25rem;
   visibility: hidden;
 }
 
-&[data-focusable]:focus::before {
+[data-focusable]:focus::before {
   visibility: visible;
 }
 
