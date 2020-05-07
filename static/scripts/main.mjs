@@ -1,9 +1,17 @@
 document.addEventListener("turbolinks:load", function () {
   let activeElement;
 
+  function focusActiveElement() {
+    if (activeElement) {
+      activeElement.focus();
+    }
+  }
+
   const autofocus = document.querySelector("[data-autofocus]");
-  autofocus.focus();
-  activeElement = autofocus;
+  if (autofocus) {
+    activeElement = autofocus;
+    focusActiveElement();
+  }
 
   document.addEventListener("keydown", function (event) {
     if (
@@ -13,7 +21,7 @@ document.addEventListener("turbolinks:load", function () {
       event.key === "ArrowRight" ||
       event.key === "Tab"
     ) {
-      activeElement.focus();
+      focusActiveElement();
     }
   });
 
@@ -48,7 +56,7 @@ document.addEventListener("turbolinks:load", function () {
           activeElement = focusable[index - 1];
         }
       }
-      activeElement.focus();
+      focusActiveElement();
     });
   });
 });
