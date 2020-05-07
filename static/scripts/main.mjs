@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("turbolinks:load", function () {
   let activeElement;
 
   const autofocus = document.querySelector("[data-autofocus]");
@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (
         event.key === "ArrowDown" ||
         event.key === "ArrowRight" ||
-        event.key === "j" || event.key === "l" ||
+        event.key === "j" ||
+        event.key === "l" ||
         (!event.shiftKey && event.key === "Tab")
       ) {
         event.preventDefault();
@@ -36,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
       } else if (
         event.key === "ArrowUp" ||
         event.key === "ArrowLeft" ||
-        event.key === "k" || event.key === "h" ||
+        event.key === "k" ||
+        event.key === "h" ||
         (event.shiftKey && event.key === "Tab")
       ) {
         event.preventDefault();
