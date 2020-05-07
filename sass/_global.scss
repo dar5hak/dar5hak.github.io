@@ -14,24 +14,26 @@ h2 {
 a {
   color: unset;
   outline: none;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 0.25rem;
+  text-decoration-color: seagreen;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 4px;
+  text-underline-offset: -10%;
+}
 
-  &[data-focusable]::before {
-    content: '▶';
-    display: inline-block;
-    margin-right: 0.25rem;
-    visibility: hidden;
-  }
+&[data-focusable]::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.25rem;
+  visibility: hidden;
+}
 
-  &[data-focusable]:focus::before {
-    visibility: visible;
-  }
+&[data-focusable]:focus::before {
+  visibility: visible;
 }
 
 main {
   flex-grow: 1;
-  padding: 3rem 0;
+  padding: 3rem 0 0;
 }
 
 .is-centered-x,
@@ -93,10 +95,9 @@ main {
   }
 
   a {
-    text-decoration-thickness: 2px;
+    text-underline-offset: 0;
   }
 }
-
 
 .body {
   font-family: 'Inconsolata', monospace;
