@@ -29,6 +29,10 @@ document.addEventListener("turbolinks:load", function () {
 
   focusable.forEach(function (element, index) {
     element.addEventListener("keydown", function (event) {
+      if (event.altKey) {
+        return;
+      }
+
       if (
         event.key === "ArrowDown" ||
         event.key === "ArrowRight" ||
