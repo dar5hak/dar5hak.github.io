@@ -1,3 +1,13 @@
+:root {
+  --recursive-mono: 0;
+  --recursive-casl: 0;
+}
+
+* {
+  font-variation-settings: "MONO" var(--recursive-mono),
+    "CASL" var(--recursive-casl);
+}
+
 body {
   font-family: "Press Start 2P", sans-serif;
   line-height: 1.4rem;
@@ -104,8 +114,9 @@ main {
 }
 
 .body {
+  --recursive-mono: 0.2;
+  --recursive-casl: 0.4;
   font-family: "Recursive", sans-serif;
   font-size: 16px;
-  font-variation-settings: "MONO" 0.2, "CASL" 0.4;
   margin: 2rem 0;
 }
