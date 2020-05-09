@@ -1,6 +1,10 @@
 :root {
   --recursive-mono: 0;
   --recursive-casl: 0;
+
+  --bg-color: black;
+  --primary-color: ghostwhite;
+  --accent-color: seagreen;
 }
 
 * {
@@ -11,6 +15,8 @@
 body {
   font-family: "Press Start 2P", sans-serif;
   line-height: 1.4rem;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
 }
 
 h1 {
@@ -24,7 +30,7 @@ h2 {
 a {
   color: unset;
   outline: none;
-  text-decoration-color: seagreen;
+  text-decoration-color: var(--accent-color);
   text-decoration-skip-ink: none;
   text-decoration-thickness: 4px;
   text-underline-offset: -10%;
@@ -82,8 +88,6 @@ main {
 
 .page {
   align-items: stretch;
-  background-color: black;
-  color: white;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
