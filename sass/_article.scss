@@ -29,3 +29,13 @@
   font-size: 16px;
   margin: 2rem 0;
 }
+
+.headshot {
+  width: 12rem;
+  height: 12rem;
+  float: right;
+
+  img {
+    border-radius: 50%;
+  }
+}

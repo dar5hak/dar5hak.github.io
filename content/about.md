@@ -3,6 +3,8 @@ title = "About Me"
 template = "page.html"
 +++
 
+<div class="headshot"><img src="images/photo.jpg"></div>
+
 My name is Darshak Parikh and I primarily write about web development, Linux and open source. At other times, you will find posts about developer productivity and digital privacy.
 
 I started taking interest in web development circa 2015, and have never looked back since. I enjoy creating blazing fast, minimal and sexy web pages—and I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io/).
