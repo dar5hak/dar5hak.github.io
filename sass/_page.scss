@@ -1,8 +1,8 @@
-.article-container {
+.page-wrapper {
   width: 100%;
 }
 
-.article-container article {
+.page-wrapper .page {
   max-width: 40rem;
   width: 100%;
 
@@ -29,11 +29,11 @@
   }
 }
 
-.article-container .article-title {
+.page-wrapper .page-title {
   margin-top: 0;
 }
 
-.article-body {
+.page-body {
   --recursive-mono: 0.2;
   --recursive-casl: 0.4;
   font-family: "Recursive", sans-serif;
