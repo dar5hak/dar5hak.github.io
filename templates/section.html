@@ -7,13 +7,16 @@
 {% endblock %}
 
 {% block content %}
-  <main class="is-centered-x">
-    <ul>
-      {% for page in section.pages %}
-        <li>
-          <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+  <main class="section-wrapper is-centered-y is-flex-column">
+    <section class="section">
+      <h1 class="section-title">{{ section.title }}</h1>
+      <ul class="section-list">
+        {% for page in section.pages %}
+          <li>
+            <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   </main>
 {% endblock %}
