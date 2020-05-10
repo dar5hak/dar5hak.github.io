@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% import "macros.html" as macros %}
+
+{% block htmltitle %}
+  {{ section.title }}
+{% endblock %}
+
+{% block content %}
+  <main class="is-centered-x">
+    <ul>
+      {% for page in section.pages %}
+        <li>
+          <a href="{{ page.permalink }}" data-focusable>{{ page.title }}</a>
+        </li>    
+      {% endfor %}
+    </ul>
+  </main>
+{% endblock %}
