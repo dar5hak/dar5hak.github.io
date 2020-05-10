@@ -11,7 +11,7 @@
     {{ macros::player_info() }}
     <ul class="main-menu">
       {% for link in section.extra.pages %}
-        <li><a href="{{ link.url }}" data-focusable>{{ link.text }}</a></li>
+        <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.text }}</a></li>
       {% endfor %}
     </ul>
   </main>

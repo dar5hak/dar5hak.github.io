@@ -11,8 +11,8 @@
     <ul>
       {% for page in section.pages %}
         <li>
-          <a href="{{ page.permalink }}" data-focusable>{{ page.title }}</a>
-        </li>    
+          <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
+        </li>
       {% endfor %}
     </ul>
   </main>
