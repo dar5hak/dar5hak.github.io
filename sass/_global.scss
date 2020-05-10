@@ -13,10 +13,10 @@
 }
 
 body {
-  font-family: "Press Start 2P", sans-serif;
-  line-height: 1.4rem;
   background-color: var(--bg-color);
   color: var(--primary-color);
+  font-family: "Press Start 2P", sans-serif;
+  line-height: 1.4rem;
 }
 
 h1 {
@@ -27,13 +27,26 @@ h2 {
   font-size: 0.75rem;
 }
 
+%highlighted {
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration-thickness: 100%;
+    text-underline-offset: -100%;
+  }
+}
+
 a {
+
+  @extend %highlighted;
   color: unset;
   outline: none;
   text-decoration-color: var(--accent-color);
   text-decoration-skip-ink: none;
   text-decoration-thickness: 4px;
   text-underline-offset: -10%;
+  transition: text-decoration-thickness 200ms ease-out,
+    text-underline-offset 200ms ease-out;
 }
 
 [data-focusable]::before {
@@ -113,6 +126,7 @@ main {
   }
 
   a {
+    @extend %highlighted;
     text-underline-offset: 0;
   }
 }
