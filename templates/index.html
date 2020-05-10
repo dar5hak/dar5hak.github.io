@@ -3,17 +3,16 @@
 {% extends "base.html" %}
 
 {% block htmltitle %}
-  Home
+  {{ section.title }}
 {% endblock %}
 
 {% block content %}
   <main class="is-centered-y is-flex-column">
     {{ macros::player_info() }}
     <ul class="main-menu">
-      <li><a href="/blog" data-autofocus data-focusable>Blog</a></li>
-      <li><a href="/art" data-focusable>Pixel art</a></li>
-      <li><a href="/projects" data-focusable>Projects</a></li>
-      <li><a href="/about" data-focusable>About</a></li>
+      {% for link in section.extra.pages %}
+        <li><a href="{{ link.url }}" data-focusable>{{ link.text }}</a></li>
+      {% endfor %}
     </ul>
   </main>
 {% endblock %}
@@ -21,10 +20,9 @@
 {% block footer %}
   <footer class="is-centered">
     <ul class="footer-menu">
-      <li><a href="https://github.com/dar5hak" target="_blank" data-focusable>GitHub</a></li>
-      <li><a href="https://im-in.space/@dubiousdisc" target="_blank" data-focusable>Mastodon</a></li>
-      <li><a href="https://twitter.com/dar5hak" target="_blank" data-focusable>Twitter</a></li>
-      <li><a href="https://www.linkedin.com/in/darshak-parikh" target="_blank" data-focusable>LinkedIn</a></li>
+      {% for link in section.extra.social %}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener" data-focusable>{{ link.text }}</a></li>
+      {% endfor %}
     </ul>
   </footer>
 {% endblock %}
