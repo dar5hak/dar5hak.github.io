@@ -7,15 +7,15 @@
 {% endblock htmltitle %}
 
 {% block content %}
-  <main class="page-content is-centered is-flex-column">
+  <main class="article-container is-centered is-flex-column">
     <article>
       <h1>{{ page.title }}</h1>
-      <section class="body">
+      <section class="article-body">
         {{ page.content 
-        | replace(from=`<a href="`, to=`<a target="_blank" rel="noopener" href="`)
-        | replace(from=`<a target="_blank" rel="noopener" href="` ~ config.base_url, to=`<a href="` ~ config.base_url)
-        | replace(from=`<a target="_blank" rel="noopener" href="/`, to=`<a href="/`)
-        | safe
+          | replace(from=`<a href="`, to=`<a target="_blank" rel="noopener" href="`)
+          | replace(from=`<a target="_blank" rel="noopener" href="` ~ config.base_url, to=`<a href="` ~ config.base_url)
+          | replace(from=`<a target="_blank" rel="noopener" href="/`, to=`<a href="/`)
+          | safe
         }}
       </section>
     </article>
