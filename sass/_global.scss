@@ -2,6 +2,8 @@
   --recursive-mono: 0;
   --recursive-casl: 0;
   --recursive-wght: 400;
+  --recursive-slnt: 0;
+  --recursive-crsv: 0.5;
 
   --bg-color: black;
   --primary-color: ghostwhite;
@@ -10,7 +12,8 @@
 
 * {
   font-variation-settings: "MONO" var(--recursive-mono),
-    "CASL" var(--recursive-casl), "wght" var(--recursive-wght);
+    "CASL" var(--recursive-casl), "wght" var(--recursive-wght),
+    "slnt" var(--recursive-slnt), "CRSV" var(--recursive-crsv);
 }
 
 body {

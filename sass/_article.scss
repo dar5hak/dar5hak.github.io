@@ -20,6 +20,13 @@
     @extend %highlighted;
     text-underline-offset: 0;
   }
+
+  em,
+  i {
+    font-style: normal;
+    --recursive-slnt: -15;
+    --recursive-crsv: 1;
+  }
 }
 
 .article-container .article-title {
