@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-template = "about.html"
+template = "page.html"
 +++
 
 My name is Darshak Parikh and I primarily write about web development, Linux and open source. At other times, you will find posts about developer productivity and digital privacy.
