@@ -1,6 +1,7 @@
 :root {
   --recursive-mono: 0;
   --recursive-casl: 0;
+  --recursive-wght: 400;
 
   --bg-color: black;
   --primary-color: ghostwhite;
@@ -9,7 +10,7 @@
 
 * {
   font-variation-settings: "MONO" var(--recursive-mono),
-    "CASL" var(--recursive-casl);
+    "CASL" var(--recursive-casl), "wght" var(--recursive-wght);
 }
 
 body {
@@ -28,16 +29,20 @@ h2 {
 }
 
 %highlighted {
+  transition: text-decoration-thickness 200ms ease-out,
+    text-underline-offset 200ms ease-out, font-variation-settings 200ms ease-out;
+
   &:hover,
   &:focus,
   &:active {
+    --recursive-casl: 0.6;
+    --recursive-wght: 700;
     text-decoration-thickness: 100%;
     text-underline-offset: -100%;
   }
 }
 
 a {
-
   @extend %highlighted;
   color: unset;
   outline: none;
@@ -45,8 +50,6 @@ a {
   text-decoration-skip-ink: none;
   text-decoration-thickness: 4px;
   text-underline-offset: -10%;
-  transition: text-decoration-thickness 200ms ease-out,
-    text-underline-offset 200ms ease-out;
 }
 
 [data-focusable]::before {
