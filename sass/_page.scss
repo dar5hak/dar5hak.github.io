@@ -29,6 +29,17 @@
   }
 }
 
+.byline {
+  font-family: "Recursive", sans-serif;
+  --recursive-slnt: -15;
+  --recursive-wght: 600;
+
+  address {
+    font-style: normal;
+    display: inline;
+  }
+}
+
 .page-wrapper .page-title {
   margin-top: 0;
 }

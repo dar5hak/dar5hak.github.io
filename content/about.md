@@ -1,6 +1,10 @@
 +++
 title = "About Me"
 template = "page.html"
+
+[extra]
+
+hide_author = true
 +++
 
 <div class="headshot"><img src="images/photo.jpg"></div>

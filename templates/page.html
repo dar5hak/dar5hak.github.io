@@ -9,15 +9,26 @@
 {% block content %}
   <main class="page-wrapper is-centered-y is-flex-column">
     <article class="page">
-        <h1 class="page-title">{{ page.title }}</h1>
-          <section class="page-body">
-            {{ page.content 
-              | replace(from=`<a href="`, to=`<a target="_blank" rel="noopener" href="`)
-              | replace(from=`<a target="_blank" rel="noopener" href="` ~ config.base_url, to=`<a href="` ~ config.base_url)
-              | replace(from=`<a target="_blank" rel="noopener" href="/`, to=`<a href="/`)
-              | safe
-            }}
-          </section>
+      <header>
+        <h1 class="page-title">{{ page.title }}</h1>
+        <div class="byline">
+          {% if not page.extra.hide_author %}
+            <address>// Posted by <a rel="author" href="/about">{{ config.extra.author }}</a></address>
+          {% endif %}
+          {% if page.date %}
+            on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
+          {% endif %}
+        </div>
+      </header>
+      
+      <section class="page-body">
+        {{ page.content 
+          | replace(from=`<a href="`, to=`<a target="_blank" rel="noopener" href="`)
+          | replace(from=`<a target="_blank" rel="noopener" href="` ~ config.base_url, to=`<a href="` ~ config.base_url)
+          | replace(from=`<a target="_blank" rel="noopener" href="/`, to=`<a href="/`)
+          | safe
+        }}
+      </section>
     </article>
   </main>
 {% endblock %}
