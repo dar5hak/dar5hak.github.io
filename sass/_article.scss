@@ -22,6 +22,10 @@
   }
 }
 
+.article-container .article-title {
+  margin-top: 0;
+}
+
 .article-body {
   --recursive-mono: 0.2;
   --recursive-casl: 0.4;
@@ -31,11 +35,7 @@
 }
 
 .headshot {
-  width: 12rem;
-  height: 12rem;
-  float: right;
-
-  img {
-    border-radius: 50%;
-  }
+  float: left;
+  margin-right: 1rem;
+  width: 36%;
 }
