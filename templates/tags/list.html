@@ -1,0 +1,20 @@
+{% extends "section.html" %}
+
+{% block htmltitle %}
+  Tags
+{% endblock %}
+
+{% block content %}
+  <main class="section-wrapper is-centered-y is-flex-column">
+    <section class="section">
+      <h1 class="section-title">Tags</h1>
+      <ul class="section-list is-flex">
+        {% for tag in terms %}
+        <li>
+          <a href="{{ tag.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ tag.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
+{% endblock %}

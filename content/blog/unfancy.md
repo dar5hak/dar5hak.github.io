@@ -1,6 +1,9 @@
 +++
 title = "How to Write Unfancy Web Apps"
 date = 2015-12-19
+
+[taxonomies]
+tags = ["web", "js"]
 +++
 
 Ever since the advent of HTML5 and ES6, the web is moving forward at the speed of the Millennium Falcon.

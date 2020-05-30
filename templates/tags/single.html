@@ -1,0 +1,20 @@
+{% extends "section.html" %}
+
+{% block htmltitle %}
+  {{ term.name }}
+{% endblock %}
+
+{% block content %}
+  <main class="section-wrapper is-centered-y is-flex-column">
+    <section class="section">
+      <h1 class="section-title">Posts tagged "{{ term.name }}"</h1>
+      <ul class="section-list">
+        {% for page in term.pages %}
+          <li>
+            <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
+{% endblock %}
