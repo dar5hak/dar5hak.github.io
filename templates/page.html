@@ -19,6 +19,16 @@
             on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
           {% endif %}
         </div>
+        {% if page.taxonomies.tags %}
+          <div class="byline">
+            // Tags:
+            {% for tag in page.taxonomies.tags %}
+              <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">
+                #{{ tag }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </header>
       
       <section class="page-body">
