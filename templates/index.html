@@ -6,6 +6,61 @@
   {{ section.title }}
 {% endblock %}
 
+{% block head_extra %}
+  <style>
+    .info {
+      display: flex;
+    }
+
+    .avatar {
+      display: block;
+      height: 192px;
+      image-rendering: crisp-edges;
+      margin-right: 1rem;
+      position: relative;
+      width: 192px;
+    }
+
+    .avatar img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+
+    .stat {
+      align-items: center;
+      display: flex;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      margin-right: 1rem;
+    }
+
+    .stat-bar {
+      flex: 1;
+      height: 0.5rem;
+    }
+
+    .main-menu li {
+      font-size: 1.25rem;
+      margin: 1.5rem 0;
+    }
+
+    .footer-menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 48rem;
+    }
+
+    .footer-menu li {
+      font-size: 0.75rem;
+      margin: 0.5rem 1rem;
+    }
+  </style>
+{% endblock %}
+
 {% block content %}
   <main class="is-centered-y is-flex-column">
     {{ macros::player_info() }}
