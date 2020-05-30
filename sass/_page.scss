@@ -39,6 +39,10 @@
     display: inline;
   }
 
+  a {
+    @extend %highlighted;
+  }
+
   .tag {
     margin-right: 0.5rem;
   }
