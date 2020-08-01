@@ -7,13 +7,25 @@
   width: 100%;
 
   h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
   p {
     margin: 1.5rem 0;
+  }
+
+  h2 ~ p,
+  h3 ~ p,
+  h4 ~ p {
+    margin: 0.5rem 0 1.5rem;
+  }
+
+  h2,
+  h3,
+  h4 {
+    --recursive-wght: 700;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
   }
 
   a {
