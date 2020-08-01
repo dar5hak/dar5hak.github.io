@@ -1,9 +1,7 @@
 +++
 title = "About Me"
-template = "page.html"
 
 [extra]
-
 hide_author = true
 +++
 
