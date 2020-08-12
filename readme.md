@@ -2,14 +2,14 @@
 
 ## Tech
 
-- Zola
-- Turbolinks
-- minireset.css
+- [Zola](https://www.getzola.org/)
+- [Turbolinks](https://github.com/turbolinks/turbolinks)
+- [minireset.css](https://jgthms.com/minireset.css/)
 - HTML + SCSS + JS
 
 ## Running
 
-1. Install Zola and Node.js.
+1. Install [Zola](https://www.getzola.org/) and [Node.js](https://nodejs.org/).
 2. Clone the repo.
 3. ```sh
    npm install
