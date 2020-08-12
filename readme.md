@@ -21,5 +21,4 @@
 ## Roadmap
 
 - Gamepad controls
-- Projects page
 - Art page
