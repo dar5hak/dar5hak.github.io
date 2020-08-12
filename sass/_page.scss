@@ -17,7 +17,11 @@
     margin: 0.5rem 0 1.5rem;
   }
 
-  h2,
+  h2 {
+    --recursive-wght: 700;
+    margin: 2.5rem 0 0.5rem;
+  }
+
   h3,
   h4 {
     --recursive-wght: 700;
@@ -25,7 +29,7 @@
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   a {
