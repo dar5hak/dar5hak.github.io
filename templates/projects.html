@@ -1,0 +1,38 @@
+{% extends "page.html" %}
+
+{% block content %}
+  <main class="page-wrapper is-centered-y is-flex-column">
+    <article class="page projects">
+      <header>
+        <h1 class="page-title">Projects</h1>
+      </header>
+      
+      <section class="page-body">
+        {% set projects = load_data(path="content/projects.json") %}
+        {% for project_section in projects.sections %}
+          <h2>{{ project_section.title }}</h2>
+          {% for project in project_section.items %}
+            <div class="project">
+              <div class="project-logo">
+                {% if project.logo %}
+                  <img src="{{ project.logo }}">
+                {% endif %}
+              </div>
+              <div class="project-text">
+                <h3>{{ project.name }}</h3>
+                {{ project.description | markdown | safe }}
+                {% if project.links %}
+                  <p>
+                    {% for link in project.links -%}
+                      <a href="{{ link.href }}">{{ link.title }}</a>{% if not loop.last %} · {% endif %}
+                    {% endfor %}
+                  </p>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </section>
+    </article>
+  </main>
+{% endblock %}

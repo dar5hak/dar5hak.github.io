@@ -1,0 +1,137 @@
+{
+  "sections": [
+    {
+      "title": "Apps",
+      "items": [
+        {
+          "name": "Badger",
+          "logo": "/images/projects/badger-48x48.svg",
+          "description": "elementary OS app to remind you to be ergonomic",
+          "links": [
+            {
+              "title": "install",
+              "href": "https://appcenter.elementary.io/com.github.elfenware.badger"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/elfenware/badger"
+            }
+          ]
+        },
+        {
+          "name": "OTPea",
+          "description": "Time-based OTP generator for the web",
+          "links": [
+            {
+              "title": "launch",
+              "href": "https://otpea.surge.sh/"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/dar5hak/otpea-web"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CLI",
+      "items": [
+        {
+          "name": "generator-awesome-list",
+          "description": "Yeoman generator for GitHub awesome lists",
+          "links": [
+            {
+              "title": "npm",
+              "href": "https://www.npmjs.com/package/generator-awesome-list"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/dar5hak/generator-awesome-list"
+            }
+          ]
+        },
+        {
+          "name": "totodo",
+          "description": "Simple CLI todo list",
+          "links": [
+            {
+              "title": "npm",
+              "href": "https://www.npmjs.com/package/totodo"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/dar5hak/totodo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Educational",
+      "items": [
+        {
+          "name": "Lizard-Spock API",
+          "description": "REST API to play Rock-Paper-Scissors-Lizard-Spock",
+          "links": [
+            {
+              "title": "docs",
+              "href": "http://backend.lizardspock.xyz/api/v1/swagger/index.html"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/dar5hak/lizardspock-api"
+            }
+          ]
+        },
+        {
+          "name": "Offline handwritten digit recognition",
+          "description": "Recognise handwritten digits in the browser using a TensorFlow.js model saved offline",
+          "links": [
+            {
+              "title": "launch",
+              "href": "https://dar5hak.github.io/offline-mnist/"
+            },
+            {
+              "title": "blog post",
+              "href": "https://dubiousdisc.xyz/2019/02/22/ml-offline-web-tfjs/"
+            },
+            {
+              "title": "source",
+              "href": "https://github.com/dar5hak/offline-mnist"
+            }
+          ]
+        },
+        {
+          "name": "English-to-French machine translation",
+          "description": "Final project for Artificial Intelligence Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data"
+        },
+        {
+          "name": "Text sequence generator",
+          "description": "Feed a line of text from _The Adventures of Sherlock Holmes_ and generate a silly continuation",
+          "links": [
+            {
+              "title": "Jupyter notebook (scroll to Problem 2)",
+              "href": "https://github.com/dar5hak/aind2-rnn/blob/master/RNN_project.ipynb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Google Summer of Code",
+      "items": [
+        {
+          "name": "Apertium",
+          "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program",
+          "links": [
+            {
+              "title": "report",
+              "href": "https://wiki.apertium.org/wiki/User:Darshak/GSoC_2014_Report"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
