@@ -25,4 +25,4 @@
 
 ## Credits
 
-- _static/images/projects/vulcan-salute-48x48.svg_ &copy; Google ([license](https://github.com/googlefonts/noto-emoji/blob/master/LICENSE)); resized by me
+- _static/images/projects/vulcan-salute-48x48.svg_ &copy; Google ([license](https://github.com/googlefonts/noto-emoji/blob/master/LICENSE))
