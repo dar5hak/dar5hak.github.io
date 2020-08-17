@@ -1,5 +1,26 @@
 {% extends "page.html" %}
 
+{% block head_extra %}
+  <style>
+    .project {
+      display: flex;
+    }
+
+    .project-logo {
+      flex: 0 0 64px;
+      padding-top: 1.5rem;
+    }
+
+    .project-logo img {
+      width: 48px;
+    }
+
+    .page-wrapper .page p {
+      margin: 0.5rem 0;
+    }
+  </style>
+{% endblock %}
+
 {% block content %}
   <main class="page-wrapper is-centered-y is-flex-column">
     <article class="page projects">
