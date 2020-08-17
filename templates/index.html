@@ -56,10 +56,13 @@
     }
 
     .footer-menu {
+      width: 48rem;
+    }
+
+    .footer-menu ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      width: 48rem;
     }
 
     .footer-menu li {
@@ -73,20 +76,24 @@
   {% set links = load_data(path="content/links.json") %}
   <main class="is-centered-y is-flex-column">
     {{ macros::player_info() }}
-    <ul class="main-menu">
-      {% for link in links.pages %}
-        <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.text }}</a></li>
-      {% endfor %}
-    </ul>
+    <nav class="main-menu">
+      <ul>
+        {% for link in links.pages %}
+          <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </main>
 {% endblock %}
 
 {% block footer %}
   <footer class="is-centered">
-    <ul class="footer-menu">
-      {% for link in links.social %}
-        <li><a href="{{ link.url }}" target="_blank" rel="noopener" data-focusable>{{ link.text }}</a></li>
-      {% endfor %}
-    </ul>
+    <nav class="footer-menu">
+      <ul>
+        {% for link in links.social %}
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener" data-focusable>{{ link.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </footer>
 {% endblock %}
