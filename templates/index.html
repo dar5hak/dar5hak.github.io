@@ -62,10 +62,11 @@
 {% endblock %}
 
 {% block content %}
+  {% set links = load_data(path="content/links.json") %}
   <main class="is-centered-y is-flex-column">
     {{ macros::player_info() }}
     <ul class="main-menu">
-      {% for link in section.extra.pages %}
+      {% for link in links.pages %}
         <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.text }}</a></li>
       {% endfor %}
     </ul>
@@ -75,7 +76,7 @@
 {% block footer %}
   <footer class="is-centered">
     <ul class="footer-menu">
-      {% for link in section.extra.social %}
+      {% for link in links.social %}
         <li><a href="{{ link.url }}" target="_blank" rel="noopener" data-focusable>{{ link.text }}</a></li>
       {% endfor %}
     </ul>
