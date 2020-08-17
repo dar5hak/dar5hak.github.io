@@ -11,7 +11,7 @@ My name is Darshak Parikh and I primarily write about web development, Linux and
 
 I started taking interest in web development circa 2015, and have never looked back since. I enjoy creating fast, sexy web apps—and I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io/).
 
-From time to time, I also write or contribute to [elementary OS apps](https://github.com/elfenware/), or come up with [wacky side projects](http://backend.lizardspock.xyz/api/v1/swagger/index.html).
+From time to time, I also write or contribute to [elementary OS apps](https://github.com/elfenware/), or come up with [wacky side projects](https://github.com/dar5hak/lizardspock-api).
 
 I'm also an amateur [pixel artist](https://www.deviantart.com/blockydreams), though I don't follow a particular style. Expect to find [dystopian](https://www.deviantart.com/blockydreams/art/Zombie-Marshmallow-Robot-Monster-835279903), [fantastic](https://www.deviantart.com/blockydreams/art/Cinnabar-Sky-814185243), [serene](https://www.deviantart.com/blockydreams/art/Hogwarts-817488437) or [downright nerdy](https://www.deviantart.com/blockydreams/art/Rick-s-Portal-Gun-835423405) imagery.
 
