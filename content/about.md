@@ -1,5 +1,6 @@
 +++
 title = "About Me"
+description = "About Darshak Parikh: work experience, hobbies and contact information"
 
 [extra]
 hide_author = true
