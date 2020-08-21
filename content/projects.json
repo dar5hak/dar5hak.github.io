@@ -39,6 +39,7 @@
       "items": [
         {
           "name": "generator-awesome-list",
+          "logo": "/images/projects/cli-48x48.svg",
           "description": "Yeoman generator for GitHub awesome lists",
           "links": [
             {
@@ -53,6 +54,7 @@
         },
         {
           "name": "totodo",
+          "logo": "/images/projects/cli-48x48.svg",
           "description": "Simple CLI todo list",
           "links": [
             {
@@ -87,6 +89,7 @@
         },
         {
           "name": "Offline handwritten digit recognition",
+          "logo": "/images/projects/neural-net-48x48.svg",
           "description": "Recognise handwritten digits in the browser using a TensorFlow.js model saved offline",
           "links": [
             {
@@ -105,10 +108,12 @@
         },
         {
           "name": "English-to-French machine translation",
+          "logo": "/images/projects/neural-net-48x48.svg",
           "description": "Final project for Artificial Intelligence Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data"
         },
         {
           "name": "Text sequence generator",
+          "logo": "/images/projects/neural-net-48x48.svg",
           "description": "Feed a line of text from _The Adventures of Sherlock Holmes_ and generate a silly continuation",
           "links": [
             {
