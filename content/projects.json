@@ -129,10 +129,11 @@
       "items": [
         {
           "name": "Apertium",
-          "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program",
+          "logo": "/images/projects/apertium.svg",
+          "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program\n\n<small>(<a rel=\"nofollow\" class=\"external free\" href=\"http://wiki.apertium.org/wiki/Apertium_logo\">Apertium logo</a> by Francis Tyers, Andrej Slapnik, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"Creative Commons Attribution-Share Alike 3.0\">CC BY-SA 3.0</a>, <a href=\"https://commons.wikimedia.org/w/index.php?curid=32939719\">Link</a>)</small>",
           "links": [
             {
-              "title": "report",
+              "title": "project report",
               "href": "https://wiki.apertium.org/wiki/User:Darshak/GSoC_2014_Report"
             }
           ]
