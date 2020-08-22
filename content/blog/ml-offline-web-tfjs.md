@@ -1,6 +1,7 @@
 +++
-date = 2019-02-22
 title = "Implementing Machine Learning for the Offline Web with TensorFlow.js"
+date = 2019-02-22
+path = "2019/02/22/ml-offline-web-tfjs"
 
 [taxonomies]
 tags = ["web", "offline", "tensorflow", "ml"]

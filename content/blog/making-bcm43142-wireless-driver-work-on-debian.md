@@ -1,6 +1,7 @@
 +++
 title = "Making BCM43142 Wireless Chipset Work on Debian"
 date = 2013-10-13
+path = "2013/10/13/making-bcm43142-wireless-driver-work-on-debian/"
 
 [taxonomies]
 tags = ["debian"]

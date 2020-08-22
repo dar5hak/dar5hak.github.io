@@ -1,6 +1,7 @@
 +++
-date = 2015-12-19
 title = "How to Write Unfancy Web Apps"
+date = 2015-12-19
+path = "2015/12/19/how-to-write-unfancy-web-apps"
 
 [taxonomies]
 tags = ["web", "js", "jquery"]
