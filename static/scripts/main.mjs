@@ -14,6 +14,8 @@ document.addEventListener("turbolinks:load", function () {
   }
 
   document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey || event.altKey || event.metaKey) return;
+
     if (
       event.key === "ArrowUp" ||
       event.key === "ArrowDown" ||
@@ -29,9 +31,7 @@ document.addEventListener("turbolinks:load", function () {
 
   focusable.forEach(function (element, index) {
     element.addEventListener("keydown", function (event) {
-      if (event.altKey) {
-        return;
-      }
+      if (event.ctrlKey || event.altKey || event.metaKey) return;
 
       if (
         event.key === "ArrowDown" ||
