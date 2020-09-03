@@ -49,9 +49,9 @@ These tiny tools are generally enough to build a nice, clean web app that is jus
 
 I'm not saying that Angular/React/Ember/Bootstrap/ are useless. I'm just saying, don't use them just because [they are there and they are cool](https://en.wikipedia.org/wiki/Law_of_the_instrument). Ask yourself if you can do the job and still keep your code uncluttered without using them. Aim for less, not more.
 
-<blockquote>"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
-
----Antoine de Saint-Exupery, French Writer</blockquote>
+>"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
+>
+>— Antoine de Saint-Exupery, French writer
 
 #### Update
 
