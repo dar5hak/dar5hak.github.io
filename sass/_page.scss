@@ -43,6 +43,33 @@
     --recursive-crsv: 1;
     font-style: normal;
   }
+
+  ol {
+    padding-left: 2rem;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+
+  pre {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+  }
+
+  code {
+    --recursive-mono: 1;
+    --recursive-casl: 0.2;
+    --recursive-wght: 520;
+    font-family: "Recursive";
+  }
+
+  p > code {
+    --recursive-wght: 670;
+    --recursive-casl: 0.1;
+  }
 }
 
 .byline {
@@ -69,7 +96,7 @@
 }
 
 .page-body {
-  --recursive-mono: 0.2;
+  --recursive-mono: 0.1;
   --recursive-casl: 0.4;
   font-family: "Recursive", sans-serif;
   font-size: 16px;
