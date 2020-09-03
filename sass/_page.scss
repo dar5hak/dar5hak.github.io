@@ -70,6 +70,12 @@
     --recursive-wght: 670;
     --recursive-casl: 0.1;
   }
+
+  blockquote {
+    --recursive-slnt: -15;
+    padding-left: 1rem;
+    border-left: 0.25rem solid var(--accent-color);
+  }
 }
 
 .byline {
