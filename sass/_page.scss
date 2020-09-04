@@ -38,10 +38,16 @@
   }
 
   em,
-  i {
+  i,
+  blockquote {
     --recursive-slnt: -15;
     --recursive-crsv: 1;
     font-style: normal;
+  }
+
+  blockquote {
+    padding-left: 1rem;
+    border-left: 0.25rem solid var(--accent-color);
   }
 
   ol {
@@ -84,12 +90,6 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.4);
     line-height: 1;
     white-space: nowrap;
-  }
-
-  blockquote {
-    --recursive-slnt: -15;
-    padding-left: 1rem;
-    border-left: 0.25rem solid var(--accent-color);
   }
 }
 
