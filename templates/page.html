@@ -45,6 +45,17 @@
           | safe
         }}
       </section>
+
+      {% if not page.extra.hide_author %}
+        <footer>
+          <hr class="page-footer-separator" />
+          <p class="page-footer">Thoughts? Comments? Reach out to me on
+            <a href="https://im-in.space/@dubiousdisc">Mastodon</a>
+            or
+            <a href="https://twitter.com/dar5hak">Twitter</a>.
+          </p>
+        </footer>
+      {% endif %}
     </article>
   </main>
 {% endblock %}

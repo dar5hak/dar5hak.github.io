@@ -37,7 +37,8 @@
 
   em,
   i,
-  blockquote {
+  blockquote,
+  .page-footer {
     --recursive-slnt: -15;
     --recursive-crsv: 1;
     font-style: normal;
@@ -120,6 +121,17 @@
   font-family: "Recursive", sans-serif;
   font-size: 16px;
   margin: 2rem 0;
+}
+
+.page-footer-separator {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.page-footer {
+  font-family: "Recursive", sans-serif;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .headshot {

@@ -5,4 +5,5 @@ template = "projects.html"
 
 [extra]
 hide_author = true
+hide_footer = true
 +++

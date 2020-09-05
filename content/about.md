@@ -4,6 +4,7 @@ description = "About Darshak Parikh: work experience, hobbies and contact inform
 
 [extra]
 hide_author = true
+hide_footer = true
 +++
 
 <div class="headshot"><img src="images/photo.jpg"></div>
