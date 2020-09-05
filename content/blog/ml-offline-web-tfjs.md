@@ -7,8 +7,6 @@ path = "2019/02/22/ml-offline-web-tfjs"
 tags = ["web", "offline", "tensorflow", "ml"]
 +++
 
-![](https://thedubiousdisc.files.wordpress.com/2019/02/tfjs-offline-1.png?w=640)
-
 Offline Web apps are finally a thing. The cleverest of ideas which were previously only imagination, are now reality.
 
 Thanks to the various storage mechanisms provided by modern browsers, it is now possible to save machine learning models directly on the client side. You can then use these to produce outputs without requiring a connection with the server.
