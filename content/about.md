@@ -7,7 +7,7 @@ hide_author = true
 hide_footer = true
 +++
 
-<div class="headshot"><img src="images/photo.jpg"></div>
+<div class="headshot"><img src="/images/photo.jpg"></div>
 
 My name is Darshak Parikh and I primarily write about web development, Linux and open source. At other times, you will find posts about developer productivity and digital privacy.
 
