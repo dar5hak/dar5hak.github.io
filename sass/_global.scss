@@ -29,10 +29,15 @@ h1 {
 }
 
 .info ul {
-  list-style-type: "★";
-  margin-left: 0.75rem;
+  list-style-type: square;
+  margin-left: 1rem;
   font-size: 0.75rem;
-  
+
+  @supports (list-style-type: "★") {
+    list-style-type: "★";
+    margin-left: 0.75rem;
+  }
+
   li {
     padding-left: 0.5rem;
   }
