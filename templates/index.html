@@ -1,5 +1,3 @@
-{% import "macros.html" as macros %}
-
 {% extends "base.html" %}
 
 {% block htmltitle %}
@@ -75,7 +73,20 @@
 {% block content %}
   {% set links = load_data(path="content/links.json") %}
   <main class="is-centered-y is-flex-column">
-    {{ macros::player_info() }}
+    <div class="info is-centered is-flex-wrap">
+      <figure class="avatar">
+        <img src="images/avatar.gif" alt="A superhero rendition of myself" />
+      </figure>
+      <div>
+        <h1>Darshak Parikh</h1>
+        <ul>
+          <li>Web + GTK developer</li>
+          <li>Linux junkie</li>
+          <li>Polyglot</li>
+          <li>Retrogamer</li>
+        </ul>
+      </div>
+    </div>
     <nav class="main-menu">
       <ul>
         {% for link in links.pages %}
