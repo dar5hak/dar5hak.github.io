@@ -64,13 +64,11 @@ a {
   outline: none;
   text-decoration: none;
 
-  @supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
+  @supports (text-decoration-thickness: 4px) and (text-underline-offset: -10%)
     and (text-decoration-skip-ink: none) {
     color: unset;
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
+    text-decoration: var(--accent-color) underline 4px;
     text-decoration-skip-ink: none;
-    text-decoration-thickness: 4px;
     text-underline-offset: -10%;
   }
 }
