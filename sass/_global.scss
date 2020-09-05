@@ -25,10 +25,17 @@ body {
 
 h1 {
   font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
-.info h2 {
+.info ul {
+  list-style-type: "★";
+  margin-left: 0.75rem;
   font-size: 0.75rem;
+  
+  li {
+    padding-left: 0.5rem;
+  }
 }
 
 @supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
