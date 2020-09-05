@@ -31,26 +31,37 @@ h1 {
   font-size: 0.75rem;
 }
 
-%highlighted {
-  transition: text-decoration-thickness 200ms ease-out,
-    text-underline-offset 200ms ease-out, font-variation-settings 200ms ease-out;
+@supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
+  and (text-decoration-skip-ink: none) {
+  %highlighted {
+    transition: text-decoration-thickness 200ms ease-out,
+      text-underline-offset 200ms ease-out;
 
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration-thickness: 100%;
-    text-underline-offset: -100%;
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration-thickness: 100%;
+      text-underline-offset: -100%;
+    }
+  }
+
+  a {
+    @extend %highlighted;
+    color: unset;
+    text-decoration-color: var(--accent-color);
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 4px;
+    text-underline-offset: -10%;
   }
 }
 
-a {
-  @extend %highlighted;
-  color: unset;
-  outline: none;
-  text-decoration-color: var(--accent-color);
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: 4px;
-  text-underline-offset: -10%;
+@supports (not (text-decoration-thickness: 100%)) or
+  (not (text-underline-offset: -10%)) or (not (text-decoration-skip-ink: none)) {
+  a {
+    color: var(--accent-color);
+    outline: none;
+    text-decoration: none;
+  }
 }
 
 [data-focusable]::before {
