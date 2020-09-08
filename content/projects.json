@@ -20,6 +20,7 @@
         },
         {
           "name": "OTPea",
+          "logo": "/images/projects/otpea-48x48.svg",
           "description": "Time-based OTP generator for the web",
           "links": [
             {
