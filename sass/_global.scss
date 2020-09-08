@@ -25,22 +25,6 @@ body {
 
 h1 {
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.info ul {
-  list-style-type: square;
-  margin-left: 1rem;
-  font-size: 0.75rem;
-
-  @supports (list-style-type: "★") {
-    list-style-type: "★";
-    margin-left: 0.75rem;
-  }
-
-  li {
-    padding-left: 0.5rem;
-  }
 }
 
 %highlighted {

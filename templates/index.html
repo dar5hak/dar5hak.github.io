@@ -14,6 +14,23 @@
       display: flex;
     }
 
+    .info ul {
+      list-style-type: square;
+      margin-left: 1rem;
+      font-size: 0.75rem;
+    }
+
+    @supports (list-style-type: "★") {
+      .info ul {
+        list-style-type: "★";
+        margin-left: 0.75rem;
+      }
+    }
+
+    .info ul li {
+      padding-left: 0.5rem;
+    }
+
     .avatar {
       display: block;
       height: 192px;
@@ -29,19 +46,8 @@
       width: 100%;
     }
 
-    .stat {
-      align-items: center;
-      display: flex;
-    }
-
-    .stat-label {
-      font-size: 0.75rem;
-      margin-right: 1rem;
-    }
-
-    .stat-bar {
-      flex: 1;
-      height: 0.5rem;
+    .name {
+      margin-bottom: 0.5rem;
     }
 
     .main-menu {
@@ -79,7 +85,7 @@
         <img src="/images/avatar.gif" alt="A superhero rendition of myself" />
       </figure>
       <div>
-        <h1>Darshak Parikh</h1>
+        <h1 class="name">Darshak Parikh</h1>
         <ul>
           <li>Web + GTK developer</li>
           <li>Linux junkie</li>
