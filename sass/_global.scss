@@ -111,7 +111,15 @@ main {
   .title {
     --recursive-wght: 700;
     --recursive-casl: 0.6;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  small {
+    --recursive-wght: 480;
+    --recursive-slnt: -15;
+    font-size: 1rem;
   }
 }
 
