@@ -17,7 +17,7 @@
         <h1 class="page-title">{{ page.title }}</h1>
         <div class="byline">
           {% if not page.extra.hide_author %}
-            <address>// Posted by <a rel="author" href="/about">{{ config.extra.author }}</a></address>
+            <address>Posted by <a rel="author" href="/about">{{ config.extra.author }}</a></address>
           {% endif %}
           {% if page.date %}
             on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
@@ -25,11 +25,8 @@
         </div>
         {% if page.taxonomies.tags %}
           <div class="byline">
-            // Tags:
             {% for tag in page.taxonomies.tags %}
-              <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">
-                #{{ tag }}
-              </a>
+              <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>
             {% endfor %}
           </div>
         {% endif %}

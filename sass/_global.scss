@@ -1,6 +1,6 @@
 :root {
   --recursive-mono: 0;
-  --recursive-casl: 0;
+  --recursive-casl: 0.6;
   --recursive-wght: 400;
   --recursive-slnt: 0;
   --recursive-crsv: 0.5;
@@ -19,12 +19,16 @@
 body {
   background-color: var(--bg-color);
   color: var(--primary-color);
-  font-family: "Press Start 2P", sans-serif;
-  line-height: 1.4rem;
+  font-family: "Recursive", sans-serif;
+  line-height: 1.4;
 }
 
 h1 {
-  font-size: 1.25rem;
+  --recursive-wght: 700;
+  --recursive-casl: 0.6;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 %highlighted {
@@ -101,6 +105,14 @@ main {
 
 .is-flex-wrap {
   flex-wrap: wrap;
+}
+
+.main-header {
+  .title {
+    --recursive-wght: 700;
+    --recursive-casl: 0.6;
+    font-size: 2rem;
+  }
 }
 
 .logo {

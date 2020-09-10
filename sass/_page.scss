@@ -6,28 +6,31 @@
   max-width: 40rem;
   width: 100%;
 
-  h1,
-  p,
-  ol,
-  ul {
-    margin: 1.5rem 0;
+  h1 {
+    margin-bottom: 2.5rem;
   }
 
   h2,
   h3,
   h4 {
-    --recursive-wght: 700;
+    --recursive-wght: 750;
     --recursive-casl: 0.4;
   }
 
   h2 {
-    font-size: 1.5rem;
-    margin: 2.5rem 0 1rem;
+    font-size: 1.75rem;
+    margin: 5rem 0 0;
   }
 
   h3 {
-    font-size: 1.25rem;
-    margin: 1.5rem 0 1rem;
+    font-size: 1.4rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  p,
+  ol,
+  ul {
+    margin: 2rem 0;
   }
 
   a {
@@ -65,15 +68,11 @@
   }
 
   code {
-    --recursive-mono: 1;
-    --recursive-casl: 0.6;
     --recursive-wght: 480;
+    --recursive-mono: 1;
     font-family: "Recursive", monospace;
-  }
-
-  p > code {
-    --recursive-wght: 670;
-    --recursive-casl: 0.1;
+    font-size: 1.1rem;
+    color: #b8b8b8;
   }
 
   kbd {
@@ -93,9 +92,8 @@
 }
 
 .byline {
-  font-family: "Recursive", sans-serif;
-  --recursive-slnt: -15;
   --recursive-wght: 600;
+  color: #b8b8b8;
 
   address {
     font-style: normal;
@@ -106,7 +104,7 @@
     @extend %highlighted;
   }
 
-  .tag {
+  .tag:not(:last-child) {
     margin-right: 0.5rem;
   }
 }
@@ -118,8 +116,7 @@
 .page-body {
   --recursive-mono: 0.1;
   --recursive-casl: 0.4;
-  font-family: "Recursive", sans-serif;
-  font-size: 16px;
+  font-size: 1.15rem;
   margin: 2rem 0;
 }
 
@@ -129,7 +126,6 @@
 }
 
 .page-footer {
-  font-family: "Recursive", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
