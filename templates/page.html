@@ -16,11 +16,8 @@
       <header>
         <h1 class="page-title">{{ page.title }}</h1>
         <div class="byline">
-          {% if not page.extra.hide_author %}
-            <address>Posted by <a rel="author" href="/about">{{ config.extra.author }}</a></address>
-          {% endif %}
           {% if page.date %}
-            on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
+            Posted on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
           {% endif %}
         </div>
         {% if page.taxonomies.tags %}
