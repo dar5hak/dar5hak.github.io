@@ -33,11 +33,6 @@
     margin: 2rem 0;
   }
 
-  a {
-    @extend %highlighted;
-    text-underline-offset: 0;
-  }
-
   em,
   i,
   blockquote,
@@ -98,10 +93,6 @@
   address {
     font-style: normal;
     display: inline;
-  }
-
-  a {
-    @extend %highlighted;
   }
 
   .tag:not(:last-child) {

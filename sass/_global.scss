@@ -40,7 +40,7 @@ h1 {
     &:hover,
     &:focus,
     &:active {
-      text-decoration-thickness: 100%;
+      text-decoration-thickness: 115%;
       text-underline-offset: -100%;
     }
   }
@@ -57,7 +57,7 @@ a {
     color: unset;
     text-decoration: var(--accent-color) underline 4px;
     text-decoration-skip-ink: none;
-    text-underline-offset: -10%;
+    text-underline-offset: 0;
   }
 }
 
