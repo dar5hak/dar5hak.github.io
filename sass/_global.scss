@@ -7,7 +7,9 @@
 
   --bg-color: black;
   --primary-color: ghostwhite;
+  --primary-color-dimmed: #b8b8b8;
   --accent-color: seagreen;
+  --border-color: #666; // 😈️
 }
 
 * {
@@ -108,7 +110,7 @@ main {
 }
 
 .main-header {
-  border: 2px solid #666;
+  border: 2px solid var(--border-color);
   border-radius: 4px;
   width: max-content;
   margin: auto;
