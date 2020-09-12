@@ -50,15 +50,19 @@ h1 {
 
 a {
   @extend %highlighted;
-  color: var(--accent-color);
+  color: unset;
   outline: none;
-  text-decoration: none;
+  text-decoration-color: var(--accent-color);
+  text-decoration-style: double;
+  text-decoration-skip-ink: none;
 
-  @supports (text-decoration-thickness: 4px) and (text-underline-offset: -10%)
-    and (text-decoration-skip-ink: none) {
-    color: unset;
-    text-decoration: var(--accent-color) underline 4px;
-    text-decoration-skip-ink: none;
+  @supports (text-decoration-thickness: 4px) {
+    text-decoration-thickness: 4px;
+    text-decoration-style: solid;
+  }
+
+  // If it has to skip the ink, it better stay low
+  @supports (text-decoration-skip-ink: none) {
     text-underline-offset: 0;
   }
 }
