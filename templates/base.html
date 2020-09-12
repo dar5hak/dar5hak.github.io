@@ -14,10 +14,24 @@
 
 <body>
   <section class="container">
-    <header class="main-header is-centered">
-      <img src="/images/logo-32x32.png" class="logo" alt="A disc with a dubious-looking sector">
-      <a class="title" href="/">Dubious Disc</a>
-      <small>Darshak Parikh's internet home</small>
+    <header class="main-header is-flex-column is-centered">
+      {% if not section or not section.path == '/' %}
+        <div class="header-logo-text is-flex is-centered">
+          <img src="/images/logo-32x32.png" class="header-logo" alt="A disc with a dubious-looking sector">
+          <a class="title" href="/">Dubious Disc</a>
+          <small>Darshak Parikh's internet home</small>
+        </div>
+        {% set links = load_data(path="content/links.json") %}
+        <nav class="header-nav">
+          <ul class="is-flex">
+            {% for link in links.pages %}
+              <li>
+                <a href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
     </header>
     {% block content %} {% endblock %}
     {% block footer %} {% endblock %}

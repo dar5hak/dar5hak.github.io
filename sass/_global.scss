@@ -74,7 +74,7 @@ a {
 
 main {
   flex-grow: 1;
-  padding: 3rem 0 0;
+  padding: 1rem 0 0;
 }
 
 .is-centered-x,
@@ -123,8 +123,19 @@ main {
   }
 }
 
-.logo {
+.header-logo-text {
+  margin-bottom: 1rem;
+}
+
+.header-logo {
   margin-right: 1rem;
+}
+
+.header-nav {
+  --recursive-wght: 480;
+  li:not(:last-child) {
+    margin-right: 2rem;
+  }
 }
 
 .container {
