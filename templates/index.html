@@ -46,8 +46,25 @@
       width: 100%;
     }
 
-    .name {
-      margin-bottom: 0.5rem;
+    .intro {
+      max-width: 24rem;
+      padding: 1rem 0 1rem 2rem;
+      border-left: 2px solid #666;
+    }
+
+    .intro h1 {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    .intro small {
+      --recursive-slnt: -15;
+      font-size: 1rem;
+      display: block;
+    }
+
+    .intro p {
+      margin-top: 1rem;
     }
 
     .main-menu {
@@ -86,14 +103,12 @@
       <figure class="avatar">
         <img src="/images/avatar.gif" alt="A superhero rendition of myself" />
       </figure>
-      <div>
-        <h1 class="name">Darshak Parikh</h1>
-        <ul>
-          <li>Web + GTK developer</li>
-          <li>Linux junkie</li>
-          <li>Polyglot</li>
-          <li>Retrogamer</li>
-        </ul>
+      <div class="intro">
+        <h1>Dubious Disc</h1>
+        <small>Darshak Parikh's internet home</small>
+        <p>Hi, I'm Darshak, a web + GTK developer.</p>
+        <p>I speak and write code in several languages, and love getting involved in open source.</p>
+        <p><a href="/about">Know more about me.</a></p>
       </div>
     </div>
     <nav class="main-menu">
