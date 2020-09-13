@@ -118,6 +118,7 @@ main {
   border: 2px solid var(--border-color);
   border-radius: 4px;
   margin: auto;
+  max-width: 100%;
   padding: 1rem;
   width: max-content;
 
@@ -135,10 +136,12 @@ main {
     --recursive-wght: 480;
     font-size: 1em;
     font-weight: 500;
+    margin-top: 0.4rem;
   }
 }
 
 .header-logo-text {
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
