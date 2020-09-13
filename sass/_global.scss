@@ -18,6 +18,14 @@
     "slnt" var(--recursive-slnt), "CRSV" var(--recursive-crsv);
 }
 
+html {
+  font-size: 16px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 14px;
+  }
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--primary-color);
