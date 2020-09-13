@@ -106,5 +106,8 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# elementary Code temporary files
+*~
+
 # Zola output
 public
