@@ -19,12 +19,12 @@
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 1.75em;
     margin: 5rem 0 0;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.4em;
     margin: 2.5rem 0 1rem;
   }
 
@@ -68,7 +68,7 @@
     --recursive-wght: 480;
     color: var(--primary-color-dimmed);
     font-family: "Recursive", monospace;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-weight: 500;
   }
 
@@ -80,7 +80,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.4);
     display: inline-block;
     font-family: "Recursive", monospace;
-    font-size: 0.85rem;
+    font-size: 0.85em;
     font-weight: 500;
     line-height: 1;
     margin: 0 2px;
@@ -111,7 +111,7 @@
 .page-body {
   --recursive-mono: 0.1;
   --recursive-casl: 0.4;
-  font-size: 1.15rem;
+  font-size: 1.15em;
   margin: 2rem 0;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .page-footer {
-  font-size: 1rem;
+  font-size: 1em;
   text-align: center;
 }
 
