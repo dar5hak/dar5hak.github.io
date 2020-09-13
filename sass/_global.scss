@@ -26,8 +26,9 @@ body {
 }
 
 h1 {
-  --recursive-wght: 700;
   --recursive-casl: 0.6;
+  --recursive-wght: 700;
+  font-weight: 700;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 3rem;
@@ -121,16 +122,18 @@ main {
   padding: 1rem;
 
   .title {
-    --recursive-wght: 700;
     --recursive-casl: 0.6;
+    --recursive-wght: 700;
+    font-weight: 700;
     font-size: 1.2rem;
     display: inline-block;
     margin-right: 1rem;
   }
 
   small {
-    --recursive-wght: 480;
     --recursive-slnt: -15;
+    --recursive-wght: 480;
+    font-weight: 500;
     font-size: 1rem;
   }
 }
@@ -145,6 +148,7 @@ main {
 
 .header-nav {
   --recursive-wght: 480;
+  font-weight: 500;
   li:not(:last-child) {
     margin-right: 2rem;
   }

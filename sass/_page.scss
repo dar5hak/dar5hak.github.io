@@ -13,8 +13,9 @@
   h2,
   h3,
   h4 {
-    --recursive-wght: 750;
     --recursive-casl: 0.4;
+    --recursive-wght: 750;
+    font-weight: 700;
   }
 
   h2 {
@@ -63,16 +64,18 @@
   }
 
   code {
-    --recursive-wght: 480;
     --recursive-mono: 1;
+    --recursive-wght: 480;
+    font-weight: 500;
     font-family: "Recursive", monospace;
     font-size: 1.1rem;
     color: var(--primary-color-dimmed);
   }
 
   kbd {
-    --recursive-wght: 480;
     --recursive-casl: 0;
+    --recursive-wght: 480;
+    font-weight: 500;
     font-family: "Recursive", monospace;
     font-size: 0.85rem;
     display: inline-block;
@@ -88,6 +91,7 @@
 
 .byline {
   --recursive-wght: 600;
+  font-weight: 600;
   color: var(--primary-color-dimmed);
 
   address {
