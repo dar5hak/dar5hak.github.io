@@ -7,16 +7,19 @@
   width: 100%;
 
   h1 {
-    margin-bottom: 2.5rem;
-    margin-top: 0;
+    margin-bottom: 3.5rem;
+    margin-top: 1.5rem;
+    color: var(--primary-color-bright);
   }
 
   h2,
   h3,
   h4 {
-    --recursive-casl: 0.4;
-    --recursive-wght: 750;
-    font-weight: 700;
+    --recursive-casl: 0.5;
+    --recursive-wght: 400;
+    --recursive-mono: 1;
+    color: var(--primary-color-bright);
+    font-weight: 400;
   }
 
   h2 {
@@ -32,6 +35,10 @@
   p,
   ol,
   ul {
+    --recursive-casl: 0.3;
+    --recursive-wght: 360;
+    font-weight: 400;
+    color: var(--primary-color);
     margin: 2rem 0;
   }
 
@@ -109,7 +116,7 @@
   }
 
   .value {
-    color: var(--primary-color);
+    color: var(--primary-color-bright);
   }
 
   .tag:not(:last-child) {

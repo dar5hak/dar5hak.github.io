@@ -6,8 +6,9 @@
   --recursive-crsv: 0.5;
 
   --bg-color: black;
-  --primary-color: ghostwhite;
-  --primary-color-dimmed: #b8b8b8;
+  --primary-color: #ddd;
+  --primary-color-dimmed: #bbb;
+  --primary-color-bright: white;
   --accent-color: seagreen;
   --border-color: #666; // 😈️
 }
@@ -35,9 +36,9 @@ body {
 
 h1 {
   --recursive-casl: 0.6;
-  --recursive-wght: 700;
-  font-size: 2em;
-  font-weight: 700;
+  --recursive-wght: 600;
+  font-size: 2.4em;
+  font-weight: 600;
   margin-bottom: 3rem;
   text-align: center;
 }
