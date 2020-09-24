@@ -2,6 +2,7 @@
 title = "How to Write Unfancy Web Apps"
 date = 2015-12-19
 path = "2015/12/19/how-to-write-unfancy-web-apps"
+in_search_index = false
 
 [taxonomies]
 tags = ["web", "js", "jquery"]
