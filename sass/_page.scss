@@ -90,10 +90,10 @@
   }
 
   img {
-    max-height: 20rem;
-    box-shadow: 0 0 15px 0px rgba(255,255,255,1);
+    box-shadow: 0 0 15px 0 var(--border-color);
     display: block;
     margin: auto;
+    max-height: 20rem;
   }
 }
 
