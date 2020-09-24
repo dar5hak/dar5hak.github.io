@@ -15,13 +15,16 @@
     <article class="page">
       <header>
         <h1>{{ page.title }}</h1>
-        <div class="byline">
-          {% if page.date %}
-            Posted on <time pubdate datetime="{{ page.date }}">{{ page.date }}</time>
+        <div class="byline date">
+          {%- if page.date -%}
+            Posted on <time pubdate datetime="{{ page.date }}" class="value">{{ page.date | date(format="%-d %b %Y") }}</time>
           {% endif %}
+          {% if page.updated %}
+            · Updated on <time datetime="{{ page.updated }}" class="value">{{ page.updated | date(format="%-d %b %Y") }}</time>
+          {%- endif -%}
         </div>
         {% if page.taxonomies.tags %}
-          <div class="byline">
+          <div class="byline tags">
             {% for tag in page.taxonomies.tags %}
               <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>
             {% endfor %}

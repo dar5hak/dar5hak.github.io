@@ -99,13 +99,17 @@
 
 .byline {
   --recursive-wght: 600;
-  --recursive-slnt: -15;
   color: var(--primary-color-dimmed);
+  font-size: 0.85em;
   font-weight: 600;
+  letter-spacing: 0.1em;
 
-  address {
-    display: inline;
-    font-style: normal;
+  &.date {
+    text-transform: uppercase;
+  }
+
+  .value {
+    color: var(--primary-color);
   }
 
   .tag:not(:last-child) {
