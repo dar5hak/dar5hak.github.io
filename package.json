@@ -11,7 +11,7 @@
     "personal"
   ],
   "author": "Darshak Parikh",
-  "license": "GPL-3.0-or-later",
+  "license": "CC0-1.0",
   "devDependencies": {
     "stylelint": "^13.3.2",
     "stylelint-config-sass-guidelines": "^7.0.0",
