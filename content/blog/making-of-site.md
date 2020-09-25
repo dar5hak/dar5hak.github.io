@@ -6,6 +6,8 @@ date = 2020-09-19
 tags = ["web"]
 +++
 
+TL;DR: I moved from WordPress to a superfast static site. [Here's the source code](https://github.com/dar5hak/dar5hak.github.io).
+
 This is not my first site. I've had a WordPress blog hosted on this domain since 2013. And I recommend WordPress to anyone who wants their own site but cannot write HTML and CSS.
 
 Then why did I move away from it? Because I can. As an experienced web developer, I was itching to write my own site by hand. Reasons being:
@@ -62,7 +64,7 @@ Fine, I'll stop saying 'support'.
 
 You can navigate the menus and lists on some pages using arrow keys and Vim-style HJKL keys. You're welcome.
 
-This is a feature that games and CLI apps offer out of the box but is rare on the web. I wrote some JavaScript to enable it where it makes sense.
+This is a feature that games and CLI apps offer out of the box but is rare on the web. I wrote [some JavaScript](https://github.com/dar5hak/dar5hak.github.io/blob/master/static/scripts/main.mjs) to enable it where it makes sense.
 
 This is another progressive enhancement. You can still click the links as usual, with or without JavaScript.
 
@@ -90,6 +92,6 @@ Need I say more?
 
 ## Final thoughts
 
-While this lacks many common features, I am happy with the result. It's fast, responsive, privacy-respecting, open source, and most importantly, it's mine. It is exactly how I want it to be.
+While this lacks many common features, I am happy with the result. It's fast, responsive, privacy-respecting, [open source](https://github.com/dar5hak/dar5hak.github.io), and most importantly, it's mine. It is exactly how I want it to be.
 
 I recommend this to anyone who knows even basic HTML and CSS: if you want to make a site, write it yourself. Not only does it give you street cred and bragging rights, it is also more satisfying and rewarding. And of course, you learn a lot along the way.
