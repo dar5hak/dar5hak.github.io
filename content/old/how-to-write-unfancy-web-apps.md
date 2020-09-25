@@ -3,9 +3,6 @@ title = "How to Write Unfancy Web Apps"
 date = 2015-12-19
 path = "2015/12/19/how-to-write-unfancy-web-apps"
 in_search_index = false
-
-[taxonomies]
-tags = ["web", "js", "jquery"]
 +++
 
 Ever since the advent of HTML5 and ES6, the web is moving forward at the speed of the Millennium Falcon.

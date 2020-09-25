@@ -3,9 +3,6 @@ title = "Implementing Machine Learning for the Offline Web with TensorFlow.js"
 date = 2019-02-22
 path = "2019/02/22/ml-offline-web-tfjs"
 in_search_index = false
-
-[taxonomies]
-tags = ["web", "offline", "tensorflow", "ml"]
 +++
 
 Offline Web apps are finally a thing. The cleverest of ideas which were previously only imagination, are now reality.
