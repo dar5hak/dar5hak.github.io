@@ -7,9 +7,9 @@
   width: 100%;
 
   h1 {
+    color: var(--primary-color-bright);
     margin-bottom: 3.5rem;
     margin-top: 1.5rem;
-    color: var(--primary-color-bright);
   }
 
   h2,
@@ -37,18 +37,9 @@
   ul {
     --recursive-casl: 0.3;
     --recursive-wght: 360;
-    font-weight: 400;
     color: var(--primary-color);
+    font-weight: 400;
     margin: 2rem 0;
-  }
-
-  em,
-  i,
-  blockquote,
-  .page-footer {
-    --recursive-slnt: -15;
-    --recursive-crsv: 1;
-    font-style: normal;
   }
 
   blockquote {
@@ -147,7 +138,7 @@
   width: 36%;
 
   img {
-    width: 16rem;
     float: left;
+    width: 16rem;
   }
 }
