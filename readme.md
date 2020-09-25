@@ -11,17 +11,9 @@
 
 1. Install [Zola](https://www.getzola.org/) and [Node.js](https://nodejs.org/).
 2. Clone the repo.
-3. ```sh
-   npm install
-   ```
 4. ```sh
    zola serve
    ```
-
-## Roadmap
-
-- Gamepad controls
-- Art page
 
 ## Credits
 
