@@ -6,7 +6,7 @@ date = 2020-09-19
 tags = ["web"]
 +++
 
-TL;DR: I moved from WordPress to a superfast static site. [Here's the source code](https://github.com/dar5hak/dar5hak.github.io).
+**TL;DR:** I moved from WordPress to a superfast static site. [Here's the source code](https://github.com/dar5hak/dar5hak.github.io).
 
 This is not my first site. I've had a WordPress blog hosted on this domain since 2013. And I recommend WordPress to anyone who wants their own site but cannot write HTML and CSS.
 
