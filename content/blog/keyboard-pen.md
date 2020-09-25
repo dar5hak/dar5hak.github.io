@@ -1,5 +1,5 @@
 +++
-title = "The Keyboard Is Mightier Than the Pen"
+title = "The Keyboard Is Mightier than the Pen"
 date = 2020-09-24
 
 [taxonomies]
