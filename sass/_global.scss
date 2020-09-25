@@ -43,6 +43,20 @@ h1 {
   text-align: center;
 }
 
+b,
+strong {
+  --recursive-wght: 700;
+  font-weight: 700;
+}
+
+i,
+em,
+blockquote {
+  --recursive-slnt: -15;
+  --recursive-crsv: 1;
+  font-style: normal;
+}
+
 %highlighted {
   @supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
     and (text-decoration-skip-ink: none) {
