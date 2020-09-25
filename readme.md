@@ -9,7 +9,7 @@
 
 ## Running
 
-1. Install [Zola](https://www.getzola.org/) and [Node.js](https://nodejs.org/).
+1. Install [Zola](https://www.getzola.org/).
 2. Clone the repo.
 4. ```sh
    zola serve
