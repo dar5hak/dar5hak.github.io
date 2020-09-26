@@ -15,7 +15,7 @@
   h2,
   h3,
   h4 {
-    --recursive-casl: 0.5;
+    --recursive-casl: 0.3;
     --recursive-wght: 400;
     --recursive-mono: 1;
     color: var(--primary-color-bright);
@@ -35,7 +35,7 @@
   p,
   ol,
   ul {
-    --recursive-casl: 0.3;
+    --recursive-casl: 0;
     --recursive-wght: 360;
     color: var(--primary-color);
     font-weight: 400;
