@@ -1,6 +1,44 @@
 @font-face {
+  font-display: fallback;
+  font-family: "Asap";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Asap Italic"), local("Asap-Italic"), url("https://fonts.gstatic.com/s/asap/v13/KFOmCniXp96ayz4u4mxKKTU1Kg.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Asap Regular"), local("Asap-Regular"), url("https://fonts.gstatic.com/s/asap/v13/KFOoCniXp96ayzse4GZNCzc.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Asap SemiBold"), local("Asap-SemiBold"), url("https://fonts.gstatic.com/s/asap/v13/KFOnCniXp96aw-Q69UtvBh0_IsE.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
   font-display: swap;
-  font-family: "Recursive";
-  font-weight: 300 1000;
-  src: url("/fonts/Recursive_VF.woff2") format("woff2-variations");
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/rokkitt/v19/qFdb35qfgYFjGy5hukqqhw5XeRgdi1ryd6DMGbmluc6ms9E.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Overpass Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Overpass Mono SemiBold"), local("OverpassMono-SemiBold"), url("https://fonts.gstatic.com/s/overpassmono/v6/_Xm3-H86tzKDdAPa-KPQZ-AC3vCQo_CXBlRc4EU.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }

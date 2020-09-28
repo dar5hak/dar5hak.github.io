@@ -1,10 +1,4 @@
 :root {
-  --recursive-mono: 0;
-  --recursive-casl: 0.6;
-  --recursive-wght: 400;
-  --recursive-slnt: 0;
-  --recursive-crsv: 0.5;
-
   --bg-color: #111;
   --primary-color: gainsboro;
   --primary-color-dimmed: #bbb;
@@ -21,12 +15,6 @@
   }
 }
 
-* {
-  font-variation-settings: "MONO" var(--recursive-mono),
-    "CASL" var(--recursive-casl), "wght" var(--recursive-wght),
-    "slnt" var(--recursive-slnt), "CRSV" var(--recursive-crsv);
-}
-
 html {
   font-size: 16px;
 
@@ -38,31 +26,27 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--primary-color);
-  font-family: "Recursive", sans-serif;
+  font-family: "Asap", sans-serif;
   line-height: 1.4;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--primary-color-bright);
+  font-family: "Rokkitt", serif;
+  font-weight: normal;
+}
+
 h1 {
-  --recursive-casl: 0.6;
-  --recursive-wght: 600;
-  font-size: 2.4em;
-  font-weight: 600;
+  font-size: 3em;
   margin-bottom: 3rem;
   text-align: center;
 }
 
 b,
 strong {
-  --recursive-wght: 700;
-  font-weight: 700;
-}
-
-i,
-em,
-blockquote {
-  --recursive-slnt: -15;
-  --recursive-crsv: 1;
-  font-style: normal;
+  font-weight: 600;
 }
 
 %highlighted {
@@ -74,8 +58,8 @@ blockquote {
     &:hover,
     &:focus,
     &:active {
-      text-decoration-thickness: 115%;
-      text-underline-offset: -100%;
+      text-decoration-thickness: 90%;
+      text-underline-offset: -80%;
     }
   }
 }
@@ -102,6 +86,7 @@ a {
 [data-focusable]::before {
   content: "▶";
   display: inline-block;
+  font-size: 75%;
   margin-right: 0.25rem;
   visibility: hidden;
 }
@@ -154,26 +139,25 @@ main {
   width: max-content;
 
   .title {
-    --recursive-casl: 0.6;
-    --recursive-wght: 700;
     display: inline-block;
-    font-size: 1.2em;
-    font-weight: 700;
+    font-size: 1.4em;
+    font-weight: 600;
     margin-right: 1rem;
   }
 
   small {
-    --recursive-slnt: -15;
-    --recursive-wght: 480;
     font-size: 1em;
-    font-weight: 500;
-    margin-top: 0.4rem;
+    font-style: italic;
   }
 }
 
 .header-logo-text {
   flex-wrap: wrap;
   margin-bottom: 1rem;
+  
+  .title {
+    font-family: "Rokkitt", serif;
+  }
 }
 
 .header-logo {
@@ -181,13 +165,12 @@ main {
 }
 
 .header-nav {
-  --recursive-wght: 480;
-  font-weight: 500;
+  font-family: "Rokkitt", serif;
+  font-size: 1.25em;
 
   li:not(:last-child) {
-    margin-right: 2rem;
-  }
-}
+    margin-right: 1.5rem;
+  }}
 
 .container {
   align-items: stretch;

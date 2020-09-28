@@ -9,7 +9,12 @@
 {%- endblock %}
 
 {% block head_extra %}
+  <!-- Never style by tag name here. Turbolinks will merge <head> and apply it to other pages -->
   <style>
+    .home {
+      font-size: 20px;
+    }
+
     .info {
       display: flex;
     }
@@ -39,14 +44,15 @@
     }
 
     .intro h1 {
+      font-size: 2.5em;
       margin-bottom: 0;
       text-align: left;
     }
 
     .intro small {
-      --recursive-slnt: -15;
       display: block;
-      font-size: 1.2em;
+      font-size: 1em;
+      font-style: italic;
       margin-bottom: 0.5rem;
     }
 
@@ -55,17 +61,17 @@
     }
 
     .main-menu {
+      font-family: "Rokkitt", serif;
       margin-top: 2rem;
     }
 
     .main-menu li {
-      --recursive-wght: 480;
       font-size: 1.75em;
-      font-weight: 480;
       margin: 1rem 0;
     }
 
     .footer-menu {
+      font-family: "Rokkitt", serif;
       width: 48rem;
     }
 
@@ -76,9 +82,7 @@
     }
 
     .footer-menu li {
-      --recursive-wght: 480;
-      font-size: 1.25em;
-      font-weight: 480;
+      font-size: 1.4em;
       margin: 0.5rem 1rem;
     }
   </style>
@@ -90,7 +94,7 @@
 
 {% block content %}
   {% set links = load_data(path="content/links.json") %}
-  <main class="is-centered-y is-flex-column">
+  <main class="home is-centered-y is-flex-column">
     <div class="info is-centered is-flex-wrap">
       <figure class="avatar">
         <img src="/images/avatar.gif" alt="A superhero rendition of myself" width="192" height="192" />
