@@ -1,6 +1,7 @@
 +++
 title = "The Making of This Site"
 date = 2020-09-19
+updated = 2020-09-28
 
 [taxonomies]
 tags = ["web"]
@@ -82,7 +83,19 @@ That dream did not last long.
 
 I picked the brilliant [Recursive](https://www.recursive.design/) font for body text. I tried it on headings too, and it looked so good that I dropped the whole blockiness idea. Now this site uses Recursive for everything.
 
-The only remnants of the old design are the animated avatar on the home page and the site logo. I couldn't help it.
+The only remnant of the old design are the animated avatar on the home page. I couldn't help it.
+
+### Update 2020-09-28
+
+After publishing the site online, I found myself writing some serious blog posts, and Recursive didn't seem to fit the image of 'serious'. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.
+
+After reading some typography advice from [Erik D. Kennedy](https://learnui.design/blog/) and [Jeremiah Shoaf](https://www.typewolf.com/), I decided to try a different approach.
+
+Some experimentation with Google Fonts led me to the final choice: [Rokkitt](https://fonts.google.com/specimen/Rokkitt) for headings and menus, [Asap](https://fonts.google.com/specimen/Asap) for body text and [Overpass Mono](https://fonts.google.com/specimen/Overpass+Mono) for code. The combination of these was about a third the size of Recursive, so I was happy with the performance as well.
+
+I would use the better-matching [Overpass](https://fonts.google.com/specimen/Overpass) for body text, but unlike its monospaced counterpart, it [doesn't have](https://github.com/RedHatOfficial/Overpass/issues/83) the Indian Rupee sign ₹.
+
+I even added a nice light color scheme, which looks even better than the dark one with the new typography.
 
 ## Performance
 
