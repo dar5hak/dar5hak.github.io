@@ -5,12 +5,20 @@
   --recursive-slnt: 0;
   --recursive-crsv: 0.5;
 
-  --bg-color: #000;
-  --primary-color: #ddd;
+  --bg-color: #111;
+  --primary-color: gainsboro;
   --primary-color-dimmed: #bbb;
-  --primary-color-bright: #fff;
-  --accent-color: #238E68;
+  --primary-color-bright: white;
+  --accent-color: seagreen;
   --border-color: #666; // 😈️
+  
+  @media (prefers-color-scheme: light) {
+    --bg-color: #eee;
+    --primary-color: #333;
+    --primary-color-dimmed: #555;
+    --primary-color-bright: #111;
+    --accent-color: lightseagreen;
+  }
 }
 
 * {
