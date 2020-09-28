@@ -12,7 +12,7 @@ Imagine that you recently had a debate with a friend. You went on for hours abou
 
 Next time you drive, you see these rule breakers everywhere. You notice people jumping signals, not wearing helmets, overspeeding and driving on the wrong side.
 
-Why does this happen?
+### Why does this happen?
 
 One popular explanation by the believers in the [Law of Attraction](https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)) is that the universe conspires to give you what you think about the most. You manifest what you believe.
 
