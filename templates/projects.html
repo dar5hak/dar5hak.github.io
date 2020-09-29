@@ -87,7 +87,7 @@
                   {% if project.links %}
                     <p>
                       {% for link in project.links -%}
-                        <a href="{{ link.href }}">{{ link.title }}</a>{% if not loop.last %} · {% endif %}
+                        <a target="_blank" rel="noopener" href="{{ link.href }}">{{ link.title }}</a>{% if not loop.last %} · {% endif %}
                       {% endfor %}
                     </p>
                   {% endif %}

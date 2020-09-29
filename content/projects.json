@@ -131,7 +131,7 @@
         {
           "name": "Apertium",
           "logo": "/images/projects/apertium.svg",
-          "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program\n\n<small>(<a rel=\"nofollow\" class=\"external free\" href=\"http://wiki.apertium.org/wiki/Apertium_logo\">Apertium logo</a> by Francis Tyers, Andrej Slapnik, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"Creative Commons Attribution-Share Alike 3.0\">CC BY-SA 3.0</a>, <a href=\"https://commons.wikimedia.org/w/index.php?curid=32939719\">Link</a>)</small>",
+          "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program\n\n<small>(<a target=\"_blank\" rel=\"noopener nofollow\" class=\"external free\" href=\"http://wiki.apertium.org/wiki/Apertium_logo\">Apertium logo</a> by Francis Tyers, Andrej Slapnik, <a target=\"_blank\" rel=\"noopener nofollow\" href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"Creative Commons Attribution-Share Alike 3.0\">CC BY-SA 3.0</a>, <a target=\"_blank\" rel=\"noopener nofollow\" href=\"https://commons.wikimedia.org/w/index.php?curid=32939719\">Link</a>)</small>",
           "links": [
             {
               "title": "Project report",
