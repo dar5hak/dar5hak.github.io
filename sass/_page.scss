@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.page-wrapper .page {
+.page {
   max-width: 80ch;
   width: 100%;
 
@@ -77,11 +77,11 @@
 }
 
 .byline-container {
-  margin-bottom: 3rem;
   color: var(--primary-color-dimmed);
   font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.1em;
+  margin-bottom: 3rem;
   text-align: center;
   text-transform: uppercase;
 
