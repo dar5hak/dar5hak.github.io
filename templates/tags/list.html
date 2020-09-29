@@ -11,7 +11,7 @@
       <ul class="section-list is-flex">
         {% for tag in terms %}
         <li>
-          <a href="{{ tag.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ tag.name }}</a>
+          <a href="{{ tag.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>#{{ tag.name }}</a>
         </li>
         {% endfor %}
       </ul>
