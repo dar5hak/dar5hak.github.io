@@ -89,7 +89,7 @@
           ]
         },
         {
-          "name": "Offline handwritten digit recognition",
+          "name": "Offline digit recognition",
           "logo": "/images/projects/neural-net-48x48.svg",
           "description": "Recognise handwritten digits in the browser using a TensorFlow.js model saved offline",
           "links": [
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "name": "English-to-French machine translation",
+          "name": "English-to-French translator",
           "logo": "/images/projects/neural-net-48x48.svg",
           "description": "Final project for AI Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data"
         },
