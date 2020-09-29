@@ -3,27 +3,61 @@
 {% block head_extra %}
   <!-- Never style by tag name here. Turbolinks will merge <head> and apply it to other pages -->
   <style>
-    .project {
-      display: flex;
-      margin-top: 2.5rem;
+    .projects {
+      max-width: 72rem;
     }
 
-    .project-logo {
+    .project {
+      background-color: var(--bg-color-bright);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      box-shadow: 0 0 6px 0 var(--border-color);
+      display: inline-flex;
+      flex: 1 auto;
+      margin-top: 2.5rem;
+      padding: 1rem;
+    }
+
+    .projects .project-logo {
       flex: 0 0 64px;
     }
 
-    .page-wrapper .page .project-logo img {
+    .projects .project-logo img {
       box-shadow: none;
       margin: 0;
       width: 48px;
     }
 
-    .page-wrapper .page h3 {
+    .projects h3 {
       margin: 0 0 0.5rem;
     }
 
-    .page-wrapper .page p {
+    .projects p {
       margin: 1em 0;
+    }
+        
+    @media (min-width: 720px) {
+      .project {
+        flex: calc(50% - 2rem);
+      }
+
+      .projects .project-section-title {
+        margin-bottom: 2rem;
+      }
+    
+      .projects h3 {
+        margin-top: 0;
+      }
+    
+      @supports (gap: 2rem) {
+        .project-section {
+          gap: 2rem;
+        }
+    
+        .project {
+          margin-top: 0;
+        }
+      }
     }
   </style>
 {% endblock %}
@@ -38,27 +72,29 @@
       <section class="page-body">
         {% set projects = load_data(path="content/projects.json") %}
         {% for project_section in projects.sections %}
-          <h2>{{ project_section.title }}</h2>
-          {% for project in project_section.items %}
-            <div class="project">
-              <div class="project-logo">
-                {% if project.logo %}
-                  <img src="{{ project.logo }}">
-                {% endif %}
+          <h2 class="project-section-title">{{ project_section.title }}</h2>
+          <div class="project-section is-flex is-flex-wrap">
+            {% for project in project_section.items %}
+              <div class="project">
+                <div class="project-logo">
+                  {% if project.logo %}
+                    <img src="{{ project.logo }}">
+                  {% endif %}
+                </div>
+                <div class="project-text">
+                  <h3>{{ project.name }}</h3>
+                  {{ project.description | markdown | safe }}
+                  {% if project.links %}
+                    <p>
+                      {% for link in project.links -%}
+                        <a href="{{ link.href }}">{{ link.title }}</a>{% if not loop.last %} · {% endif %}
+                      {% endfor %}
+                    </p>
+                  {% endif %}
+                </div>
               </div>
-              <div class="project-text">
-                <h3>{{ project.name }}</h3>
-                {{ project.description | markdown | safe }}
-                {% if project.links %}
-                  <p>
-                    {% for link in project.links -%}
-                      <a href="{{ link.href }}">{{ link.title }}</a>{% if not loop.last %} · {% endif %}
-                    {% endfor %}
-                  </p>
-                {% endif %}
-              </div>
-            </div>
-          {% endfor %}
+            {% endfor %}
+          </div>
         {% endfor %}
       </section>
     </article>

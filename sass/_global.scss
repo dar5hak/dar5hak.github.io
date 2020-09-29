@@ -1,5 +1,6 @@
 :root {
   --bg-color: #111;
+  --bg-color-bright: #282828;
   --primary-color: gainsboro;
   --primary-color-dimmed: #bbb;
   --primary-color-bright: white;
@@ -8,10 +9,12 @@
   
   @media (prefers-color-scheme: light) {
     --bg-color: #eee;
+    --bg-color-bright: white;
     --primary-color: #333;
     --primary-color-dimmed: #555;
     --primary-color-bright: #111;
     --accent-color: lightseagreen;
+    --border-color: #bbb;
   }
 }
 
@@ -43,6 +46,10 @@ h1 {
   font-size: 3em;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+small {
+  font-style: italic;
 }
 
 b,
@@ -148,7 +155,6 @@ main {
 
   small {
     font-size: 1em;
-    font-style: italic;
   }
 }
 
