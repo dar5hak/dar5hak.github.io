@@ -1,6 +1,7 @@
 {% extends "page.html" %}
 
 {% block head_extra %}
+  <!-- Never style by tag name here. Turbolinks will merge <head> and apply it to other pages -->
   <style>
     .project {
       display: flex;
@@ -11,7 +12,7 @@
       flex: 0 0 64px;
     }
 
-    .page-wrapper .page img {
+    .page-wrapper .page .project-logo img {
       box-shadow: none;
       margin: 0;
       width: 48px;
