@@ -21,13 +21,14 @@
               Posted <time pubdate datetime="{{ page.date }}" class="value">{{ page.date | date(format="%-d %b %Y") }}</time>
             {% endif %}
             {% if page.updated %}
-              · Updated <time datetime="{{ page.updated }}" class="value">{{ page.updated | date(format="%-d %b %Y") }}</time>
+              &middot; Updated <time datetime="{{ page.updated }}" class="value">{{ page.updated | date(format="%-d %b %Y") }}</time>
             {% endif %}
           </span>
           {% if page.taxonomies.tags %}
+            &middot;
             <span class="byline tags">
               {% for tag in page.taxonomies.tags %}
-              · <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>
+              <a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a>
               {% endfor %}
             </span>
           {% endif %}
