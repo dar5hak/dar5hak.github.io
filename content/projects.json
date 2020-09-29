@@ -9,11 +9,11 @@
           "description": "elementary OS app to remind you to be ergonomic",
           "links": [
             {
-              "title": "install",
+              "title": "AppCenter",
               "href": "https://appcenter.elementary.io/com.github.elfenware.badger"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/elfenware/badger"
             }
           ]
@@ -24,11 +24,11 @@
           "description": "Time-based OTP generator for the web",
           "links": [
             {
-              "title": "launch",
+              "title": "Web app",
               "href": "https://otpea.surge.sh/"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/dar5hak/otpea-web"
             }
           ]
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "title": "CLI",
+      "title": "Command Line",
       "items": [
         {
           "name": "generator-awesome-list",
@@ -48,7 +48,7 @@
               "href": "https://www.npmjs.com/package/generator-awesome-list"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/dar5hak/generator-awesome-list"
             }
           ]
@@ -63,7 +63,7 @@
               "href": "https://www.npmjs.com/package/totodo"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/dar5hak/totodo"
             }
           ]
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "Educational",
+      "title": "Educational + Experimental",
       "items": [
         {
           "name": "Lizard-Spock API",
@@ -79,11 +79,11 @@
           "description": "REST API to play Rock-Paper-Scissors-Lizard-Spock",
           "links": [
             {
-              "title": "docs",
+              "title": "Docs",
               "href": "http://backend.lizardspock.xyz/api/v1/swagger/index.html"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/dar5hak/lizardspock-api"
             }
           ]
@@ -94,15 +94,15 @@
           "description": "Recognise handwritten digits in the browser using a TensorFlow.js model saved offline",
           "links": [
             {
-              "title": "launch",
+              "title": "Web app",
               "href": "https://dar5hak.github.io/offline-mnist/"
             },
             {
-              "title": "blog post",
+              "title": "Blog post",
               "href": "https://dubiousdisc.xyz/2019/02/22/ml-offline-web-tfjs/"
             },
             {
-              "title": "source",
+              "title": "GitHub",
               "href": "https://github.com/dar5hak/offline-mnist"
             }
           ]
@@ -110,12 +110,12 @@
         {
           "name": "English-to-French machine translation",
           "logo": "/images/projects/neural-net-48x48.svg",
-          "description": "Final project for Artificial Intelligence Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data"
+          "description": "Final project for AI Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data"
         },
         {
           "name": "Text sequence generator",
           "logo": "/images/projects/neural-net-48x48.svg",
-          "description": "Feed a line of text from _The Adventures of Sherlock Holmes_ and generate a silly continuation",
+          "description": "Enter a line of text from _The Adventures of Sherlock Holmes_, and generate a silly continuation",
           "links": [
             {
               "title": "Jupyter notebook (scroll to Problem 2)",
@@ -134,7 +134,7 @@
           "description": "Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program\n\n<small>(<a rel=\"nofollow\" class=\"external free\" href=\"http://wiki.apertium.org/wiki/Apertium_logo\">Apertium logo</a> by Francis Tyers, Andrej Slapnik, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"Creative Commons Attribution-Share Alike 3.0\">CC BY-SA 3.0</a>, <a href=\"https://commons.wikimedia.org/w/index.php?curid=32939719\">Link</a>)</small>",
           "links": [
             {
-              "title": "project report",
+              "title": "Project report",
               "href": "https://wiki.apertium.org/wiki/User:Darshak/GSoC_2014_Report"
             }
           ]
