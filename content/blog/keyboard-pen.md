@@ -6,7 +6,7 @@ date = 2020-09-24
 tags = ["writing", "hardware"]
 +++
 
-We have all been "writing" since we were toddlers. But it's only after a certain age that we start writing for ourselves, if at all.
+We have all been “writing” since we were toddlers. But it’s only after a certain age that we start writing for ourselves, if at all.
 
 The mode in which we write depends on our personal choices, the time we were born in, and the environment we work or study in.
 
@@ -24,7 +24,7 @@ As if that is not enough, there is little focus on actual programming in courses
 
 Such is the plight of the Indian education system.
 
-That said, I'm not the one to whine. My first role at the said job was that of a manual tester. And I was unamused at the prospect of listing test scenarios in a spreadsheet. So I used that to my advantage.
+That said, I’m not the one to whine. My first role at the said job was that of a manual tester. And I was unamused at the prospect of listing test scenarios in a spreadsheet. So I used that to my advantage.
 
 I forced myself to touch type.
 
@@ -32,7 +32,7 @@ It was painstaking at first: I would take three seconds to type one key. It woul
 
 One month later, touch typing became second nature.
 
-Thinking back, this month-long practice is one of the best life decisions I've made. To this day, I find touch typing to be the optimal way of putting down my thoughts. It puts me into a natural state of flow. Whether I am writing a blog post, styling a web page, or [free writing](https://en.wikipedia.org/wiki/Free_writing), the experience is nothing short of meditative.
+Thinking back, this month-long practice is one of the best life decisions I’ve made. To this day, I find touch typing to be the optimal way of putting down my thoughts. It puts me into a natural state of flow. Whether I am writing a blog post, styling a web page, or [free writing](https://en.wikipedia.org/wiki/Free_writing), the experience is nothing short of meditative.
 
 Funnily though, this is the mode of writing I have spent the least time with: a mere third of what I have spent handwriting.
 
@@ -42,6 +42,6 @@ And like any touch typist, I have strong preferences when it comes to the keyboa
 
 I am a gentle typist. My previous boss used to say that it was always an enjoyable experience to watch me typing. He said that the way I swiftly but silently pressed the keys, the keyboard would last centuries.
 
-And when you type gently, a mechanical keyboard doesn't work for you. Chiclet is the way to go. The one on my Dell Vostro is so perfect that it's a reason I [still use](/blog/life-with-low-end-hardware) the seven-year-old machine as my primary device.
+And when you type gently, a mechanical keyboard doesn’t work for you. Chiclet is the way to go. The one on my Dell Vostro is so perfect that it’s a reason I [still use](/blog/life-with-low-end-hardware) the seven-year-old machine as my primary device.
 
-But never go too far with chiclets. [Apple did](https://www.thenextweb.com/plugged/2019/07/07/what-hell-apple-butterfly-keyboard-keys-design/). While I am by no means their fan, I need to use a MacBook Pro for work. And I'm glad the 2020 MacBooks got rid of that butterfly monstrosity.
+But never go too far with chiclets. [Apple did](https://www.thenextweb.com/plugged/2019/07/07/what-hell-apple-butterfly-keyboard-keys-design/). While I am by no means their fan, I need to use a MacBook Pro for work. And I’m glad the 2020 MacBooks got rid of that butterfly monstrosity.
