@@ -1,20 +1,20 @@
 :root {
-  --bg-color: #111;
-  --bg-color-bright: #282828;
-  --primary-color: #dcdcdc;
-  --primary-color-dimmed: #bbb;
-  --primary-color-bright: #fff;
-  --accent-color: #17837d;
-  --border-color: #666; // 😈️
-  
-  @media (prefers-color-scheme: light) {
-    --bg-color: #eee;
-    --bg-color-bright: #fff;
-    --primary-color: #333;
-    --primary-color-dimmed: #555;
-    --primary-color-bright: #111;
-    --accent-color: #20b2aa;
-    --border-color: #bbb;
+  --bg-color: #eee;
+  --bg-color-bright: #fff;
+  --primary-color: #333;
+  --primary-color-dimmed: #555;
+  --primary-color-bright: #111;
+  --accent-color: #20b2aa;
+  --border-color: #bbb;
+
+  @media (prefers-color-scheme: dark) {
+    --bg-color: #111;
+    --bg-color-bright: #282828;
+    --primary-color: #dcdcdc;
+    --primary-color-dimmed: #bbb;
+    --primary-color-bright: #fff;
+    --accent-color: #17837d;
+    --border-color: #666; // 😈️
   }
 }
 
