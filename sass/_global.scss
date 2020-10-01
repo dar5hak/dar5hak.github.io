@@ -1,18 +1,18 @@
 :root {
   --bg-color: #eee;
-  --bg-color-bright: #fff;
+  --bg-color-bright: white;
   --primary-color: #333;
   --primary-color-dimmed: #555;
   --primary-color-bright: #111;
-  --accent-color: #20b2aa;
+  --accent-color: lightseagreen;
   --border-color: #bbb;
 
   @media (prefers-color-scheme: dark) {
     --bg-color: #111;
     --bg-color-bright: #282828;
-    --primary-color: #dcdcdc;
+    --primary-color: gainsboro;
     --primary-color-dimmed: #bbb;
-    --primary-color-bright: #fff;
+    --primary-color-bright: white;
     --accent-color: #17837d;
     --border-color: #666; // 😈️
   }
