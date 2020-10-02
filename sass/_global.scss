@@ -2,9 +2,9 @@
   --bg-color: #eee;
   --bg-color-bright: white;
   --primary-color: #333;
-  --primary-color-dimmed: #555;
+  --primary-color-dimmed: #666; // 😈️
   --primary-color-bright: #111;
-  --accent-color: lightseagreen;
+  --accent-color: #54c4bf;
   --border-color: #bbb;
 
   @media (prefers-color-scheme: dark) {
@@ -14,7 +14,7 @@
     --primary-color-dimmed: #bbb;
     --primary-color-bright: white;
     --accent-color: #17837d;
-    --border-color: #666; // 😈️
+    --border-color: #666;
   }
 }
 
