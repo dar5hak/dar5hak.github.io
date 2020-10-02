@@ -66,8 +66,8 @@ strong {
     &:hover,
     &:focus,
     &:active {
-      text-decoration-thickness: 90%;
-      text-underline-offset: -80%;
+      text-decoration-thickness: calc(100% + 5px);
+      text-underline-offset: -100%;
     }
   }
 }
@@ -82,12 +82,12 @@ a {
 
   @supports (text-decoration-thickness: 4px) {
     text-decoration-style: solid;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 2px;
   }
 
   // If it has to skip the ink, it better stay low
   @supports (text-decoration-skip-ink: none) {
-    text-underline-offset: 0;
+    text-underline-offset: 3px;
   }
 }
 
