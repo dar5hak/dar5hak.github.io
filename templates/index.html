@@ -13,60 +13,25 @@
   <style>
     .home {
       font-size: 20px;
+      max-width: 60ch;
+      margin: auto;
     }
 
-    .info {
-      display: flex;
-    }
-
-    .avatar {
-      display: block;
-      height: 192px;
-      image-rendering: crisp-edges;
-      margin-right: 1rem;
-      position: relative;
-      width: 192px;
-    }
-
-    .avatar img {
-      display: block;
-    }
-
-    .intro {
-      padding: 1rem 0 1rem 2rem;
-    }
-
-    @media (min-width: 640px) {
-      .intro {
-        border-left: 2px solid var(--border-color);
-        max-width: 24rem;
-      }
-    }
-
-    .intro h1 {
-      font-size: 2.5em;
-      margin-bottom: 0;
+    .home h1 {
+      font-size: 2em;
+      margin-bottom: 0rem;
       text-align: left;
     }
 
-    .intro small {
-      display: block;
-      font-size: 1em;
-      font-style: italic;
-      margin-bottom: 0.5rem;
-    }
-
-    .intro p {
-      margin-top: 1.5rem;
+    .home p {
+      margin-top: 1rem;
     }
 
     .main-menu {
-      font-family: "Rokkitt", serif;
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
 
     .main-menu li {
-      font-size: 1.75em;
       margin: 1rem 0;
     }
 
@@ -96,22 +61,14 @@
 
 {% block content %}
   {% set links = load_data(path="content/links.json") %}
-  <main class="home is-centered-y is-flex-column">
-    <div class="info is-centered is-flex-wrap">
-      <figure class="avatar">
-        <img src="/images/avatar.gif" alt="A superhero rendition of myself" width="192" height="192" />
-      </figure>
-      <div class="intro is-flex-column">
-        <h1>Dubious Disc</h1>
-        <small>Darshak Parikh's internet home</small>
-        <p>Hi, I'm Darshak, a web + GTK developer and open source contributor.</p>
-        <p><a href="/about">Know more about me.</a></p>
-      </div>
-    </div>
+  <main class="home is-centered-x is-flex-column">
+    <h1>Hello, I'm Darshak.</h1>
+    <p>I'm a developer, writer, thinker and open source contributor.</p>
+    <p>Make yourself at home.</p>
     <nav class="main-menu">
       <ul>
         {% for link in links.pages %}
-          <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.text }}</a></li>
+          <li><a href="{{ link.url }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ link.long }}</a></li>
         {% endfor %}
       </ul>
     </nav>

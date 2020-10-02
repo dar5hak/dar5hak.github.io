@@ -2,15 +2,18 @@
   "pages": [
     {
       "url": "/blog",
-      "text": "blog"
+      "text": "blog",
+      "long": "Read my blog"
     },
     {
       "url": "/projects",
-      "text": "projects"
+      "text": "projects",
+      "long": "Look at my work"
     },
     {
       "url": "/about",
-      "text": "about"
+      "text": "about",
+      "long": "Know more about me"
     }
   ],
   "social": [
