@@ -110,12 +110,13 @@
 }
 
 .headshot {
-  float: left;
-  margin-right: 1rem;
+  float: right;
+  margin-left: 1rem;
   width: 36%;
 
   img {
-    float: left;
+    border-radius: 50%;
+    float: right;
     width: 16rem;
   }
 }
