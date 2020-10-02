@@ -138,11 +138,20 @@ main {
   flex-wrap: wrap;
 }
 
+.container {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0.5rem 1.5rem;
+}
+
 .main-header {
   border-bottom: 1px solid var(--border-color);
   justify-content: space-between;
   min-width: 100%;
-  width: max-content;
+  overflow-x: auto;
+  white-space: nowrap;
 
   .title {
     display: inline-block;
@@ -154,14 +163,22 @@ main {
   small {
     color: var(--primary-color-dimmed);
     font-size: 1em;
+
+    @media (max-width: 719px) {
+      display: none;
+    }
   }
 }
 
 .header-logo-text {
-  flex-wrap: wrap;
+  flex: 1 0 auto;
 
   .title {
     font-family: "Rokkitt", serif;
+  }
+
+  @media (max-width: 719px) {
+    width: 128px;
   }
 }
 
@@ -174,16 +191,9 @@ main {
   font-size: 0.85em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-left: 0.5rem;
 
   li:not(:last-child) {
     margin-right: 1.5rem;
   }
-}
-
-.container {
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 0.5rem 1.5rem;
 }
