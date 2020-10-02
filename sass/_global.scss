@@ -139,10 +139,10 @@ main {
 }
 
 .main-header {
-  justify-content: space-between;
-  width: max-content;
-  min-width: 100%;
   border-bottom: 1px solid var(--border-color);
+  justify-content: space-between;
+  min-width: 100%;
+  width: max-content;
 
   .title {
     display: inline-block;
@@ -172,12 +172,13 @@ main {
 .header-nav {
   color: var(--primary-color-dimmed);
   font-size: 0.85em;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 
   li:not(:last-child) {
     margin-right: 1.5rem;
-  }}
+  }
+}
 
 .container {
   align-items: stretch;
