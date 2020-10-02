@@ -9,14 +9,14 @@ hide_footer = true
 
 <div class="headshot"><img src="/images/photo.jpg"></div>
 
-My name is Darshak Parikh and I primarily write about web development, Linux and open source. At other times, you will find posts about developer productivity and digital privacy.
+My name is Darshak Parikh. I am a UI developer living in India.
 
-I started taking interest in web development circa 2015, and have never looked back since. I enjoy creating fast, sexy web apps—and I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io/).
+I write about technology, open source software and psychology among other things.
 
-From time to time, I also write or contribute to [elementary OS apps](https://github.com/elfenware/), or come up with [wacky side projects](https://github.com/dar5hak/lizardspock-api).
+Web development caught my interest in 2015, and I haven’t looked back since. I enjoy writing fast, sexy web apps and sites. I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io).
 
-I'm also an amateur [pixel artist](https://www.deviantart.com/blockydreams), though I don't follow a particular style. Expect to find [dystopian](https://www.deviantart.com/blockydreams/art/Zombie-Marshmallow-Robot-Monster-835279903), [fantastic](https://www.deviantart.com/blockydreams/art/Cinnabar-Sky-814185243), [serene](https://www.deviantart.com/blockydreams/art/Hogwarts-817488437) or [downright nerdy](https://www.deviantart.com/blockydreams/art/Rick-s-Portal-Gun-835423405) imagery.
+I also develop a bunch of [side projects](/projects), most of which are open source. I contribute to and develop apps for [elementary OS](https://elementary.io/).
 
-Besides programming and pixel art, I explore world music, read books and play retro games. Yes, I still think the Super Nintendo and the Game Boy Advance are the best consoles ever made.
+Besides programming, I create [pixel art](https://www.deviantart.com/blockydreams) and play retro games.
 
-If you want to talk about these or any other topics, hit me up at _darshak_ at _protonmail_ dawt _com_.
+If you want to talk about these or any other topics, hit me up on [Mastodon](https://im-in.space/@dubiousdisc) or [Twitter](https://twitter.com/dar5hak). Or send me an email at _darshak_ at _protonmail.com_.
