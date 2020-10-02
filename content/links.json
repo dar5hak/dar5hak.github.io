@@ -2,15 +2,15 @@
   "pages": [
     {
       "url": "/blog",
-      "text": "/blog"
+      "text": "blog"
     },
     {
       "url": "/projects",
-      "text": "/projects"
+      "text": "projects"
     },
     {
       "url": "/about",
-      "text": "/about"
+      "text": "about"
     }
   ],
   "social": [

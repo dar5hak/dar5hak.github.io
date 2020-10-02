@@ -22,26 +22,27 @@
 
 <body>
   <section class="container">
-    {% if not section or not section.path == '/' %}
-      <header class="main-header is-flex-column is-centered">
-        <div class="header-logo-text is-flex is-centered">
-          <!-- <img src="/images/logo-32x32.png" class="header-logo" alt="A disc with a dubious-looking sector"
-            width="32" height="32"> -->
-          <a class="title" href="/">Dubious Disc</a>
-          <small>Darshak Parikh's internet home</small>
-        </div>
-        {% set links = load_data(path="content/links.json") %}
-        <nav class="header-nav">
-          <ul class="is-flex">
-            {% for link in links.pages %}
-              <li>
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </header>
-    {% endif %}
+    <header class="main-header is-flex is-centered-y">
+      <div class="header-logo-text is-flex is-centered">
+        <a href="/">
+          <picture>
+            <source srcset="/images/prose&const-dark-bg.svg" media="(prefers-color-scheme: dark)">
+            <img src="/images/prose&const.svg" alt="prose&const logo" width="192">
+          </picture>
+        </a>
+        <small>Code and musings by Darshak Parikh</small>
+      </div>
+      {% set links = load_data(path="content/links.json") %}
+      <nav class="header-nav">
+        <ul class="is-flex">
+          {% for link in links.pages %}
+            <li>
+              <a href="{{ link.url }}">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
     {% block content %} {% endblock %}
     {% block footer %} {% endblock %}
   </section>
