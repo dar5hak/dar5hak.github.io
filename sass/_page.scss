@@ -79,7 +79,6 @@
 .byline-container {
   color: var(--primary-color-dimmed);
   font-size: 0.85em;
-  font-weight: 600;
   letter-spacing: 0.1em;
   margin-bottom: 3rem;
   text-align: center;
@@ -87,6 +86,7 @@
 
   .value {
     color: var(--primary-color-bright);
+    font-weight: 600;
   }
 
   .tag:not(:last-child) {
