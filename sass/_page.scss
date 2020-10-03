@@ -44,7 +44,7 @@
 
   pre {
     border-radius: 0.25rem;
-    box-shadow: 0 0 15px 0 var(--border-color);
+    box-shadow: 0 0 15px 0 var(--glow-color);
     overflow-x: auto;
     padding: 1rem;
   }
@@ -69,7 +69,7 @@
   }
 
   img {
-    box-shadow: 0 0 15px 0 var(--border-color);
+    box-shadow: 0 0 15px 0 var(--glow-color);
     display: block;
     margin: auto;
     max-height: 20rem;

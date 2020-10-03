@@ -6,6 +6,7 @@
   --primary-color-bright: #111;
   --accent-color: #54c4bf;
   --border-color: #bbb;
+  --glow-color: #3f9995;
 
   @media (prefers-color-scheme: dark) {
     --bg-color: #111;
@@ -15,6 +16,7 @@
     --primary-color-bright: white;
     --accent-color: #17837d;
     --border-color: #666;
+    --glow-color: #1a4d4a;
   }
 }
 
