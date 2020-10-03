@@ -1,7 +1,7 @@
 +++
 title = "The Making of This Site"
 date = 2020-09-19
-updated = 2020-09-28
+updated = 2020-10-03
 
 [taxonomies]
 tags = ["web"]
@@ -96,6 +96,12 @@ Some experimentation with Google Fonts led me to the final choice: [Rokkitt](htt
 I would use the better-matching [Overpass](https://fonts.google.com/specimen/Overpass) for body text, but unlike its monospaced counterpart, it [doesn’t have](https://github.com/RedHatOfficial/Overpass/issues/83) the Indian Rupee sign ₹.
 
 I even added a nice light color scheme, which looks even better than the dark one with the new typography.
+
+### Update 2020-10-03
+
+I rebranded from _Dubious Disc_ to _prose&const_ and refreshed the home page and navigation styles. Again, I applied the UI design lessons learnt from the two brilliant folks mentioned above.
+
+Moreover, I no longer have to compete for search results with Pokémon.
 
 ## Performance
 
