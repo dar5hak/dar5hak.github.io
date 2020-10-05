@@ -89,11 +89,7 @@ The only remnant of the old design are the animated avatar on the home page. I c
 
 After publishing the site online, I found myself writing some serious blog posts, and Recursive didn’t seem to fit the image of “serious”. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.
 
-After reading some typography advice from [Erik D. Kennedy](https://learnui.design/blog/) and [Jeremiah Shoaf](https://www.typewolf.com/), I decided to try a different approach.
-
-Some experimentation with Google Fonts led me to the final choice: [Rokkitt](https://fonts.google.com/specimen/Rokkitt) for headings and menus, [Asap](https://fonts.google.com/specimen/Asap) for body text and [Overpass Mono](https://fonts.google.com/specimen/Overpass+Mono) for code. The combination of these was about a third the size of Recursive, so I was happy with the performance as well.
-
-I would use the better-matching [Overpass](https://fonts.google.com/specimen/Overpass) for body text, but unlike its monospaced counterpart, it [doesn’t have](https://github.com/RedHatOfficial/Overpass/issues/83) the Indian Rupee sign ₹.
+After reading some typography advice from [Erik D. Kennedy](https://learnui.design/blog/) and [Jeremiah Shoaf](https://www.typewolf.com/), I decided to try a few different approaches to font selection. Some experimentation with Google Fonts and many iterations led me to what you see today.
 
 I even added a nice light color scheme, which looks even better than the dark one with the new typography.
 
