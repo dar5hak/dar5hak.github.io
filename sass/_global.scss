@@ -1,4 +1,8 @@
 :root {
+  --heading-font: "Rokkitt", serif;
+  --body-font: "Asap", sans-serif;
+  --monospace-font: "Overpass Mono", monospace;
+
   --bg-color: #eee;
   --bg-color-bright: white;
   --primary-color: #333;
@@ -31,7 +35,7 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--primary-color);
-  font-family: "Asap", sans-serif;
+  font-family: var(--body-font);
   line-height: 1.4;
 }
 
@@ -39,7 +43,7 @@ h1,
 h2,
 h3 {
   color: var(--primary-color-bright);
-  font-family: "Rokkitt", serif;
+  font-family: var(--heading-font);
   font-weight: normal;
   line-height: 1;
 }
@@ -176,7 +180,7 @@ main {
   flex: 1 0 auto;
 
   .title {
-    font-family: "Rokkitt", serif;
+    font-family: var(--heading-font);
   }
 
   @media (max-width: 719px) {
