@@ -49,7 +49,7 @@ I'm not saying that Angular/React/Ember/Bootstrap/ are useless. I'm just saying,
 
 >"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
 >
->— Antoine de Saint-Exupery, French writer
+>— Antoine de Saint-Exupéry, French writer
 
 #### Update
 
