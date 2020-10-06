@@ -58,7 +58,14 @@ small {
   font-style: italic;
 }
 
-%highlighted {
+a {
+  color: unset;
+  outline: none;
+  text-decoration-color: var(--accent-color);
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+
   @supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
     and (text-decoration-skip-ink: none) {
     transition: text-decoration-thickness 200ms ease-out,
@@ -70,25 +77,6 @@ small {
       text-decoration-thickness: calc(100% + 5px);
       text-underline-offset: -100%;
     }
-  }
-}
-
-a {
-  @extend %highlighted;
-  color: unset;
-  outline: none;
-  text-decoration-color: var(--accent-color);
-  text-decoration-skip-ink: none;
-  text-decoration-style: double;
-
-  @supports (text-decoration-thickness: 4px) {
-    text-decoration-style: solid;
-    text-decoration-thickness: 2px;
-  }
-
-  // If it has to skip the ink, it better stay low
-  @supports (text-decoration-skip-ink: none) {
-    text-underline-offset: 3px;
   }
 }
 
