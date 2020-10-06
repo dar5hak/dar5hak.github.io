@@ -58,11 +58,6 @@ small {
   font-style: italic;
 }
 
-b,
-strong {
-  font-weight: 600;
-}
-
 %highlighted {
   @supports (text-decoration-thickness: 100%) and (text-underline-offset: -10%)
     and (text-decoration-skip-ink: none) {
