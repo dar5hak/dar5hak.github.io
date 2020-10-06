@@ -51,14 +51,11 @@
 
   code {
     font-family: var(--monospace-font);
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 
   p code {
     color: var(--primary-color-dimmed);
-    display: inline-block;
-    font-size: 1em;
-    margin: 0 0.25rem;
   }
 
   kbd {
