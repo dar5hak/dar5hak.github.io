@@ -1,5 +1,5 @@
 +++
-title = "Implementing Machine Learning for the Offline Web with TensorFlow.js"
+title = "Machine Learning for the Offline Web"
 date = 2019-02-22
 path = "2019/02/22/ml-offline-web-tfjs"
 in_search_index = false
@@ -19,7 +19,7 @@ This post demonstrates how to do that.
 
 In this post, we will use the ability of TensorFlow.js to save a model into browser storage and use it to make predictions offline.
 
-We won't be developing a model from scratch, since that is out of the scope of this post. You can always look up the excellent [tutorials](https://js.tensorflow.org/tutorials/) on the TensorFlow.js site for that.
+We won’t be developing a model from scratch, since that is out of the scope of this post. You can always look up the excellent [tutorials](https://js.tensorflow.org/tutorials/) on the TensorFlow.js site for that.
 
 For our small project, we will pick an already developed model for the classic deep learning problem of recognizing handwritten digits.
 
@@ -36,7 +36,7 @@ Further, you will need the following software installed on your machine:
 - Git (optional)
 - Any modern browser
 
-Ready? Let's get started.
+Ready? Let’s get started.
 
 ## Step 1: Train a Model
 
@@ -63,16 +63,16 @@ These will take a few (or several) minutes to run, depending on your hardware. O
 
 ### Step 1a: Download Pre-trained Model (Optional)
 
-If you don't want to train the model yourself, you can download the pre-trained files from my repository:
+If you don’t want to train the model yourself, you can download the pre-trained files from my repository:
 
 - [model.json](https://raw.githubusercontent.com/dar5hak/offline-mnist/master/static/models/model.json)
 - [weights.bin](https://github.com/dar5hak/offline-mnist/blob/master/static/models/weights.bin?raw=true)
 
 ## Step 2: Web Application Setup
 
-Create a separate directory somewhere else for your Web app source code. Let's call it `offline-mnist`.
+Create a separate directory somewhere else for your Web app source code. Let’s call it `offline-mnist`.
 
-To tell the universe that we'll be using npm dependencies, run this command inside your `offline-mnist` directory:
+To tell the universe that we’ll be using npm dependencies, run this command inside your `offline-mnist` directory:
 
 ```sh
 npm init -y
@@ -80,7 +80,7 @@ npm init -y
 
 This will generate a `package.json` file.
 
-Since we want to use TensorFlow.js in our code, let's declare it as a dependency:
+Since we want to use TensorFlow.js in our code, let’s declare it as a dependency:
 
 ```sh
 npm install @tensorflow/tfjs
@@ -110,7 +110,7 @@ First things first:
 import { loadLayersModel } from "@tensorflow/tfjs";
 ```
 
-The `loadLayersModel` function lets you fetch your TensorFlow.js model from a variety of sources — HTTP in our case. It returns a `Promise` of the model object.
+The `loadLayersModel` function lets you fetch your TensorFlow.js model from a variety of sources—HTTP in our case. It returns a `Promise` of the model object.
 
 We need to provide a URL to `loadLayersModel` to tell it where to get the files from. If it starts with `http://` or `https://`, it will know that it needs to make an HTTP call.
 
@@ -243,6 +243,6 @@ This is the simplest use case for making predictions, and I hope you can now get
 
 Keep learning, and keep your machines learning.
 
-#### Update 2019-08-04
+### Update 2019-08-04
 
 Changed the code to work with TensorFlow.js 1.x.
