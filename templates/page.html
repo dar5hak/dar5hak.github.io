@@ -34,9 +34,9 @@
           {% endif %}
         </div>
       </header>
-      
+
       <section class="page-body">
-        {{ page.content 
+        {{ page.content
           | replace(from=`<a href="`, to=`<a target="_blank" rel="noopener" href="`)
           | replace(from=`<a target="_blank" rel="noopener" href="` ~ config.base_url, to=`<a href="` ~ config.base_url)
           | replace(from=`<a target="_blank" rel="noopener" href="/`, to=`<a href="/`)
@@ -45,15 +45,23 @@
       </section>
 
       {% if not page.extra.hide_footer %}
-        <footer>
+        <footer class="page-footer">
           <hr class="page-footer-separator" />
-          <p class="page-footer">
-            <i>
-              Thoughts? Comments? Reach out to me on
-              <a target="_blank" rel="noopener" href="https://im-in.space/@dubiousdisc">Mastodon</a> or
-              <a target="_blank" rel="noopener" href="https://twitter.com/dar5hak">Twitter</a>.
-            </i>
-          </p>
+          <address class="is-centered-y">
+            <div class="headshot-small"><img src="/images/photo.jpg" alt="Darshak Parikh's photo"></div>
+            <div>
+              <p>I'm Darshak Parikh, a developer, writer, thinker and open source contributor.</p>
+              <p><a href="/about">Know more about me</a>, or reach out to me on
+                <a target="_blank" rel="noopener" href="https://im-in.space/@dubiousdisc">Mastodon</a> or
+                <a target="_blank" rel="noopener" href="https://twitter.com/dar5hak">Twitter</a>.
+              </p>
+            </div>
+          </address>
+          <!-- <i>
+            Thoughts? Comments? Reach out to me on
+            <a target="_blank" rel="noopener" href="https://im-in.space/@dubiousdisc">Mastodon</a> or
+            <a target="_blank" rel="noopener" href="https://twitter.com/dar5hak">Twitter</a>.
+          </i> -->
         </footer>
       {% endif %}
     </article>
