@@ -103,9 +103,9 @@
 }
 
 .page-footer {
+  color: var(--primary-color-dimmed);
   font-size: 1em;
   padding-bottom: 3em;
-  color: var(--primary-color-dimmed);
 
   p {
     margin: 1em 0;
@@ -120,9 +120,9 @@
 .headshot {
   float: right;
   margin-left: 0.5rem;
-  width: 30%;
-  shape-outside: circle(50%);
   shape-margin: 0.5em;
+  shape-outside: circle(50%);
+  width: 30%;
 
   img {
     border-radius: 50%;
@@ -133,9 +133,8 @@
 .headshot-small {
   box-shadow: none;
   flex: 1 0 auto;
-  max-width: 5em;
-  box-shadow: none;
   margin-right: 1em;
+  max-width: 5em;
 
   img {
     border-radius: 50%;
