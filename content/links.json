@@ -19,19 +19,23 @@
   "social": [
     {
       "url": "https://github.com/dar5hak",
-      "text": "GitHub"
+      "text": "GitHub",
+      "icon": "ri-github-line"
     },
     {
       "url": "https://im-in.space/@dubiousdisc",
-      "text": "Mastodon"
+      "text": "Mastodon",
+      "icon": "ri-mastodon-line"
     },
     {
       "url": "https://twitter.com/dar5hak",
-      "text": "Twitter"
+      "text": "Twitter",
+      "icon": "ri-twitter-line"
     },
     {
       "url": "https://www.linkedin.com/in/darshak-parikh",
-      "text": "LinkedIn"
+      "text": "LinkedIn",
+      "icon": "ri-linkedin-line"
     }
   ]
 }

@@ -51,7 +51,19 @@
     }
 
     .footer-menu li {
-      margin: 0.5rem 1rem;
+      margin: 0.5rem;
+    }
+
+    .footer-menu a {
+      color: var(--primary-color-dimmed);
+      text-decoration: none;
+      transition: color 250ms;
+    }
+
+    .footer-menu a:hover,
+    .footer-menu a:focus,
+    .footer-menu a:active {
+      color: var(--accent-color);
     }
   </style>
   <link rel="prefetch" href="/images/logo-32x32.png">
@@ -81,7 +93,7 @@
     <nav class="footer-menu">
       <ul>
         {% for link in links.social %}
-          <li><a href="{{ link.url }}" target="_blank" rel="noopener" data-focusable>{{ link.text }}</a></li>
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener"><i class="ri-2x {{ link.icon }}"></i></a></li>
         {% endfor %}
       </ul>
     </nav>
