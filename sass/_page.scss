@@ -51,6 +51,15 @@
     margin: 1.75rem 0;
   }
 
+  .footnote-definition {
+    color: var(--primary-color-dimmed);
+    font-size: 0.75em;
+  }
+
+  .footnote-definition-label + p {
+    display: inline;
+  }
+
   blockquote {
     border-left: 0.25rem solid var(--accent-color);
     padding-left: 1rem;
