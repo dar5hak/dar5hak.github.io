@@ -81,15 +81,13 @@ This is also why I wanted keyboard navigation: to emulate a game controller.
 
 That dream did not last long.
 
-I picked the brilliant [Recursive](https://www.recursive.design/) font for body text. I tried it on headings too, and it looked so good that I dropped the whole blockiness idea. Now this site uses Recursive for everything.
-
-The only remnant of the old design are the animated avatar on the home page. I couldn’t help it.
+I picked the brilliant [Recursive](https://www.recursive.design/) font for body text. I tried it on headings too, and it looked so good that I dropped the whole blockiness idea and used Recursive for everything.
 
 ### Update 2020-09-28
 
-After publishing the site online, I found myself writing some serious blog posts, and Recursive didn’t seem to fit the image of “serious”. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.
+After publishing the site online, I found myself writing about serious topics, and Recursive didn’t seem to fit the image of “serious”. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.
 
-After reading some typography advice from [Erik D. Kennedy](https://learnui.design/blog/) and [Jeremiah Shoaf](https://www.typewolf.com/), I decided to try a few different approaches to font selection. Some experimentation with Google Fonts and many iterations led me to what you see today.
+After reading some typography advice from [Erik D. Kennedy](https://learnui.design/blog/) and [Jeremiah Shoaf](https://www.typewolf.com/), I decided to try a few different approaches to font selection. Some experimentation with Google Fonts and many iterations led me to what you see today: serious, but not too much so.
 
 I even added a nice light color scheme, which looks even better than the dark one with the new typography.
 
@@ -97,7 +95,7 @@ I even added a nice light color scheme, which looks even better than the dark on
 
 I rebranded from _Dubious Disc_ to _prose&const_ and refreshed the home page and navigation styles. Again, I applied the UI design lessons learnt from the two brilliant folks mentioned above.
 
-Moreover, I no longer have to compete for search results with Pokémon.
+Moreover, I no longer have to compete for search results with [Pokémon](https://bulbapedia.bulbagarden.net/wiki/Dubious_Disc).
 
 ## Performance
 
