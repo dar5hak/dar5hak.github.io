@@ -66,6 +66,7 @@
   }
 
   pre {
+    border: 2px solid var(--border-color);
     border-radius: 0.25rem;
     box-shadow: 0 0 15px 0 var(--glow-color);
     overflow-x: auto;
@@ -95,6 +96,7 @@
   }
 
   img {
+    border: 2px solid var(--border-color);
     box-shadow: 0 0 15px 0 var(--glow-color);
     display: block;
     margin: auto;
@@ -119,7 +121,6 @@
 
 .footnote-reference,
 .footnote-definition-label {
-  font-family: var(--monospace-font);
   font-size: 0.7em;
 }
 
@@ -157,18 +158,21 @@
   width: 30%;
 
   img {
+    border: 2px solid var(--border-color);
     border-radius: 50%;
+    box-shadow: 0 0 15px 0 var(--glow-color);
     float: right;
   }
 }
 
 .headshot-small {
-  box-shadow: none;
   flex: 1 0 auto;
   margin-right: 1em;
   max-width: 5em;
 
   img {
+    border: 2px solid var(--border-color);
     border-radius: 50%;
+    box-shadow: 0 0 15px 0 var(--glow-color);
   }
 }

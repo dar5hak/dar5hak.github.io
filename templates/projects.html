@@ -11,7 +11,7 @@
       background-color: var(--bg-color-bright);
       border: 1px solid var(--border-color);
       border-radius: 4px;
-      box-shadow: 0 0 6px 0 var(--border-color);
+      box-shadow: 0 0 6px 0 var(--glow-color);
       display: inline-flex;
       flex: 1 auto;
       margin-top: 2.5rem;
@@ -23,6 +23,7 @@
     }
 
     .projects .project-logo img {
+      border-style: none;
       box-shadow: none;
       margin: 0;
       width: 48px;
@@ -35,7 +36,7 @@
     .projects p {
       margin: 1em 0;
     }
-        
+
     @media (min-width: 720px) {
       .project {
         flex: calc(50% - 2rem);
@@ -44,16 +45,16 @@
       .projects .project-section-title {
         margin-bottom: 2rem;
       }
-    
+
       .projects h3 {
         margin-top: 0;
       }
-    
+
       @supports (gap: 2rem) {
         .project-section {
           gap: 2rem;
         }
-    
+
         .project {
           margin-top: 0;
         }
@@ -68,7 +69,7 @@
       <header>
         <h1>Projects</h1>
       </header>
-      
+
       <section class="page-body">
         {% set projects = load_data(path="content/projects.json") %}
         {% for project_section in projects.sections %}
