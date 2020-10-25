@@ -15,7 +15,7 @@ I write about technology, open source software and psychology among other things
 
 Web development caught my interest in 2015, and I haven’t looked back since. I enjoy writing fast, sexy web apps and sites. I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io).
 
-I also develop a bunch of [side projects](/projects), most of which are open source. I contribute to and develop apps for [elementary OS](https://elementary.io/).
+I also develop a bunch of [side projects](/projects), most of which are [open source](https://github.com/dar5hak). I contribute to and develop apps for [elementary OS](https://elementary.io/).
 
 Besides programming, I create [pixel art](https://www.deviantart.com/blockydreams) and play retro games.
 
