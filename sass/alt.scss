@@ -1,0 +1,39 @@
+.hacker-style {
+  --heading-font: var(--monospace-font);
+  --body-font: var(--monospace-font);
+
+  --bg-color: #111;
+  --bg-color-bright: var(--bg-color);
+  --primary-color: #2fbb1d;
+  --primary-color-dimmed: var(--primary-color);
+  --primary-color-bright: var(--primary-color);
+  --accent-color: var(--primary-color);
+  --border-color: var(--primary-color);
+  --glow-color: var(--primary-color);
+
+  a {
+    transition: none;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--bg-color);
+  }
+
+  [data-focusable]::before {
+    color: var(--primary-color);
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  button:hover {
+    color: var(--bg-color);
+  }
+
+  .home {
+    font-size: 16px;
+  }
+}
