@@ -9,7 +9,7 @@
   --primary-color-bright: var(--primary-color);
   --accent-color: var(--primary-color);
   --border-color: var(--primary-color);
-  --glow-color: var(--primary-color);
+  --glow-color: transparent;
 
   @media (prefers-color-scheme: dark) {
     --bg-color: #111;
@@ -38,7 +38,20 @@
     color: var(--bg-color);
   }
 
-  .home {
+  h1 {
+    font-size: 32px;
+  }
+
+  .home,
+  .page-body,
+  .byline-container,
+  .section-list li {
     font-size: 16px;
+  }
+
+  b,
+  strong,
+  .byline-container .value {
+    font-weight: normal;
   }
 }
