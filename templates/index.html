@@ -70,9 +70,12 @@
       color: var(--accent-color);
     }
   </style>
+
   <link rel="prefetch" href="/blog">
   <link rel="prefetch" href="/projects">
   <link rel="prefetch" href="/about">
+
+  <script type="module" src="/scripts/restyle.js" defer></script>
 {% endblock %}
 
 {% block content %}
@@ -89,7 +92,7 @@
       </ul>
     </nav>
     <div class="buttons is-hidden">
-      <button>I‘m feeling lucky</button>
+      <button id="lucky">I‘m feeling lucky</button>
     </div>
   </main>
 {% endblock %}
