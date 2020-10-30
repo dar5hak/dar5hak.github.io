@@ -79,7 +79,7 @@ a {
   }
 }
 
-[data-focusable]::before {
+a[data-focusable]::before {
   content: "▶";
   display: inline-block;
   font-size: 75%;
@@ -87,7 +87,7 @@ a {
   visibility: hidden;
 }
 
-[data-focusable]:focus::before {
+a[data-focusable]:focus::before {
   visibility: visible;
 }
 
@@ -100,9 +100,12 @@ button {
   font-size: 0.75em;
   padding: 0.75em 2em;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+    outline: none;
   }
 }
 

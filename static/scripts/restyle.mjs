@@ -13,6 +13,7 @@ function changeStyle() {
 document.querySelector(".buttons").classList.remove("is-hidden");
 
 document.querySelector("#lucky").addEventListener("click", changeStyle);
+document.querySelector("#lucky").dataset.focusable = true;
 
 document.addEventListener("turbolinks:before-render", (event) => {
   const { newBody } = event.data;

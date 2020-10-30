@@ -18,12 +18,12 @@
 
   a {
     transition: none;
-  }
 
-  a:hover,
-  a:focus,
-  a:active {
-    color: var(--bg-color);
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--bg-color);
+    }
   }
 
   [data-focusable]::before {
@@ -32,10 +32,12 @@
 
   button {
     font-size: 16px;
-  }
 
-  button:hover {
-    color: var(--bg-color);
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--bg-color);
+    }
   }
 
   h1 {
