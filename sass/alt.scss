@@ -32,6 +32,11 @@
 
   button {
     font-size: 16px;
+    transition: none;
+
+    &::before {
+      transition: none;
+    }
 
     &:hover,
     &:focus,
