@@ -79,7 +79,7 @@ a {
   }
 }
 
-[data-focusable]::before {
+a[data-focusable]::before {
   content: "▶";
   display: inline-block;
   font-size: 75%;
@@ -87,13 +87,35 @@ a {
   visibility: hidden;
 }
 
-[data-focusable]:focus::before {
+a[data-focusable]:focus::before {
   visibility: visible;
+}
+
+button {
+  background-color: var(--bg-color-bright);
+  border: 2px solid var(--border-color);
+  border-radius: 3px;
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  font-size: 0.75em;
+  padding: 0.75em 2em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    outline: none;
+  }
 }
 
 main {
   flex-grow: 1;
   padding: 1rem 0 0;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .is-centered-x,
