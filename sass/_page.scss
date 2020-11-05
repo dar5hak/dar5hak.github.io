@@ -69,8 +69,13 @@
     border: 2px solid var(--border-color);
     border-radius: 0.25rem;
     box-shadow: 0 0 15px 0 var(--glow-color);
+    line-height: 1.2;
     overflow-x: auto;
     padding: 1rem;
+
+    code {
+      font-size: 0.8em;
+    }
   }
 
   code {
