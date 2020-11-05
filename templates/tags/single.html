@@ -12,6 +12,7 @@
         {% for page in term.pages %}
           <li>
             <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%-d %b %Y") }}</time>
           </li>
         {% endfor %}
       </ul>
