@@ -79,7 +79,7 @@
           "description": "REST API to play Rock-Paper-Scissors-Lizard-Spock",
           "links": [
             {
-              "title": "Docs",
+              "title": "Swagger",
               "href": "http://backend.lizardspock.xyz/api/v1/swagger/index.html"
             },
             {
@@ -91,7 +91,7 @@
         {
           "name": "Offline digit recognition",
           "logo": "/images/projects/neural-net-48x48.svg",
-          "description": "Recognise handwritten digits in the browser using a TensorFlow.js model saved offline",
+          "description": "Recognizes handwritten digits in the browser using a TensorFlow.js model saved offline",
           "links": [
             {
               "title": "Web app",
@@ -115,7 +115,7 @@
         {
           "name": "Text sequence generator",
           "logo": "/images/projects/neural-net-48x48.svg",
-          "description": "Enter a line of text from _The Adventures of Sherlock Holmes_, and generate a silly continuation",
+          "description": "Takes a line of text from _The Adventures of Sherlock Holmes_, and generates a silly continuation",
           "links": [
             {
               "title": "Jupyter notebook (scroll to Problem 2)",
