@@ -49,6 +49,10 @@
   ul {
     color: var(--primary-color);
     margin: 1.75rem 0;
+
+    li {
+      margin: 0.75rem;
+    }
   }
 
   blockquote {
@@ -63,6 +67,16 @@
   ul {
     list-style-type: disc;
     padding-left: 1.5rem;
+  }
+
+  ol ol,
+  ul ul {
+    margin: 0;
+
+    /* stylelint-disable selector-max-compound-selectors */
+    li {
+      margin: 0;
+    }
   }
 
   pre {
