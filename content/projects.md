@@ -4,6 +4,5 @@ description = "Darshak Parikh's projects: web apps, elementary OS apps, CLI tool
 template = "projects.html"
 
 [extra]
-hide_author = true
 hide_footer = true
 +++
