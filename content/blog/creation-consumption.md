@@ -6,7 +6,7 @@ date = 2020-11-05
 tags = ["psychology"]
 +++
 
-Your activities fall into two categories: creation and consumption.
+The activities you do in your free time fall into three categories: creation, recreation and consumption. In this post, I want to highlight the contrast and the relation between creation and consumption.
 
 Creation is when you produce something previously nonexistent. This includes writing, cooking, painting, playing music and coding to name a few. These are activities you will always find rewarding.
 
@@ -22,6 +22,5 @@ You will find your time to be the most fulfilling when you balance creation and 
 
 - Spend as much time as you can creating something. Do it until you run out of ideas.
 - When you’re out of ideas, consume. Not just anything­, mind you. Consume with the intention to create more. Be a picky consumer.
-
 
 Once you fall into this virtuous cycle, you will never find yourself bored, idle or disappointed in yourself. It will give you a sense of achievement and satisfaction that you can never find with consumption alone.
