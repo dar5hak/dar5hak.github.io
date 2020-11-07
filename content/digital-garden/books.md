@@ -37,10 +37,10 @@ These are some of the books I’ve read and liked, grouped by category and sorte
   - _Models_
   - _The Subtle Art of Not Giving a Fuck_
   - _Everything Is Fucked_: The most profound thing I have ever read. It digs down the evolution of human brain, and presents a framework that explains everything that has happened in history from a psychological perspective.
-- _Atomic Habits_: Explains the science of habit-forming, so that you can use this understanding to build better habits and quit bad ones.
-- _Indistractable_: If you read _Atomic Habits_, read this next.
-- _Barking Up the Wrong Tree_
-- _The Obstacle Is the Way_: A modern approach to Stoicism. Not very practical, but offers solid, time-tested wisdom on how to make the best of any situation.
+- **_Atomic Habits_**: Explains the science of habit-forming, so that you can use this understanding to build better habits and quit bad ones.
+- **_Indistractable_**: If you read _Atomic Habits_, read this next.
+- **_Barking Up the Wrong Tree_**
+- **_The Obstacle Is the Way_**: A modern approach to Stoicism. Not very practical, but offers solid, time-tested wisdom on how to make the best of any situation.
 - By **Cal Newport**:
   - _Digital Minimalism_: The first half is useful, actionable advice. The second half is a meandering stream of anecdotes and how they relate to the reader’s newfound leisure.
   - _So Good They Can’t Ignore You_
