@@ -21,6 +21,6 @@ This is where creation comes in. It is the application of what you know from con
 You will find your time to be the most fulfilling when you balance creation and consumption. The general principle you want to follow is:
 
 - Spend as much time as you can creating something. Do it until you run out of ideas.
-- When you’re out of ideas, consume. Not just anything­, mind you. Consume with the intention to create more. Be a picky consumer.
+- When you’re out of ideas, consume. Not just anything, mind you. Consume with the intention to create more. Be a picky consumer.
 
 Once you fall into this virtuous cycle, you will never find yourself bored, idle or disappointed in yourself. It will give you a sense of achievement and satisfaction that you can never find with consumption alone.
