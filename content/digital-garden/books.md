@@ -15,7 +15,7 @@ These are some of the books I’ve read and liked, grouped by category and sorte
 - [**_Harry Potter and the Methods of Rationality_**](http://www.hpmor.com/): I don’t do fan fiction, but this one kills it. It challenges the way you see problems, scientific or otherwise. (To be honest, it is less fantasy and more sci-fi or psychological thriller.) Full of slapstick humour, anime references and playful stabs at the original, this doesn’t disappoint in the storyline either.
 - **_The Chronicles of Narnia_**: This is for an audience younger than that of _Harry Potter_. I like the saga, with my favourites being _The Horse and His Boy_ and _The Silver Chair_. My least favourite is the finale: I wasn’t nearly as disappointed in _Game of Thrones_ as I was in _The Last Battle_.
 
-### Crime Fiction
+### Detective
 
 - By **Agatha Christie**:
   - _And Then There Were None_: Masterpiece. Highly recommended.
@@ -23,7 +23,7 @@ These are some of the books I’ve read and liked, grouped by category and sorte
   - _They Do It with Mirrors_
   - _N or M?_
   - _One, Two, Buckle My Shoe_
-- **_The Cuckoo’s Calling_**: Rowling doesn’t do crime fiction as well as Christie, but if you like her elaborate writing style, this is a good book. I might read the other books in the series some day.
+- **_The Cuckoo’s Calling_**: Rowling doesn’t do detective fiction as well as Christie, but if you like her elaborate writing style, this is a good book. I might read the other books in the series some day.
 
 ### Misc
 
