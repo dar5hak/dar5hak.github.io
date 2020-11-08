@@ -36,7 +36,7 @@ These are some of the books I’ve read and liked, grouped by category and sorte
 - By **Mark Manson**:
   - _Models_
   - _The Subtle Art of Not Giving a Fuck_
-  - _Everything Is Fucked_: The most profound thing I have ever read. It digs down the evolution of human brain, and presents a framework that explains everything that has happened in history from a psychological perspective.
+  - _Everything Is Fucked_: The most profound thing I have ever read. It digs down the evolution of the human brain and presents a framework that explains all historical events from a psychological perspective.
 - **_Atomic Habits_**: Explains the science of habit-forming, so that you can use this understanding to build better habits and quit bad ones.
 - **_Indistractable_**: If you read _Atomic Habits_, read this next.
 - **_Barking Up the Wrong Tree_**
