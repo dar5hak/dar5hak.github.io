@@ -33,6 +33,13 @@ These are some of the books I’ve read and liked, grouped by category and sorte
 
 ## Non-fiction
 
+### Technology
+
+- [**_Resilient Web Design_**](https://resilientwebdesign.com/)
+- [**_Practical Typography_**](https://practicaltypography.com/)
+
+### Self-help and Philosophy
+
 - By **Mark Manson**:
   - _Models_
   - _The Subtle Art of Not Giving a Fuck_
