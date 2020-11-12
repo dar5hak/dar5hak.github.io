@@ -51,7 +51,12 @@
     margin: 1.75rem 0;
 
     li {
-      margin: 0.75rem;
+      margin: 0.75rem 0;
+
+      /* stylelint-disable selector-max-compound-selectors */
+      @media (max-width: 719px) {
+        margin-left: 1.2rem;
+      }
     }
   }
 
@@ -66,12 +71,12 @@
 
   ul {
     list-style-type: disc;
-    padding-left: 1.5rem;
   }
 
   ol ol,
   ul ul {
     margin: 0;
+    padding-left: 1.25rem;
 
     /* stylelint-disable selector-max-compound-selectors */
     li {
