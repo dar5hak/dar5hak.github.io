@@ -92,6 +92,10 @@
       font-size: 0.8em;
     }
   }
+  
+  pre + pre {
+    margin-top: 2rem;
+  }
 
   code {
     font-family: var(--monospace-font);
