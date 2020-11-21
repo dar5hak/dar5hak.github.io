@@ -1,5 +1,5 @@
 +++
-title = "Implementing a ‘Select all’ checkbox using ES6 Set"
+title = "Implementing a ‘Select all’ Checkbox Using ES6 Set"
 date = 2020-11-21
 
 [taxonomies]
