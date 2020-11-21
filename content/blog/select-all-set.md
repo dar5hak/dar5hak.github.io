@@ -56,7 +56,7 @@ In our `<List>` component, we define an array of items and render each item in a
 
 This works as you might expect.
 
-![Three checkboxes saying 'Huey', 'Dewey' and 'Louie'](/images/select-all-set/item-boxes-unchecked.png)
+![Three checkboxes saying ‘Huey’, ‘Dewey’ and ‘Louie’](/images/select-all-set/item-boxes-unchecked.png)
 
 ## Step 2: Add a ‘Select all’ checkbox
 
@@ -94,7 +94,7 @@ We can distinguish it by making it bold.
 
 It will, again, meet expectations.
 
-![A 'Select all' checkbox in above three duck checkboxes](/images/select-all-set/all-boxes-unchecked.png)
+![A ‘Select all’ checkbox in above three duck checkboxes](/images/select-all-set/all-boxes-unchecked.png)
 
 ## Step 3: Define a set to hold the selected values
 
