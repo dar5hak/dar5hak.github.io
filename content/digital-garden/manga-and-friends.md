@@ -45,8 +45,7 @@ Short, hilarious strips.
 Tons of geeky references.
 - **_City of Dead Sorcerer_**  
 Till the Jeeyul training arc.
-- **_The Gamer_**  
-Paused right before the Geumodo war; might resume later.
+- **_The Gamer_**
 - **_Internet Explorer_**  
 Nothing interesting, except a personified representation of important entities in web history.
 - **_Lookism_**  
