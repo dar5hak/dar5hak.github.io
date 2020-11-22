@@ -66,7 +66,7 @@ We do this by adding another `<li>` above the loop.
 <ol>
   <li>
     <input type="checkbox" id="select-all">
-    <label for="select-all" class="select-all-label">Select all</label>
+    <label for="select-all"><strong>Select all</strong></label>
   </li>
   {#each ducks as duck}
     <li>
@@ -75,21 +75,6 @@ We do this by adding another `<li>` above the loop.
     </li>
   {/each}
 </ol>
-```
-
-We can distinguish it by making it bold.
-
-```html
-<style>
-  ol {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  .select-all-label {
-    font-weight: bold;
-  }
-</style>
 ```
 
 It will, again, meet expectations.
@@ -150,7 +135,7 @@ const onSelectAll = event => {
 ```html
 <li>
   <input type="checkbox" id="select-all" checked={selectedDucks.size === ducks.length} on:change={onSelectAll}>
-  <label for="select-all" class="select-all-label">Select all</label>
+  <label for="select-all"><strong>Select all</strong></label>
 </li>
 ```
 
@@ -192,16 +177,12 @@ Here is the full code for your reference.
     list-style-type: none;
     padding-left: 0;
   }
-
-  .select-all-label {
-    font-weight: bold;
-  }
 </style>
 
 <ol>
   <li>
     <input type="checkbox" id="select-all" checked={selectedDucks.size === ducks.length} on:change={onSelectAll}>
-    <label for="select-all" class="select-all-label">Select all</label>
+    <label for="select-all"><strong>Select all</strong></label>
   </li>
   {#each ducks as duck}
     <li>
