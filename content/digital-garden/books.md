@@ -37,7 +37,8 @@ I was maybe 10 when I read these, so I don’t remember much except that I liked
 - **_The Casual Vacancy_**  
 There’s no protagonist: everybody is good and bad in their own way.
 - **_The Old Man and the Sea_**  
-I read this less for the story and more to study Hemingway’s writing. And indeed, the writing is crisp and the story rather plain.
+I read this less for the story and more to study Hemingway’s writing. And indeed, the writing is crisp and the story linear.
+- **_Digital Fortress_**
 
 ## Non-fiction
 
