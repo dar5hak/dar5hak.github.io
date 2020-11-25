@@ -1,68 +1,3 @@
-.hacker-style {
-  --heading-font: var(--monospace-font);
-  --body-font: var(--monospace-font);
-
-  --bg-color: #fdf6e3;
-  --bg-color-bright: var(--bg-color);
-  --primary-color: #657b83;
-  --primary-color-dimmed: var(--primary-color);
-  --primary-color-bright: var(--primary-color);
-  --accent-color: var(--primary-color);
-  --border-color: var(--primary-color);
-  --glow-color: transparent;
-
-  @media (prefers-color-scheme: dark) {
-    --bg-color: #282a36;
-    --primary-color: #50fa7b;
-  }
-
-  a {
-    transition: none;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: var(--bg-color);
-    }
-  }
-
-  [data-focusable]::before {
-    color: var(--primary-color);
-  }
-
-  button {
-    font-size: 16px;
-    transition: none;
-
-    &::before {
-      transition: none;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: var(--bg-color);
-    }
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  .home,
-  .page-body,
-  .byline-container,
-  .section-list li {
-    font-size: 16px;
-  }
-
-  b,
-  strong,
-  .byline-container .value {
-    font-weight: normal;
-  }
-}
-
 @font-face {
   font-display: swap;
   font-family: "Press Start 2P";
@@ -127,7 +62,7 @@
   a[data-focusable]::before {
     font-family: "Press Start 2P";
   }
-  
+
   // TODO: change cursor on hovering logo
   // TODO: style links and buttons like NES.css
   // TODO: define colour palette
