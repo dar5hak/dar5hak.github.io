@@ -1,3 +1,6 @@
+title = "prose&const"
+description = "Code and musings by Darshak Parikh"
+
 # The URL the site will be built for
 base_url = "https://proseandconst.xyz"
 
