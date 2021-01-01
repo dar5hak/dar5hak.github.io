@@ -6,7 +6,7 @@ description = "About Darshak Parikh: work experience, hobbies and contact inform
 hide_footer = true
 +++
 
-<div class="headshot"><img src="/images/photo.jpg"></div>
+<div class="headshot"><img src="/images/photo.png"></div>
 
 My name is Darshak Parikh. I am a UI developer living in India.
 
