@@ -18,7 +18,7 @@ As for me, any non-trivial writing I have ever done falls into one of three mode
 
 I stopped using pen and paper the moment I stepped out of college. Few people will agree, but using the pen is an activity I find painful and tedious.
 
-This could be because my last memories of using a pen are largely negative. School and college required students to submit long written assignments at the end of each term. Few students put any brain into it. I find this an unproductive, unnecessary chore which yields zero value to education.
+This could be because my last memories of using a pen are largely negative. School and college required students to submit long, written assignments at the end of each term. Few students put any brain into it. I find this an unproductive, unnecessary chore which yields zero value to education.
 
 As if that is not enough, there is little focus on actual programming in courses like Computer Science and Information Technology. I graduated in the latter, and landed a software job, yet I could not touch type. Because I rarely needed to type at all.
 

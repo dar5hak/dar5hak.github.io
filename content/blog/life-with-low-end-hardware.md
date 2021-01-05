@@ -6,7 +6,7 @@ date = 2020-09-20
 tags = ["hardware"]
 +++
 
-I am nearly 28, and I have only owned two personal computers in my lifetime.
+I am 28, and I have only owned two personal computers in my lifetime.
 
 Excluding workstations, I have had one desktop and one laptop.
 
@@ -36,8 +36,6 @@ Let me tell you why this machine is brilliant.
 
 I got it for ₹33,000 (about $450). Then I made two screen replacements, two battery replacements and one SSD upgrade. The total cost including purchase has been less than ₹65,000 (about $885).
 
-Fuck you, Apple.
-
 ### The keyboard is excellent.
 
 The keys are neither as flimsy as MacBook’s butterfly keyboard nor as hard as a mechanical keyboard. They are “Goldilocks” easy to press.
@@ -62,7 +60,6 @@ It’s not all rainbows and butterflies. The device’s age shows in a few areas
 - The 1366×768 resolution is fine, but I am spoilt by my HiDPI workstation.
 - The touchpad is tiny. (Again, spoilt by workstation, but I have a mouse).
 - The camera applies funky filters to your image unless you pinch the bezel.
-- Some key combos don’t work any more.
 
 There’s this balance of good and bad things about it, and it is inevitably approaching a tipping point where the bad outweighs the good. That being said, my old buddy can pull off a few months to a year before I need an upgrade.
 

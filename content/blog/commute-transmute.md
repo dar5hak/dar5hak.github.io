@@ -12,12 +12,10 @@ And yet, few people get to do these things any more. Our commuting time has gone
 
 At a first glance, this is a good thing, especially for those who drove to and from work. You avoid the traffic and the ensuing weariness. &lt;cough&gt;Bengaluru&lt;/cough&gt;
 
-But I have felt something different while working from home. When I start my workday, I don’t immediately get in the mood to focus.[^1] When I’m done with work, I still have thoughts about work even as I lounge on my couch.
+But I have felt something different while working from home. When I start my workday, I don’t immediately get in the mood to focus—something which is amplified by the leisurewear and the lack of coworkers and workplace sounds. And when I’m done with work, I still keep thinking about work even as I lounge on my couch.
 
 The commute was a time my brain used to prepare for the environment at the destination: focus at work and relaxation at home. And now since that time is gone, I had to find a replacement, so that’s what I did.
 
 In the mornings, I take a bath just before starting work. In the evenings, I take a walk either indoors or on the terrace. Both activities allow me to be alone with my own thoughts, giving my mind enough warm-up and cool-down time.
 
 Who would have thought to replace the time spend on the road with that in the bath or on the terrace?
-
-[^1]: These symptoms are likely amplified by the leisurewear and the lack of coworkers and workplace sounds.
