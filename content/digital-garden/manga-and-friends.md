@@ -19,6 +19,7 @@ The manga. The anime had to finish early because the manga didn’t catch up, bu
 Duh.
 - **_Dragon Ball_**  
 Till the Majin Buu arc; haven’t followed GT or Super.
+- **_Elfen Lied_**
 - **_Fairy Tail_**  
 Till the Spriggan arc.
 - **_Fullmetal Alchemist_**  
