@@ -39,6 +39,8 @@ There’s no protagonist: everybody is good and bad in their own way.
 - **_The Old Man and the Sea_**  
 I read this less for the story and more to study Hemingway’s writing. And indeed, the writing is crisp and the story linear.
 - **_Digital Fortress_**
+- **_1984_**  
+This book deserves all the praise it receives.
 
 ## Non-fiction
 
