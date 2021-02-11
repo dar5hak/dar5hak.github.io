@@ -109,5 +109,8 @@ dist
 # elementary Code temporary files
 *~
 
+# macOS crap
+.DS_Store
+
 # Zola output
 public
