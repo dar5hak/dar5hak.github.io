@@ -125,6 +125,13 @@
     margin: auto;
     max-height: 20rem;
   }
+
+  hr {
+    border: none;
+    border-top: 2px solid var(--accent-color);
+    width: 5%;
+    margin: 2em 0;
+  }
 }
 
 .footnote-definition {
