@@ -16,7 +16,6 @@
   color: var(--primary-color-dimmed);
   font-size: 0.85em;
   letter-spacing: 0.1em;
-  margin-bottom: 3rem;
   text-transform: uppercase;
 
   .value {
@@ -30,7 +29,7 @@
 
 .page-body {
   font-size: 1.25em;
-  margin: 2rem 0;
+  margin: 1.5em 0;
 
   h2 {
     font-size: 1.7em;
@@ -172,7 +171,7 @@
   box-shadow: 0 0 6px 0 var(--glow-color);
   color: var(--primary-color-dimmed);
   font-size: 1em;
-  margin-bottom: 2em;
+  margin: 2em 0;
   padding: 1em 2em;
 
   p {
