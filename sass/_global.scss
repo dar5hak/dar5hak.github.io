@@ -2,6 +2,8 @@
   --heading-font: "Rosario", serif;
   --body-font: "Asap", sans-serif;
   --monospace-font: "IBM Plex Mono", monospace;
+  
+  --asap-regular-tnum: "tnum" off;
 
   --bg-color: #eee;
   --bg-color-bright: white;
@@ -36,7 +38,7 @@ body {
   background-color: var(--bg-color);
   color: var(--primary-color);
   font-family: var(--body-font);
-  font-feature-settings: "case" on;
+  font-feature-settings: "case" on, var(--asap-regular-tnum);
   line-height: 1.6;
 }
 

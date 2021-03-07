@@ -6,15 +6,13 @@
 
 {% block content %}
   <main class="section-wrapper is-centered-y is-flex-column">
-    <section class="section">
+    <article class="article">
       <h1>Tags</h1>
-      <ul class="section-list is-flex">
+      <section class="tag-list">
         {% for tag in terms %}
-        <li>
           <a href="{{ tag.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>#{{ tag.name }}</a>
-        </li>
         {% endfor %}
-      </ul>
-    </section>
+      </section>
+    </article>
   </main>
 {% endblock %}
