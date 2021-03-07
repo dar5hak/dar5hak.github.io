@@ -3,12 +3,12 @@
   --body-font: "Asap", sans-serif;
   --monospace-font: "IBM Plex Mono", monospace;
 
-  --bg-color: #f5fffe;
+  --bg-color: #eee;
   --bg-color-bright: white;
-  --primary-color: #36413f;
+  --primary-color: #2e413d;
   --primary-color-dimmed: #5c5f5f;
-  --primary-color-bright: #010a09;
-  --accent-color: #54c4bf;
+  --heading-color: #307a74;
+  --accent-color: #61c7c2;
   --border-color: #37a8a3;
   --glow-color: #84c4c0;
 
@@ -17,7 +17,7 @@
     --bg-color-bright: #233842;
     --primary-color: #d1d1ca;
     --primary-color-dimmed: #b9b8b1;
-    --primary-color-bright: #e6e4d5;
+    --heading-color: #6c9c9e;
     --accent-color: #17837d;
     --border-color: #608288;
     --glow-color: #1a4d4a;
@@ -36,19 +36,21 @@ body {
   background-color: var(--bg-color);
   color: var(--primary-color);
   font-family: var(--body-font);
+  font-feature-settings: "case" on;
   line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-  color: var(--primary-color-bright);
+  color: var(--heading-color);
   font-family: var(--heading-font);
-  line-height: 1;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 small {
@@ -133,6 +135,11 @@ button {
       height: 100%;
     }
   }
+}
+
+address {
+  font-size: 0.8em;
+  font-style: normal;
 }
 
 main {
