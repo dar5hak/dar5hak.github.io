@@ -1,3 +1,5 @@
+import 'https://cdn.skypack.dev/@hotwired/turbo';
+
 document.addEventListener("turbo:load", function () {
   let activeElement;
 
