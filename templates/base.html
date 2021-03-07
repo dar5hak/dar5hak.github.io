@@ -17,7 +17,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <script src="https://unpkg.com/turbolinks@5.2.0" defer></script>
+  <script type="module">
+    import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+  </script>
   <script type="module" src="/scripts/main.mjs"></script>
 
   {% block head_extra %} {% endblock %}
