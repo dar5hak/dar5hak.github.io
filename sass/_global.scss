@@ -135,6 +135,10 @@ main {
   flex-wrap: wrap;
 }
 
+.turbo-progress-bar {
+  background-color: var(--accent-color);
+}
+
 .container {
   align-items: stretch;
   display: flex;
