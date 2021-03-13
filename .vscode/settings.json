@@ -2,5 +2,6 @@
   "files.associations": {
     "*.html": "tera"
   },
-  "editor.trimAutoWhitespace": false
+  "editor.trimAutoWhitespace": false,
+  "editor.formatOnSave": false
 }
