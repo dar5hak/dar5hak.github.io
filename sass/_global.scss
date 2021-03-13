@@ -197,3 +197,14 @@ main {
     margin-right: 1.5rem;
   }
 }
+
+.icon-path {
+  fill: var(--primary-color-dimmed);
+  transition: fill 100ms;
+}
+
+svg:hover .icon-path,
+svg:focus .icon-path,
+svg:active .icon-path {
+  fill: var(--accent-color);
+}
