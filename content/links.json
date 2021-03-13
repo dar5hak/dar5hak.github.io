@@ -33,11 +33,6 @@
       "icon": "ri-twitter-line"
     },
     {
-      "url": "https://www.linkedin.com/in/darshak-parikh",
-      "text": "LinkedIn",
-      "icon": "ri-linkedin-line"
-    },
-    {
       "url": "/atom.xml",
       "text": "Feed",
       "icon": "ri-rss-line"
