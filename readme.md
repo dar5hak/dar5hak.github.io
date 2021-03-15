@@ -3,7 +3,7 @@
 ## Tech
 
 - [Zola](https://www.getzola.org/)
-- [Turbolinks](https://github.com/turbolinks/turbolinks)
+- [Turbo](https://turbo.hotwire.dev/)
 - [minireset.css](https://jgthms.com/minireset.css/)
 - HTML + SCSS + JS
 

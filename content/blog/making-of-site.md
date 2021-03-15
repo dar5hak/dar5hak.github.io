@@ -1,7 +1,7 @@
 +++
 title = "The Making of This Site"
 date = 2020-09-19
-updated = 2020-10-03
+updated = 2021-03-15
 
 [taxonomies]
 tags = ["web"]
@@ -29,17 +29,17 @@ After trying them both for a while, I decided to go with Zola for its relative s
 
 I knew I’d miss out on the huge community that comes with Hugo. But thanks to Zola’s excellent documentation and forum, I rarely felt stuck. The number of community themes was irrelevant to me since I planned to write my own.
 
-## Turbolinks
+## <del>Turbolinks</del> Turbo
 
 One day, I landed on a post on [taniarascia.com](https://www.taniarascia.com/) from a web search. The site looked so clean that I decided to explore it, and was floored by how fast the navigation was. Unvisited pages opened as if they were stored offline. Something was fishy.
 
 I dug around the site to find [a post](https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/) about how it was made (much like this one). It uses Gatsby, which turns the site into a single-page application. Each page load is a JSON call, and even that is likely [preloaded](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) by the current page.
 
-I had no intention of switching away from Zola, but I wanted this superpower. I remembered seeing a GitHub repo that can do something similar to a site using traditional navigation. I peeped into my Pensieve (read: Firefox history) and came out with [Turbolinks](https://github.com/turbolinks/turbolinks/).
+I had no intention of switching away from Zola, but I wanted this superpower. I remembered seeing a GitHub repo that can do something similar to a site using traditional navigation. I peeped into my Pensieve (read: Firefox history) and came out with [Turbolinks](https://github.com/turbolinks/turbolinks/). (**Update:** Now using [Turbo](https://turbo.hotwire.dev/), the successor to Turbolinks.)
 
 This library hijacks all same-origin hyperlinks on your site and fetches them in the background. Then, without causing a full page reload, it swaps out the `<body>` and merges the `<head>`, making navigation blazing fast. This way, you can still use old-school hyperlinks and your site will behave like a single-page application.
 
-The best part about Turbolinks that there’s nothing to configure. Load it in a `<script>` and it starts working. And if a browser doesn’t support JavaScript, links work like they always have. Everybody wins!
+The best part about Turbo that there’s nothing to configure. Load it in a `<script>` and it starts working. And if a browser doesn’t support JavaScript, links work like they always have. Everybody wins!
 
 Which brings me to—
 
@@ -107,4 +107,4 @@ Need I say more?
 
 While this lacks many common features, I am happy with the result. It’s fast, responsive, privacy-respecting, [open source](https://github.com/dar5hak/dar5hak.github.io), and most importantly, it’s mine. It is exactly how I want it to be.
 
-I recommend this to anyone who knows even basic HTML and CSS: if you want to make a site, write it yourself. Not only does it give you street cred and bragging rights, it is also more satisfying and rewarding. And of course, you learn a lot along the way.
+I recommend this to anyone who knows HTML and CSS (and has the time): if you want to make a site, write it yourself. Not only does it give you street cred and bragging rights, it is also more satisfying and rewarding. And of course, you learn a lot along the way.
