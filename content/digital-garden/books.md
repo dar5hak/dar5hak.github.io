@@ -17,6 +17,8 @@ Hands down my favourite in the genre, this is a world like none other. I’ve ev
 I don’t do fan fiction, but this one kills it. It challenges the way you see problems, scientific or otherwise. (To be honest, it is less fantasy and more sci-fi or psychological thriller.) Full of slapstick humour, anime references and playful stabs at the original, this doesn’t disappoint in the storyline either.
 - **_The Chronicles of Narnia_**  
 This is for an audience younger than that of _Harry Potter_. I like the saga, with my favourites being _The Horse and His Boy_ and _The Silver Chair_. My least favourite is the finale: I wasn’t nearly as disappointed in _Game of Thrones_ as I was in _The Last Battle_.
+- **_The Hobbit_** + **_The Lord of the Rings_**  
+Tolkien is known as a legend for a reason, and that reason cannot be summarized in a few sentences. Go, read the books. Also, the critique that _The Lord of the Rings_ gets for being too long and too detailed is right. I didn’t feel the need to read the weather report for every day in Frodo’s journey. Despite that, this is one of the greatest works in the fantasy genre.
 
 ### Detective
 
