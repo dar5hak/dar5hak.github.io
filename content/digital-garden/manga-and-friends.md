@@ -46,6 +46,7 @@ Short, hilarious strips.
 Tons of geeky references.
 - **_City of Dead Sorcerer_**  
 Till the Jeeyul training arc.
+- **_Deadlove_**
 - **_The Gamer_**
 - **_Internet Explorer_**  
 Nothing interesting, except a personified representation of important entities in web history.
@@ -56,7 +57,7 @@ More high school gang wars.
 
 ## American Comics
 
-- **_Batman: White Knight_**  
-An interesting spin on the classic Batman world. Short but not rushed.
+- **_Batman: White Knight_** and its sequels (aka “Murphyverse”)  
+An uncanny spin on the classic Batman world. Each story is short but not rushed. The art is impeccable. Harley Quinn’s role is oddly endearing.
 - **_The Walking Dead_**  
 Excellent art, storyline and dialogue. Never disappoints.
