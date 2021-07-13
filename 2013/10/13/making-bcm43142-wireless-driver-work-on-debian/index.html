@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Making BCM43142 Wireless Chipset Work on Debian
+ · prose&const</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/main.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="module" src="/scripts/main.js"></script>
+
+   
+</head>
+
+<body class="default-style">
+  <section class="container">
+    <header class="main-header is-flex is-centered-y">
+      <div class="header-logo-text is-flex is-centered-y">
+        <a href="/">
+          <picture>
+            <source srcset="/images/prose&const-dark-bg.svg" media="(prefers-color-scheme: dark)">
+            <img src="/images/prose&const.svg" alt="prose&const logo" width="192">
+          </picture>
+        </a>
+        <small>Code and musings by Darshak Parikh</small>
+      </div>
+      
+      <nav class="header-nav">
+        <ul class="is-flex">
+          
+            <li>
+              <a href="&#x2F;blog">blog</a>
+            </li>
+          
+            <li>
+              <a href="&#x2F;projects">projects</a>
+            </li>
+          
+            <li>
+              <a href="&#x2F;about">about</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+<main class="page-wrapper is-centered-y is-flex-column">
+  <article class="page is-flex-column">
+    <header>
+      <h1>Making BCM43142 Wireless Chipset Work on Debian</h1>
+      <div class="byline-container">
+        <span class="byline date">
+          
+            Posted
+            <time class="value" datetime="2013-10-13" pubdate>13 Oct 2013</time>
+          
+          
+        </span>
+        
+      </div>
+    </header>
+    <section class="page-body">
+      <p>So I couldn't get WiFi to work on my SolydK installation. It does come with a nifty tool called 'Device Driver Manager', but even that couldn't find a driver for my wireless chipset, the Broadcom BCM43142. Some other Broadcom drivers sure are available in the Debian repos, but this one isn't. So I did the only sensible thing to do: searched the Web. And here's the solution.<span id="continue-reading"></span></p>
+<p><strong>Note:</strong> I assume that you know the basics of <code>apt-get</code> and <code>cd</code> commands.</p>
+<h3 id="what-s-your-chipset">What's your chipset?</h3>
+<p>Open the terminal and run</p>
+<pre style="background-color:#0f1419;">
+<code><span style="color:#ffb454;">lspci </span><span style="color:#f29668;">| </span><span style="color:#ffb454;">grep</span><span style="color:#bfbab0;"> BCM
+</span></code></pre>
+<p>and check if the output contains <code>BCM43142</code>. If it does, this post is for you.</p>
+<h3 id="get-the-driver">Get the driver</h3>
+<ol>
+<li>
+<p>Run</p>
+<pre style="background-color:#0f1419;">
+<code><span style="color:#ffb454;">sudo</span><span style="color:#bfbab0;"> apt-get install linux-headers-generic build-essential dkms broadcom-sta-modules
+</span></code></pre>
+<p>If it freaks out with the first package, just skip that one.</p>
+</li>
+<li>
+<p>Download <a target="_blank" rel="noopener" href="https://drive.google.com/open?id=0B1iuY5gfFnsyalVLOUxNNnotYk0">this deb package</a>.</p>
+</li>
+<li>
+<p><code>cd</code> into the directory containing the package.</p>
+</li>
+<li>
+<p>Install it using</p>
+<pre style="background-color:#0f1419;">
+<code><span style="color:#ffb454;">sudo</span><span style="color:#bfbab0;"> dpkg</span><span style="color:#f29718;"> -i</span><span style="color:#bfbab0;"> wireless-bcm43142-dkms_6.20.55.19-1_amd64.deb
+</span></code></pre></li>
+<li>
+<p>Activate it.</p>
+<pre style="background-color:#0f1419;">
+<code><span style="color:#ffb454;">sudo</span><span style="color:#bfbab0;"> modprobe wl
+</span></code></pre></li>
+<li>
+<p>Done. It should work now.</p>
+</li>
+</ol>
+<h3 id="what-s-inside">What's inside?</h3>
+<p>I haven't checked, but there's one thing I know: the person who has provided the deb package, has tweaked a copy of the driver package found inside an Ubuntu installation.</p>
+<h3 id="source">Source</h3>
+<p><a target="_blank" rel="noopener" href="http://jas.gemnetworks.com">jas.gemnetworks.com</a></p>
+
+    </section>
+    
+      <footer class="page-footer">
+        <address class="is-centered-y">
+          <div class="headshot-small"><img alt="Darshak Parikh's photo" src="/images/photo.webp"/> </div>
+          <div>
+            <p>Hello, I’m Darshak Parikh. I write apps
+              <a href="https://github.com/elfenware" target="_blank">for elementary OS</a>
+              and
+              <a href="https://github.com/dar5hak" target="_blank">the web</a>.
+                                And I read
+              <a href="digital-garden/books/">books</a>
+              and
+              <a href="digital-garden/manga-and-friends/">stuff</a>.
+            </p>
+            <p>
+              <a href="/about">Know more about me</a>, or reach out to me on
+              <a href="https://im-in.space/@dubiousdisc" rel="noopener" target="_blank">Mastodon</a>
+              or
+              <a href="https://twitter.com/dar5hak" rel="noopener" target="_blank">Twitter</a>.
+            </p>
+          </div>
+        </address>
+        <!-- <i> Thoughts? Comments? Reach out to me on <a target="_blank" rel="noopener" href="https://im-in.space/@dubiousdisc">Mastodon</a> or <a target="_blank" rel="noopener"
+        href="https://twitter.com/dar5hak">Twitter</a>. </i> -->
+      </footer>
+    
+  </article>
+</main>
+     
+  </section>
+</body>
+
+</html>

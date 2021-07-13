@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://proseandconst.xyz/sitemap.xml
