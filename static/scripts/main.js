@@ -22,8 +22,7 @@ document.addEventListener("turbo:load", function () {
       event.key === "ArrowUp" ||
       event.key === "ArrowDown" ||
       event.key === "ArrowLeft" ||
-      event.key === "ArrowRight" ||
-      event.key === "Tab"
+      event.key === "ArrowRight"
     ) {
       focusActiveElement();
     }
@@ -39,8 +38,7 @@ document.addEventListener("turbo:load", function () {
         event.key === "ArrowDown" ||
         event.key === "ArrowRight" ||
         event.key === "j" ||
-        event.key === "l" ||
-        (!event.shiftKey && event.key === "Tab")
+        event.key === "l"
       ) {
         event.preventDefault();
         if (index === focusable.length - 1) {
@@ -52,8 +50,7 @@ document.addEventListener("turbo:load", function () {
         event.key === "ArrowUp" ||
         event.key === "ArrowLeft" ||
         event.key === "k" ||
-        event.key === "h" ||
-        (event.shiftKey && event.key === "Tab")
+        event.key === "h"
       ) {
         event.preventDefault();
         if (index === 0) {
