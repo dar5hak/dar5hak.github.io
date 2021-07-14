@@ -2,7 +2,7 @@
 on:
   push:
     branches:
-      - master 
+      - sacred-timeline 
 name: Build and deploy to GitHub Pages
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Checkout
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     # Build & deploy
     - name: shalzz/zola-deploy-action
       uses: shalzz/zola-deploy-action@v0.12.0
