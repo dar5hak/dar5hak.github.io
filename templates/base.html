@@ -22,20 +22,7 @@
 
 <body class="default-style">
   <section class="container">
-    <header class="main-header is-flex is-flex-wrap">
-      {% include "logo.html" %}
-      <small>Code and musings by Darshak Parikh</small>
-      {% set links = load_data(path="content/links.json") %}
-      <nav class="header-nav">
-        <ul class="is-flex">
-          {% for link in links.pages %}
-            <li>
-              <a href="{{ link.url }}">{{ link.text }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </header>
+    {% include "header.html" %}
     {% block content %} {% endblock %}
     {% block footer %} {% endblock %}
   </section>

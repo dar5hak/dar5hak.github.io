@@ -1,0 +1,59 @@
+<style>
+.main-header {
+  align-items: flex-end;
+  gap: 1.25rem;
+  justify-content: space-between;
+  min-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.main-header small {
+  color: var(--primary-color-dimmed);
+  font-size: 1em;
+  line-height: 1.2;
+  margin-inline-end: auto;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+.header-nav ul {
+  gap: 1.5rem;
+}
+
+@media (max-width: 719px) {
+  .header-nav ul {
+    gap: 0.75rem;
+  }
+}
+
+.header-nav a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--primary-color-dimmed);
+}
+</style>
+
+<header class="main-header is-flex is-flex-wrap">
+  {% include "logo.html" %}
+  <small>Code and musings by Darshak Parikh</small>
+  {% set links = load_data(path="content/links.json") %}
+  <nav class="header-nav">
+    <ul class="is-flex">
+      {% for link in links.pages %}
+        <li>
+          <a href="{{ link.url }}">{{ link.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
