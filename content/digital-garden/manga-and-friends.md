@@ -26,6 +26,7 @@ Till the Spriggan arc.
 The manga, but I’ve been told the _Brotherhood_ anime is awesome.
 - **_Hyouka_**  
 Not everyone likes this, because it never gets exciting, but that’s precisely what I appreciate: this is something you can watch to chill after all the action-packed shōnen.
+- **_Kimi no Na wa_**
 - **_Naruto_**  
 Till the beginning of the Fourth Shinobi War.
 - **_One-Punch Man_**
