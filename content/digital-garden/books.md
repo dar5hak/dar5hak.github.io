@@ -46,11 +46,6 @@ This book deserves all the praise it receives.
 
 ## Non-fiction
 
-### Technology
-
-- [**_Resilient Web Design_**](https://resilientwebdesign.com/)
-- [**_Practical Typography_**](https://practicaltypography.com/)
-
 ### Self-help and Philosophy
 
 - By Mark Manson:
@@ -69,3 +64,13 @@ A modern approach to Stoicism. Not very practical, but offers solid, time-tested
   - **_Digital Minimalism_**  
   The first half is useful, actionable advice. The second half is a meandering stream of anecdotes and how they relate to the reader’s newfound leisure.
   - **_So Good They Can’t Ignore You_**
+
+### Technology
+
+- [**_Resilient Web Design_**](https://resilientwebdesign.com/)
+- [**_Practical Typography_**](https://practicaltypography.com/)
+
+### Misc
+
+- **_Shoe Dog_**
+- **_Eats, Shoots and Leaves_**
