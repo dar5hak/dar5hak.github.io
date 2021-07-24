@@ -22,16 +22,9 @@
 
 <body class="default-style">
   <section class="container">
-    <header class="main-header is-flex is-centered-y">
-      <div class="header-logo-text is-flex is-centered-y">
-        <a href="/">
-          <picture>
-            <source srcset="/images/prose&const-dark-bg.svg" media="(prefers-color-scheme: dark)">
-            <img src="/images/prose&const.svg" alt="prose&const logo" width="192">
-          </picture>
-        </a>
-        <small>Code and musings by Darshak Parikh</small>
-      </div>
+    <header class="main-header is-flex is-flex-wrap">
+      {% include "logo.html" %}
+      <small>Code and musings by Darshak Parikh</small>
       {% set links = load_data(path="content/links.json") %}
       <nav class="header-nav">
         <ul class="is-flex">
