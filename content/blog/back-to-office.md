@@ -12,9 +12,9 @@ This means that I will be moving to Bengaluru this week and find a place to stay
 
 I, for one, am excited about this.
 
-## Work from where?
+## Work From Where?
 
-There’s a narrative that says knowledge workers no longer need offices, because they are equally productive working from home. While I respect their choice, I find myself to feel much better about my job – and life in general – while working from an office.
+There’s a narrative that says knowledge workers no longer need offices, because they are equally productive working from home. While I respect their choice, I find myself to feel much better about my job — and life in general — while working from an office.
 
 For one, it helps you set a clear boundary between work and not-work. Your mind gets into either mode based on where you are.
 
@@ -30,7 +30,7 @@ There’s a reason people are regularly misunderstood on social media.
 
 **Note:** I am saying all this from a subjective, neurotypical viewpoint. I mean no disrespect to people who cannot or don’t want to work from an office for any reason.
 
-## Not-work work
+## Not-work Work
 
 Moving from living with my parents to living on my own also comes with an advantage. I get more time and space to work on things that matter the most to me: side projects, open source and pixel art.
 
