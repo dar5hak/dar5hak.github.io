@@ -1,6 +1,6 @@
 {
   "files.associations": {
-    "*.html": "tera"
+    "*.html": "html"
   },
   "editor.trimAutoWhitespace": false,
   "editor.formatOnSave": false
