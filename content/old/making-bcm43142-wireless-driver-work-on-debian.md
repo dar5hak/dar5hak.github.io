@@ -3,6 +3,9 @@ title = "Making BCM43142 Wireless Chipset Work on Debian"
 date = 2013-10-13
 path = "2013/10/13/making-bcm43142-wireless-driver-work-on-debian/"
 in_search_index = false
+
+[extra]
+keywords = ["bcm43142", "broadcom", "driver", "linux", "deb", "debian", "ubuntu", "wireless", "wifi", "bluetooth"]
 +++
 
 So I couldn't get WiFi to work on my SolydK installation. It does come with a nifty tool called 'Device Driver Manager', but even that couldn't find a driver for my wireless chipset, the Broadcom BCM43142. Some other Broadcom drivers sure are available in the Debian repos, but this one isn't. So I did the only sensible thing to do: searched the Web. And here's the solution.<!-- more -->

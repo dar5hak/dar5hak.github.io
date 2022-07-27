@@ -1,11 +1,24 @@
 {% extends "base.html" %}
+
 {% block htmltitle %}
   {{ page.title }}
 {% endblock %}
+
 {% block description -%}
-{% if page.description -%}
-  {{ page.description }}
-{%- endif %}{%- endblock %}{% block content %}
+  {% if page.description -%}
+    {{ page.description }}
+  {%- endif %}
+{%- endblock %}
+
+{% block head_extra %}
+  {% if page.extra.keywords -%}
+    <meta name="keywords" content="{{ page.extra.keywords | join(sep=', ') }}">
+  {% else %}
+    <meta name="keywords" content="">
+  {%- endif %}
+{%- endblock %}
+
+{% block content %}
 <main class="page-wrapper is-centered-y is-flex-column">
   <article class="page is-flex-column">
     <header>

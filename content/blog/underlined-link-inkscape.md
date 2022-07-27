@@ -4,6 +4,9 @@ date = 2021-02-11
 
 [taxonomies]
 tags = ["SVG", "Inkscape"]
+
+[extra]
+keywords = ["inkscape", "underline", "hyperlink", "link", "anchor", "svg", "clickable", "text"]
 +++
 
 Sometimes you want to create a vector graphic résumé or an infographic and export it as PDF. Doing this is easy in Inkscape using its **Print** function to create a file instead of printing on paper.

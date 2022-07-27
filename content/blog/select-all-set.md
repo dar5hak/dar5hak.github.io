@@ -4,6 +4,9 @@ date = 2020-11-21
 
 [taxonomies]
 tags = ["web"]
+
+[extra]
+keywords = ["svelte", "set", "select", "all", "javascript", "es6", "checkbox", "multiple"]
 +++
 
 ## Problem statement

@@ -10,6 +10,14 @@
   {%- endif %}
 {%- endblock %}
 
+{% block head_extra %}
+  {% if section.extra.keywords -%}
+    <meta name="keywords" content="{{ section.extra.keywords | join(sep=', ') }}">
+  {% else %}
+    <meta name="keywords" content="">
+  {%- endif %}
+{%- endblock %}
+
 {% block content %}
   <main class="section-wrapper is-centered-y is-flex-column">
     <article class="article">
