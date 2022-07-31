@@ -1,6 +1,7 @@
 +++
 title = "Creating Underlined Hyperlinks in Inkscape"
 date = 2021-02-11
+updated = 2022-07-31
 
 [taxonomies]
 tags = ["SVG", "Inkscape"]
@@ -76,10 +77,6 @@ In the right column goes your colour's hex code, <kbd>#156255</kbd> in my case.
 You should see the coloured underline now!
 
 ![](/images/underlined-link-inkscape/text-coloured-underline.png)
-
-## Bonus
-
-If you're okay with typing commands in a terminal, there's [an extension](https://github.com/mcjohnalds/inkscape-underlinetext) that makes it 100x easier to add an underline to text.
 
 ## References
 
