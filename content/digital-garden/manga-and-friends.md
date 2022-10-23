@@ -62,7 +62,7 @@ More high school gang wars.
 ## American Comics
 
 - **_Batman: White Knight_** and its sequels (aka “Murphyverse”)  
-An uncanny spin on the classic Batman world. Each story is short but not rushed. The art is impeccable. Harley Quinn’s role is oddly endearing.
+An uncanny spin on the classic Batman world. Each story is short but not rushed. The art is impeccable. Harley Quinn’s role is oddly endearing, and I don’t mean in the usual sense.
 - **_Hawkeye (2012)_**  
 This is what the Marvel Studios TV series was loosely based on. Delightfully fun. Kate Bishop has become one of my favourite Marvel characters.
 - **_Hawkeye (2016)_**  
