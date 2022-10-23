@@ -67,6 +67,9 @@ An uncanny spin on the classic Batman world. Each story is short but not rushed.
 This is what the Marvel Studios TV series was loosely based on. Delightfully fun. Kate Bishop has become one of my favourite Marvel characters.
 - **_Hawkeye (2016)_**  
 Where Kate Bishop is the protagonist. This run also gives a lot of attention to the women in Marvel and tries to thwart the stereotypes.
+- **_All-New Wolverine (2015)_**  
+Laura Kinney’s story as the new Wolverine. Also introduces her clone sister, Gabby, who is a sweet but badass kid and another one of my favourite Marvel characters.
+- **_House of M (2006)_**
 - Marvel’s Wastelands  
 This is a set of dystopian stories where most heroes have been killed. A fascinating take on some of our favourite characters trying to get by in their old age in a world that has gone to shit. Here’s the reading order:
   1. **_Wolverine: Old Man Logan_** (which is **_Wolverine (2003)_** chapters #66 to #72, followed by **_Wolverine Giant-Size: Old Man Logan_**)
