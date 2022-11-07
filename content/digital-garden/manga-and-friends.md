@@ -17,6 +17,7 @@ My first anime ever.
 The manga. The anime had to finish early because the manga didn’t catch up, but it was worth the time it took.
 - **_Death Note_**  
 Duh.
+- **_Demon Slayer: Kimetsu no Yaiba_**
 - **_Dragon Ball_**  
 Till the Majin Buu arc; haven’t followed GT or Super.
 - **_Elfen Lied_**
@@ -29,8 +30,7 @@ Hilarious.
 - **_Hyouka_**  
 Not everyone likes this, because it never gets exciting, but that’s precisely what I appreciate: this is something you can watch to chill after all the action-packed shōnen.
 - **_Kimi no Na wa_**
-- **_Naruto_**  
-Till the beginning of the Fourth Shinobi War.
+- **_Naruto_**
 - **_One-Punch Man_**
 - **_Pokémon_**  
 Till some point in Unova.
@@ -40,6 +40,7 @@ Till the FireRed/LeafGreen arc. Green is BAE. 💚
 Till the Marley arc.
 - **_Shokugeki no Soma_**  
 Two seasons; will resume some day.
+- **_Spy × Family_**
 
 ## Webtoons
 
