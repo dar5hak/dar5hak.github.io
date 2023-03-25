@@ -1,6 +1,7 @@
 +++
 title = "Two-week Review of Arc Browser"
 date = 2022-11-11
+updated = 2023-03-25
 
 [taxonomies]
 tags = ["web"]
@@ -94,3 +95,7 @@ Furthermore, Arc uses the Chrome Web Store for extensions. This means I cannot i
 Overall, I’m happy with the direction Arc is going in. I love the features and happily use it as my default browser. That said, there are few important things missing, so I will likely switch back to Firefox soon.
 
 If you are reading this as a part of the Arc team, I will keep cheering for you (unless you do something terrible). All the best, and keep up the great work!
+
+### Update: 2023-03-25
+
+Four months later, Arc is still my default browser, and I see no reason to switch away at this point. However, I am closely watching how the company plans to make profits. If they make a move that does not sit well with me ethically, I will pull out in a heartbeat.
