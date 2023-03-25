@@ -40,7 +40,8 @@ Till the FireRed/LeafGreen arc. Green is BAE. 💚
 Till the Marley arc.
 - **_Shokugeki no Soma_**  
 Two seasons; will resume some day.
-- **_Spy × Family_**
+- **_Spy × Family_**  
+The manga is slightly less child-friendly than the anime, but besides being an enjoyable action comedy, I also appreciate how it shines light on topics like political psychology and parenting.
 
 ## Webtoons
 
