@@ -1,10 +1,10 @@
----
++++
 title = "Commute Transmute"
 date = 2020-10-14
 
 [taxonomies]
 tags = ["psychology"]
----
++++
 
 Before the pandemic, I have had myriad forms of commutes. I have had five-minute walks and 45-minute city bus rides. I’ve listened to music, read eBooks, played games and taken naps. And I’ve also spent time contemplating. What I have seldom done is drive my own vehicle: an activity that wouldn’t let me do most of the above.
 
