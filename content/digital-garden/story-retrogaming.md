@@ -1,9 +1,5 @@
 +++
-title = "The Story of a Nintendo Fan in India"
-date = 2021-02-15
-
-[taxonomies]
-tags = ["gaming"]
+title = "How I got into retrogaming"
 +++
 
 The year was 2000. Roughly, at any rate. I was a 7-year-old schoolkid living in Ahmedabad. There was a new electronic toy that everyone was talking about: the “video game.”
@@ -94,4 +90,4 @@ And even if you do get one, it’s more of a personal thing. The social aspect o
 
 And if it’s not going to be social, then I don’t even feel like spending the time and money on getting the hardware any more. I continue to emulate the games in my own small world. And I’m okay with that. I don’t want to be the cheapskate who doesn’t buy his games; I just lack an official, supported way to enjoy my games. And I have learnt to enjoy my games alone.
 
-The year is 2021. To this day, I always pick Bulbasaur.
+The year is 2023. To this day, I always pick Bulbasaur.

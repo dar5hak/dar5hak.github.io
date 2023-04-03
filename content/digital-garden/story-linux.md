@@ -1,9 +1,5 @@
 +++
-title = "My Linux Story"
-date = 2021-02-28
-
-[taxonomies]
-tags = ["Linux"]
+title = "How I got into Linux"
 +++
 
 A schoolbook had just blown my mind.
