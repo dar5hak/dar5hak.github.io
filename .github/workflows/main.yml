@@ -1,21 +1,19 @@
-# On every push this script is executed
+name: Build and deploy to GitHub Pages
+
 on:
   push:
     branches:
       - sacred-timeline 
-name: Build and deploy to GitHub Pages
+
 jobs:
-  build:
-    name: shalzz/zola-deploy-action
+  build_and_deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/sacred-timeline'
     steps:
-    # Checkout
-    - uses: actions/checkout@v2
-    # Build & deploy
-    - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@v0.12.0
-      env:
-        # Target branch
-        PAGES_BRANCH: gh-pages
-        # Provide personal access token
-        TOKEN: ${{ secrets.TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v3.0.0
+      - name: Build and deploy
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          PAGES_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
