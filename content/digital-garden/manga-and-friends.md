@@ -25,7 +25,7 @@ Till the Majin Buu arc; haven’t followed GT or Super.
 Till the Spriggan arc.
 - **_Fullmetal Alchemist_**  
 The manga, but I’ve been told the _Brotherhood_ anime is awesome.
-- **_Grand Blue_**
+- **_Grand Blue_**  
 The manga is hilarious, but the anime fails to capture the comic timing the same way.
 - **_Hyouka_**  
 Not everyone likes this, because it never gets exciting, but that’s precisely what I appreciate: this is something you can watch to chill after all the action-packed shōnen.
