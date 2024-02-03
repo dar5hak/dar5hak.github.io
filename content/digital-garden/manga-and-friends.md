@@ -26,22 +26,25 @@ Till the Spriggan arc.
 - **_Fullmetal Alchemist_**  
 The manga, but I’ve been told the _Brotherhood_ anime is awesome.
 - **_Grand Blue_**
-Hilarious.
+The manga is hilarious, but the anime fails to capture the comic timing the same way.
 - **_Hyouka_**  
 Not everyone likes this, because it never gets exciting, but that’s precisely what I appreciate: this is something you can watch to chill after all the action-packed shōnen.
+- **_Jujutsu Kaisen_**
 - **_Kimi no Na wa_**
 - **_Naruto_**
 - **_One-Punch Man_**
 - **_Pokémon_**  
 Till some point in Unova.
+- **_Pokémon Horizons_**  
+A bit slow, but I like this format better, where the overarching story is given more importance than episodic stories.
 - **_Pokémon Adventures_**  
 Till the FireRed/LeafGreen arc. Green is BAE. 💚
 - **_Shingeki no Kyojin_**  
 Till the Marley arc.
 - **_Shokugeki no Soma_**  
-Two seasons; will resume some day.
+Two seasons.
 - **_Spy × Family_**  
-The manga is slightly less child-friendly than the anime, but besides being an enjoyable action comedy, I also appreciate how it shines light on topics like political psychology and parenting.
+The manga is slightly less child-friendly than the anime, but besides being an enjoyable action comedy, I also appreciate how it shines light on topics like political psychology and parenting. Also, Anya’s expressions! 🤌
 
 ## Webtoons
 
@@ -72,7 +75,7 @@ Where Kate Bishop is the protagonist. This run also gives a lot of attention to 
 - **_All-New Wolverine (2015)_**  
 Laura Kinney’s story as the new Wolverine. Also introduces her clone sister, Gabby, who is a sweet but badass kid and another one of my favourite Marvel characters.
 - **_House of M (2006)_**
-- Marvel’s Wastelands  
+- Marvel’s Wastelanders  
 This is a set of dystopian stories where most heroes have been killed. A fascinating take on some of our favourite characters trying to get by in their old age in a world that has gone to shit. Here’s the reading order:
   1. **_Wolverine: Old Man Logan_** (which is **_Wolverine (2003)_** chapters #66 to #72, followed by **_Wolverine Giant-Size: Old Man Logan_**)
   2. **_Old Man Logan (2015)_**
