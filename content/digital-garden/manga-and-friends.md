@@ -29,6 +29,7 @@ The manga, but I’ve been told the _Brotherhood_ anime is awesome.
 The manga is hilarious, but the anime fails to capture the comic timing the same way.
 - **_Hyouka_**  
 Not everyone likes this, because it never gets exciting, but that’s precisely what I appreciate: this is something you can watch to chill after all the action-packed shōnen.
+- **_Inazuma Eleven_**
 - **_Jujutsu Kaisen_**
 - **_Kimi no Na wa_**
 - **_Naruto_**
