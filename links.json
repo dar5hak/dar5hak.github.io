@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "url": "/blog",
+      "text": "blog",
+      "long": "Read my blog"
+    },
+    {
+      "url": "/projects",
+      "text": "projects",
+      "long": "Look at my projects"
+    },
+    {
+      "url": "/about",
+      "text": "about",
+      "long": "Know more about me"
+    }
+  ]
+}
