@@ -20,6 +20,13 @@ This is for an audience younger than that of _Harry Potter_. I like the saga, wi
 - **_The Hobbit_** + **_The Lord of the Rings_**  
 Tolkien is known as a legend for a reason, and that reason cannot be summarized in a few sentences. Go, read the books. Also, the critique that _The Lord of the Rings_ gets for being too long and too detailed is right. I didn’t feel the need to read the weather report for every day in Frodo’s journey. Despite that, this is one of the greatest works in the fantasy genre.
 
+### Science Fiction
+
+- **_The Three-Body Problem_** trilogy by Cixin Liu  
+This gave me profound sense of existential humility. Some of the craziest ideas ever imagined by a human being, served beautifully in a three-course platter of an extremely far-fetched yet somehow credible storyline.
+- **_Acts of God_** by Kanan Gill  
+If you enjoy Kanan’s brand of cheeky geeky humour, this book is a treat. Contains unabashed use of all figures of speech you can imagine, and then some. While the comedy forms the primary terrain which happens to allow the plot to flow through, there are characters you instantly fall in love with. Oh, and I’m also biased, because the novel gives a sweet tribute to Deep Purple.
+
 ### Detective
 
 - By Agatha Christie:
@@ -64,6 +71,8 @@ A modern approach to Stoicism. Not very practical, but offers solid, time-tested
   - **_Digital Minimalism_**  
   The first half is useful, actionable advice. The second half is a meandering stream of anecdotes and how they relate to the reader’s newfound leisure.
   - **_So Good They Can’t Ignore You_**
+  - **_Deep Work_**
+- **_The Psychology of Money_**
 
 ### Technology
 
