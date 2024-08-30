@@ -18,4 +18,4 @@ I also develop a bunch of [side projects](/projects), most of which are on [GitH
 
 Besides programming, I create [pixel art](https://www.deviantart.com/blockydreams) and play retro games.
 
-If you want to talk about these or any other topics, hit me up on [Mastodon](https://im-in.space/@dubiousdisc) or [Twitter](https://twitter.com/dar5hak). Or send me an email at _darshak_ at _protonmail.com_.
+If you want to talk about these or any other topics, hit me up on [Mastodon](https://im-in.space/@dubiousdisc). Or send me an email at _darshak_ at _protonmail.com_.
