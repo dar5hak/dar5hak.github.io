@@ -4,11 +4,11 @@ title = "Fixing the stupid defaults on macOS"
 
 ## Why
 
-My work laptop is usually a MacBook, and installing Linux on that is not straightforward. Even if you manage to do it, some things don’t work. Or sometimes, I’m not allowed to change the OS.
+My work laptop is usually a MacBook, and installing Linux on that is not possible for various reasons.
 
-Being stuck with macOS isn’t all that bad. I’d take it any day over Windows. And that also means I can sync my [dotfiles](https://github.com/dar5hak/dotfiles) across Linux and macOS. Apple makes solid hardware; I’ll give them that.
+Now, being stuck with macOS isn’t all that bad. I’d take it any day over Windows. I even get to sync my [dotfiles](https://github.com/dar5hak/dotfiles) across Linux and macOS.
 
-That said, one of my earliest annoyances when receiving a new MacBook for a project is fixing all its silly defaults and making it somewhat [more sensible](https://elementary.io/).
+That said, one of the first things I do after receiving a new MacBook for a project is fixing some of its silly defaults and making it somewhat [more sensible](https://elementary.io/).
 
 ## Auto-hide the dock
 
