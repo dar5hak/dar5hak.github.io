@@ -6,6 +6,11 @@
       "long": "Read my blog"
     },
     {
+      "url": "/digital-garden",
+      "text": "digital garden",
+      "long": "Visit my digital garden"
+    },
+    {
       "url": "/projects",
       "text": "projects",
       "long": "Look at my projects"

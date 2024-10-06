@@ -1,5 +1,6 @@
 +++
-title = "Fixing the stupid defaults on macOS"
+title = "Fixing the Stupid Defaults on macOS"
+date = 2024-10-06
 +++
 
 ## Why
