@@ -59,11 +59,12 @@ small {
 
 a {
   color: unset;
-  outline: none;
+  border-radius: 2px;
   text-decoration-color: var(--accent-color);
   text-decoration-skip-ink: none;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+  transition: background-color 200ms, outline-width 200ms;
 
   // TODO: uncomment this when Chromium gets its shit together and
   // stops pretending to support this
@@ -81,6 +82,10 @@ a {
   // }
 }
 
+a:focus {
+  outline: 4px solid var(--accent-color);
+}
+
 a[data-focusable]::before {
   content: "▶";
   display: inline-block;
@@ -91,6 +96,8 @@ a[data-focusable]::before {
 
 a[data-focusable]:focus::before {
   visibility: visible;
+  background-color: var(--accent-color);
+  text-decoration: none;
 }
 
 address {

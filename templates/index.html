@@ -60,7 +60,9 @@
       margin: 0.5rem;
     }
 
-    .footer-menu a {
+    .footer-menu a:has(.icon-path) {
+      display: inline-block;
+      line-height: 1;
       color: var(--primary-color-dimmed);
       text-decoration: none;
       transition: color 250ms;
