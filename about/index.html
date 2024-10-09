@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  About Me
+ · prose&const</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Darshak Parikh">
+  <meta name="description" content="About Darshak Parikh: work experience, hobbies and contact information" />
+
+  <link rel="stylesheet" href="/main.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="module" src="https://cdn.skypack.dev/@hotwired/turbo"></script>
+
+  
+  
+    <meta name="keywords" content="">
+</head>
+
+<body class="default-style">
+  <section class="container">
+    <style>
+.main-header {
+  align-items: flex-end;
+  gap: 1.25rem;
+  justify-content: space-between;
+  min-width: 100%;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.main-header small {
+  color: var(--primary-color-dimmed);
+  font-size: 1em;
+  line-height: 1.2;
+  margin-inline-end: auto;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+.header-nav ul {
+  gap: 1.5rem;
+}
+
+@media (max-width: 719px) {
+  .header-nav ul {
+    gap: 0.75rem;
+  }
+}
+
+.header-nav a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--primary-color-dimmed);
+}
+</style>
+
+<header class="main-header is-flex is-flex-wrap">
+  <style>
+/* Fonts */
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff;base64,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")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Lacquer";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAToAA4AAAAACXgAAASUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGh4bXhweBmAAPBEICokwhl4LCAABNgIkAwwEIAWDaAcgGykHyMSH2NR/dxCpQ0uO1qkKycxq7lNNtn1Dvoh75v9waWNi2PNPEmBGf7X+aK1Fw8qwLFuUzju7M9h4wHSKutEJZnKRtUFAocrACvd3XETBuOSLaGSAFBRVNMAOfpRdWIyMD85Nwc5mCXhQ2EFIgkKyknEI367g/Qsko5QeQTe2HolI7HbzlJFTYUGOummLIsqTbUgXnCQDdI1UHqqqrirEg1CQxH3pXQPwu2nmsJn8Su+NKeCAj8eJSyKcwMQjRWnFl0soSLoGIRXvR953j4BoEK8XQQXnTGGVjeQ0edYEzlvkgOt43hua52wMsPlvswVYJw2DGVcznaUVdWZImmbm3JLmyw2a5GMGR2rw0oR2CLZ3zBW+bsNXY2wfM3zdBjMMxqI3MQyyjxHTlM+5IOKcGyLMc2TZZOz6aONsQvadI5vnyOdcIx2+Rr5ntXmFn36ZQ9cdbO4sh+44C3tD1xZX7ompMiV0qQTmGHPpqtRUXXd4iMeUzStkc5OgKfsKM+eRzcvA9HH0nFgTvo9IatKaVY5fKkmaQ3dk7tOhX7U79skMfHTg0qEN8VoL/hmyjzFDNpnh/p4WM3w197Vmr4zUzgT26lC5Iwi0eBaw5EVkLpL52T5jICf4Dz1T2qtBO1PCXofup6tPnPrlqVz87QczDsLa2P/G4Fk9V3zzrBm8rXjFiEskqghVEFwKiRM5CqWeK47Pi1WdJPfRgzuXlRply025OZQTtyRQCxFozSrwuZqN5gpinnL7191JlYxPs1ipzepvXXnXGWcMfjjy03BwCOlw7QhP9JMC1qSnL5f3RN97dsMTKZftE30urL149vcBnxeOfbahMi1WiHonsX3lOPM0XrvQWJ8X2xAHV/BI4HLDNQ0QSP5KsfXh1tQ2CYAFVMXllYaKK3vOrHd9N5DcWtKUcCiXCqflnNYbX2i4SlemSaUJu27O6bNYbdS3OP5QrlJ/nuCCIM77LeS54ujKCwHimXniwD9L+eaKgVUJUnL33qL7FsJcvwquqxvPPjr8w1LBPYWF5xYWtCdW+NvrC+K4kEZQITd4xayYC9oTULvPvlB/ZeHUfln1sVt8rZydT7dWsOCQks22m3tmP58/R61XnfGFO+qVELH5wWH3bzukwrg4URAbPEXjb1QQkInRqAB7osOiAABAAJCws9/+OiS0O2jDb3aO+xIA3vxhNg8A3toS/YJ3zX+vcM/yuwFYQQEABPTP78H94l3z3wL3rGBAOM2RX+EkpwL0dKQogxwfADu/A0sup9W4HUPCwcf7KKkr8XYBCALxrJJq7wccVsANeERjAlgQjjpgRTRWuALl1wAjWMACZrAO2cjGPPoxh1HMYAGmLMy/1wSyMI05DCMb1ShCBSrQi37MYhGDmEMm6jCIYSU2gV6FN3XgRb81jSkoUJEFFTnIkS0pC1M+ynpUoRpVKMT6Y1ZUVkwbzMc0ZrDtKXz4iX9ZgRM5ULEWChowgkEo1zlVgzlMYwyD6J88mItFLGDk8Z15KEj5LDmvJIYxOhhbRJ+5fT+mMYnsK/Oij9i80ClTRfhO8J4LJ1wAAAA=")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 420;
+  src: url("data:font/woff2;base64,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")
+    format("woff2");
+}
+
+/* Styles */
+
+.logo {
+  color: var(--primary-color-dimmed);
+  line-height: 0.9;
+  text-decoration: none;
+  word-spacing: -0.5ch;
+}
+
+.logo-prose {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  letter-spacing: -0.02rem;
+}
+
+.logo-and {
+  color: var(--accent-color);
+  font-family: "Lacquer", cursive;
+  font-size: 2rem;
+}
+
+.logo-const {
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  font-weight: 420;
+  letter-spacing: -0.13rem;
+}
+</style>
+
+<a href="/" class="logo">
+  <span class="logo-prose">prose</span>
+  <span class="logo-and">&</span>
+  <span class="logo-const">const</span>
+</a>
+  <small>Code and musings by Darshak Parikh</small>
+  
+  <nav class="header-nav">
+    <ul class="is-flex">
+      
+        <li>
+          <a href="&#x2F;blog">blog</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;digital-garden">digital garden</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;projects">projects</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;about">about</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+    
+<main class="page-wrapper is-centered-y is-flex-column">
+  <article class="page is-flex-column">
+    <header>
+      <h1>About Me</h1>
+      <div class="byline-container">
+        <span class="byline date">
+          
+          
+        </span>
+        
+      </div>
+    </header>
+    <section class="page-body">
+      <div class="headshot"><img src="/images/photo.webp"></div>
+<p>My name is Darshak Parikh. I am a UI developer living in India.</p>
+<p>I write about technology, open source software and psychology among other things.</p>
+<p>Web development caught my interest in 2015, and I haven’t looked back since. I enjoy writing fast, sexy web apps and sites. I do that professionally at <a target="_blank" rel="noopener" href="https://www.coffeebeans.io">CoffeeBeans Consulting</a>.</p>
+<p>I also develop a bunch of <a href="/projects">side projects</a>, most of which are on <a target="_blank" rel="noopener" href="https://github.com/dar5hak">GitHub</a>. I contribute to and develop apps for <a target="_blank" rel="noopener" href="https://elementary.io/">elementary OS</a>.</p>
+<p>Besides programming, I create <a target="_blank" rel="noopener" href="https://www.deviantart.com/blockydreams">pixel art</a> and play retro games.</p>
+<p>If you want to talk about these or any other topics, hit me up on <a target="_blank" rel="noopener" href="https://im-in.space/@dubiousdisc">Mastodon</a>. Or send me an email at <em>darshak</em> at <em>protonmail.com</em>.</p>
+
+    </section>
+    
+  </article>
+</main>
+     
+  </section>
+</body>
+
+</html>

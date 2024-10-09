@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  The Making of This Site
+ · prose&const</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Darshak Parikh">
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/main.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="module" src="https://cdn.skypack.dev/@hotwired/turbo"></script>
+
+  
+  
+    <meta name="keywords" content="">
+</head>
+
+<body class="default-style">
+  <section class="container">
+    <style>
+.main-header {
+  align-items: flex-end;
+  gap: 1.25rem;
+  justify-content: space-between;
+  min-width: 100%;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.main-header small {
+  color: var(--primary-color-dimmed);
+  font-size: 1em;
+  line-height: 1.2;
+  margin-inline-end: auto;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+.header-nav ul {
+  gap: 1.5rem;
+}
+
+@media (max-width: 719px) {
+  .header-nav ul {
+    gap: 0.75rem;
+  }
+}
+
+.header-nav a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--primary-color-dimmed);
+}
+</style>
+
+<header class="main-header is-flex is-flex-wrap">
+  <style>
+/* Fonts */
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff;base64,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")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Lacquer";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAToAA4AAAAACXgAAASUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGh4bXhweBmAAPBEICokwhl4LCAABNgIkAwwEIAWDaAcgGykHyMSH2NR/dxCpQ0uO1qkKycxq7lNNtn1Dvoh75v9waWNi2PNPEmBGf7X+aK1Fw8qwLFuUzju7M9h4wHSKutEJZnKRtUFAocrACvd3XETBuOSLaGSAFBRVNMAOfpRdWIyMD85Nwc5mCXhQ2EFIgkKyknEI367g/Qsko5QeQTe2HolI7HbzlJFTYUGOummLIsqTbUgXnCQDdI1UHqqqrirEg1CQxH3pXQPwu2nmsJn8Su+NKeCAj8eJSyKcwMQjRWnFl0soSLoGIRXvR953j4BoEK8XQQXnTGGVjeQ0edYEzlvkgOt43hua52wMsPlvswVYJw2DGVcznaUVdWZImmbm3JLmyw2a5GMGR2rw0oR2CLZ3zBW+bsNXY2wfM3zdBjMMxqI3MQyyjxHTlM+5IOKcGyLMc2TZZOz6aONsQvadI5vnyOdcIx2+Rr5ntXmFn36ZQ9cdbO4sh+44C3tD1xZX7ompMiV0qQTmGHPpqtRUXXd4iMeUzStkc5OgKfsKM+eRzcvA9HH0nFgTvo9IatKaVY5fKkmaQ3dk7tOhX7U79skMfHTg0qEN8VoL/hmyjzFDNpnh/p4WM3w197Vmr4zUzgT26lC5Iwi0eBaw5EVkLpL52T5jICf4Dz1T2qtBO1PCXofup6tPnPrlqVz87QczDsLa2P/G4Fk9V3zzrBm8rXjFiEskqghVEFwKiRM5CqWeK47Pi1WdJPfRgzuXlRply025OZQTtyRQCxFozSrwuZqN5gpinnL7191JlYxPs1ipzepvXXnXGWcMfjjy03BwCOlw7QhP9JMC1qSnL5f3RN97dsMTKZftE30urL149vcBnxeOfbahMi1WiHonsX3lOPM0XrvQWJ8X2xAHV/BI4HLDNQ0QSP5KsfXh1tQ2CYAFVMXllYaKK3vOrHd9N5DcWtKUcCiXCqflnNYbX2i4SlemSaUJu27O6bNYbdS3OP5QrlJ/nuCCIM77LeS54ujKCwHimXniwD9L+eaKgVUJUnL33qL7FsJcvwquqxvPPjr8w1LBPYWF5xYWtCdW+NvrC+K4kEZQITd4xayYC9oTULvPvlB/ZeHUfln1sVt8rZydT7dWsOCQks22m3tmP58/R61XnfGFO+qVELH5wWH3bzukwrg4URAbPEXjb1QQkInRqAB7osOiAABAAJCws9/+OiS0O2jDb3aO+xIA3vxhNg8A3toS/YJ3zX+vcM/yuwFYQQEABPTP78H94l3z3wL3rGBAOM2RX+EkpwL0dKQogxwfADu/A0sup9W4HUPCwcf7KKkr8XYBCALxrJJq7wccVsANeERjAlgQjjpgRTRWuALl1wAjWMACZrAO2cjGPPoxh1HMYAGmLMy/1wSyMI05DCMb1ShCBSrQi37MYhGDmEMm6jCIYSU2gV6FN3XgRb81jSkoUJEFFTnIkS0pC1M+ynpUoRpVKMT6Y1ZUVkwbzMc0ZrDtKXz4iX9ZgRM5ULEWChowgkEo1zlVgzlMYwyD6J88mItFLGDk8Z15KEj5LDmvJIYxOhhbRJ+5fT+mMYnsK/Oij9i80ClTRfhO8J4LJ1wAAAA=")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 420;
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAhcABMAAAAADdAAAAf0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGjIbIBwqP0hWQVIvBmA/U1RBVIEmJxYATC90EQgKhEiDZQsQADCGaAE2AiQDEAQgBYcQByAbFQxRVJN6INNIWTh/P3ge6qzerzQrDdhTvfDglKxxHsGt80LK/+Rm/QQSItaS1hEPXZqOid369rSn9ZvDZE39pO8u3s5MiqdUHAkBQuLHj7k6hyhW9SJi/dc43vT+oSazVhCLSxoJRTTSqYScCJFQE09xFnYxIw2dsH7myxEU7Jh1+CFjMT/bQQDWTescVk7CDp0qPsxNJWU1LVhhZthiMvng1OWHEYFyMbuZQW0OD4abdT64AFHfYnPeJ+SiwpvJX/Iy5qAYlA6nuvq6SPpIEid9s7k1z/AchyNPow54j1Lc2VTKOQLQdN2mIpVQ961cGUBeu70Ccl2Z54juX7usUMIDX0qEoDw6PqHJInl0RJuQcCR2wo8o0iijiT6meMTFrCINjIR0TFq59kxtkxjEYI4i7fJym3KK7uuQX1E6I+ME3y59drcuIKtHtw2p0nWOc4/OAgpmNYqEuEQC2GVGRjogOlsVAhhmHi328UyZY9Me0+emD02vm16JY3f8dzigTLWLS0QfkYHlDvGqcYMEOfg2BCNyzRKia5BQNP5qCHNkS3V4ZJMlApFolkj3LVLFratOjCkxmbCXFstzjd2dT09qvrGqzsw6kcknKxDp6eCQ4202aFh7sCab1x+u642rsTkubpvfdNtxRTVcO7WP51ZPX9cbj570Ljy1oup1enaevak33l6FeKpu84ETquHYqX0orYY1Y4xir/LcykqT8e66bF67oxpurcwf/XarYe1GVLu76xvvuG6/rjfe3Cub391xIuzK2gXZfHFdb7x8/HhkgYvbm2+67bihGq6pRduvl15f3e3NP5I6aLhxYK29u93d9fXXPVo8W1ZWj+uNN6MTj62oXbbY+KhJzcF3A9tSkgPb7jYHJ2Z0xBy9OVZiNXuy2T/QN/35Z8PD3Qs+2hHk/n7HTy87NwUnUHG9rNH7zzf9ww4HN5e6ljkndHR4uH+ibQ205C/LvL6c1KnSstSpvpy8vL6c1Kmy0tSpvh9uU6WfgifXrQue/FGK/RY8uW5d8OTv0CSj+/g/X4ztvXS2Z9en+z6RI4Gvuvkf3v22seN47Llg6MyRwY3+TV8fQVI37HPd9Mn1zwxIr3r4Y3ftSO0LLwWi0u6z0V0whCfuzhCjyG56/xHiKfzAjQJxSwB/Dz3KntnhDcS/vdR7sCem/Xl46+Hc5Ui5FgintEjnr3oJnoM0Moq8hbz1K+yCJAoMHAOAC4CApBvgYhiGwq2mretiV1dPT29fh1Wfzamqmikt6U2M79B1XVcecFotwzBS3R6vd6Cvr099E29fhwuqxatjY2NXs4UHpVplYUrTtKmFSh0TOirV5aWq3kJwti8oSVKo16lXllcqXUK9pki2bdmAoC5GEASGyGbz+clSMZvNagv1JtoZTCQS8bhMgG0rYKtxvXH9b9vLcfn8RGamvFyu1WrBYNDDWcvFXD6fV5KUYVzTlmu1mmkbKdIgejwej0i0jPt6i8VEYmiQJdmBSCSSTqenKnWL9ycSCSVJcVzcL3IcRxN4inTVZ0ql0kKT6b0PkigwsBsA9gECKScliiJ12anPz8/rKY73+Hy+XgrKWj6f11aUlMcyTbNpGEbTNE0LVFWrmmSP+N8jbq4UVMVnW7WFhYWaZQPldrspsMvZ//77L1u22UAikfAzis80TQTHKJ7nKQxH2+bISEjA2jMTExMzbUwIjShJFBi4AwDuAgS2ok4XSZXLK4vLZYNAO/zhcHiAdwBOUxRFE04HtAxd6OwQ3Z2iG5tUVXXOKM8u6LredqBKEpDL6//87bc//x+7oqpqbr5uYgxD4Ui71WgYhtEwAfX5fZ7+gf6enh6HMZ/PaXOLS8vLhn3fVg43lubNZtsChBBYazabzWZy2szccrlctigad9GdotluNBqGSdLd4XA45mUZ3u12czSnbLWstoXEpZgkxeOyLEe7KcyszE2XtOnFqoPjOI7n+UJB04rFzNjYWG5usUV39ooU5gDLUiCJAgNrAGAPIJAScU4UxUIulytOzpZKpfxUvU4Qj94vYLZtO5xOQUQaM+kJ9do1xaHr/f1K0uNCKqWpGXl4WB6Wr5OHh+VYX08PJwgkLHgH55TuVqs6P19FGYYgCCK7Au6YLMvyUAprtThOVRWAKhbPAXv+mfzKN8pvqxG0Y1oNXevBT1+3frJ3j/2VdQv2JSV4ZXRUTGcbeS82YX/VnsS+bBmwE6TVqrwJDkEMNsOBpS74CIbg9qHDAdSO9noQPDzIUKukzVpVOUTg2SG4TZ2AIUjNDSAdOWyQGWHiQuZ4SRZZECYtBXakyBOFBGxkDwmqnKAgXOQSBaPKhk+I5AoJxUY+BgrDQb6ncKzkf4rASbGgSFTFw7fKD99qLjVgowT5tsqrbWq72qF2ql1qt7nn5YqZZ4HHWWKScSbQCCCJBBJII4AWJhglgErm+gAdc2zCh80wiMYgATSwxDxTjDLsKnwhy2hMMM8SmyYS4VuHxgJszSKeeMaZ1E4tM0Scf1OzxDMszqPAM3A1j7PAKPGCoURSS5sYZZzl96klkomLwM9JJJtiOmmilOxpoFh3x4roIYyuNkYjKJMs3wCxUxBwJ4pzwpscJD8vTLo2Eedn1wxxiRh5nHjqKaOGdkaziNtBRqaRSnkMjSUGqdHsu3MtJh5hkmVmaWaUWSYpsqlu5LrP9T4SFk4NM02dvMxmS7WuajaZMhqnQ6u2BgAAAA==")
+    format("woff2");
+}
+
+/* Styles */
+
+.logo {
+  color: var(--primary-color-dimmed);
+  line-height: 0.9;
+  text-decoration: none;
+  word-spacing: -0.5ch;
+}
+
+.logo-prose {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  letter-spacing: -0.02rem;
+}
+
+.logo-and {
+  color: var(--accent-color);
+  font-family: "Lacquer", cursive;
+  font-size: 2rem;
+}
+
+.logo-const {
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  font-weight: 420;
+  letter-spacing: -0.13rem;
+}
+</style>
+
+<a href="/" class="logo">
+  <span class="logo-prose">prose</span>
+  <span class="logo-and">&</span>
+  <span class="logo-const">const</span>
+</a>
+  <small>Code and musings by Darshak Parikh</small>
+  
+  <nav class="header-nav">
+    <ul class="is-flex">
+      
+        <li>
+          <a href="&#x2F;blog">blog</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;digital-garden">digital garden</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;projects">projects</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;about">about</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+    
+<main class="page-wrapper is-centered-y is-flex-column">
+  <article class="page is-flex-column">
+    <header>
+      <h1>The Making of This Site</h1>
+      <div class="byline-container">
+        <span class="byline date">
+          
+            Posted
+            <time class="value" datetime="2020-09-19" pubdate>19 Sep 2020</time>
+          
+          
+            &middot; Updated
+            <time class="value" datetime="2021-03-15">15 Mar 2021</time>
+          
+        </span>
+        
+          &middot;
+          <span class="byline tags">
+            
+              <a class="tag" href="https://proseandconst.xyz/tags/web/">#web</a>
+            
+          </span>
+        
+      </div>
+    </header>
+    <section class="page-body">
+      <p><strong>TL;DR:</strong> I moved from WordPress to a superfast static site. <a target="_blank" rel="noopener" href="https://github.com/dar5hak/dar5hak.github.io">Here’s the source code</a>.</p>
+<p>This is not my first site. I’ve had a WordPress blog hosted on this domain since 2013. And I recommend WordPress to anyone who wants their own site but cannot write HTML and CSS.</p>
+<p>Then why did I move away from it? Because I can. As an experienced web developer, I was itching to write my own site by hand. Reasons being:</p>
+<ul>
+<li>I wanted to tune the performance and accessibility in very specific ways.</li>
+<li>I wanted it to be a static site, which makes it inherently faster than WordPress.</li>
+<li>I wanted to add personal style and navigation that was only possible if I wrote the code myself.</li>
+</ul>
+<p>And thus began my hunt for the right tools.</p>
+<h2 id="static-site-generator">Static Site Generator</h2>
+<p>A <a target="_blank" rel="noopener" href="https://www.staticgen.com/">static site generator</a> is a program which takes your content and puts it into nice-looking HTML pages. You can then host these on any static web server. No back end needed.</p>
+<p>There’s no shortage of such generators on the internet. But I needed something that could build my site in milliseconds, even on <a href="/blog/life-with-low-end-hardware">my low-end hardware</a>. This led me to two choices: <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a> and <a target="_blank" rel="noopener" href="https://www.getzola.org/">Zola</a>.</p>
+<p>After trying them both for a while, I decided to go with Zola for its relative simplicity and ease of learning.</p>
+<p>I knew I’d miss out on the huge community that comes with Hugo. But thanks to Zola’s excellent documentation and forum, I rarely felt stuck. The number of community themes was irrelevant to me since I planned to write my own.</p>
+<h2 id="turbolinks-turbo"><del>Turbolinks</del> Turbo</h2>
+<p>One day, I landed on a post on <a target="_blank" rel="noopener" href="https://www.taniarascia.com/">taniarascia.com</a> from a web search. The site looked so clean that I decided to explore it, and was floored by how fast the navigation was. Unvisited pages opened as if they were stored offline. Something was fishy.</p>
+<p>I dug around the site to find <a target="_blank" rel="noopener" href="https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/">a post</a> about how it was made (much like this one). It uses Gatsby, which turns the site into a single-page application. Each page load is a JSON call, and even that is likely <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content">preloaded</a> by the current page.</p>
+<p>I had no intention of switching away from Zola, but I wanted this superpower. I remembered seeing a GitHub repo that can do something similar to a site using traditional navigation. I peeped into my Pensieve (read: Firefox history) and came out with <a target="_blank" rel="noopener" href="https://github.com/turbolinks/turbolinks/">Turbolinks</a>. (<strong>Update:</strong> Now using <a target="_blank" rel="noopener" href="https://turbo.hotwire.dev/">Turbo</a>, the successor to Turbolinks.)</p>
+<p>This library hijacks all same-origin hyperlinks on your site and fetches them in the background. Then, without causing a full page reload, it swaps out the <code>&lt;body&gt;</code> and merges the <code>&lt;head&gt;</code>, making navigation blazing fast. This way, you can still use old-school hyperlinks and your site will behave like a single-page application.</p>
+<p>The best part about Turbo that there’s nothing to configure. Load it in a <code>&lt;script&gt;</code> and it starts working. And if a browser doesn’t support JavaScript, links work like they always have. Everybody wins!</p>
+<p>Which brings me to—</p>
+<h2 id="progressive-enhancement">Progressive Enhancement</h2>
+<p>It shouldn’t take a read-through of <em><a target="_blank" rel="noopener" href="https://resilientwebdesign.com/">Resilient Web Design</a></em> to understand the importance of progressive enhancement. My site had to work on everything from a command-line browser to a full-blown Firefox.</p>
+<p>And that’s easy. Use accessible, semantic markup, and serve it without any client-side DOM manipulation. Everything else is an addition. Even CSS.</p>
+<h3 id="snazzy-underlines">Snazzy Underlines</h3>
+<p>I was itching to use the new <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sZS-7RX_c7g">underline styles</a> now possible with pure CSS. At the time of writing, they only fully work on Firefox. How do I <a target="_blank" rel="noopener" href="http://motherfuckingwebsite.com/">not break</a> over 90% of the web for some snazzy effect I felt like adding?</p>
+<p>Feature queries to the rescue.</p>
+<p>CSS supports the <code>@supports</code> at-rule to detect whether the browser supports a declaration. Then you can write separate styles for supporting and non-supporting browsers.</p>
+<p>The only problem is IE support. It doesn’t support <code>@supports</code>, so I don’t support it.</p>
+<p>Fine, I’ll stop saying ‘support’.</p>
+<h3 id="keyboard-navigation">Keyboard Navigation</h3>
+<p>You can navigate the menus and lists on some pages using arrow keys and Vim-style HJKL keys. You’re welcome.</p>
+<p>This is a feature that games and CLI apps offer out of the box but is rare on the web. I wrote <a target="_blank" rel="noopener" href="https://github.com/dar5hak/dar5hak.github.io/blob/master/static/scripts/main.mjs">some JavaScript</a> to enable it where it makes sense.</p>
+<p>This is another progressive enhancement. You can still click the links as usual, with or without JavaScript.</p>
+<h2 id="design">Design</h2>
+<p>I felt I should let my retrogaming interest ooze into my site, so I originally designed it to look like a game straight out of 1990.</p>
+<p>The font I’d have used for headings and menus was <a target="_blank" rel="noopener" href="https://fonts.google.com/specimen/Press+Start+2P">Press Start 2P</a>.</p>
+<p>This is also why I wanted keyboard navigation: to emulate a game controller.</p>
+<p><img src="/images/making-of-site/old-design.png" alt="Old design" /></p>
+<p>That dream did not last long.</p>
+<p>I picked the brilliant <a target="_blank" rel="noopener" href="https://www.recursive.design/">Recursive</a> font for body text. I tried it on headings too, and it looked so good that I dropped the whole blockiness idea and used Recursive for everything.</p>
+<h3 id="update-2020-09-28">Update 2020-09-28</h3>
+<p>After publishing the site online, I found myself writing about serious topics, and Recursive didn’t seem to fit the image of “serious”. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.</p>
+<p>After reading some typography advice from <a target="_blank" rel="noopener" href="https://learnui.design/blog/">Erik D. Kennedy</a> and <a target="_blank" rel="noopener" href="https://www.typewolf.com/">Jeremiah Shoaf</a>, I decided to try a few different approaches to font selection. Some experimentation with Google Fonts and many iterations led me to what you see today: serious, but not too much so.</p>
+<p>I even added a nice light color scheme, which looks even better than the dark one with the new typography.</p>
+<h3 id="update-2020-10-03">Update 2020-10-03</h3>
+<p>I rebranded from <em>Dubious Disc</em> to <em>prose&amp;const</em> and refreshed the home page and navigation styles. Again, I applied the UI design lessons learnt from the two brilliant folks mentioned above.</p>
+<p>Moreover, I no longer have to compete for search results with <a target="_blank" rel="noopener" href="https://bulbapedia.bulbagarden.net/wiki/Dubious_Disc">Pokémon</a>.</p>
+<h2 id="performance">Performance</h2>
+<p><img src="/images/making-of-site/lighthouse.png" alt="Google Lighthouse report with a Performance score of 100" /></p>
+<p>Need I say more?</p>
+<h2 id="final-thoughts">Final thoughts</h2>
+<p>While this lacks many common features, I am happy with the result. It’s fast, responsive, privacy-respecting, <a target="_blank" rel="noopener" href="https://github.com/dar5hak/dar5hak.github.io">open source</a>, and most importantly, it’s mine. It is exactly how I want it to be.</p>
+<p>I recommend this to anyone who knows HTML and CSS (and has the time): if you want to make a site, write it yourself. Not only does it give you street cred and bragging rights, it is also more satisfying and rewarding. And of course, you learn a lot along the way.</p>
+
+    </section>
+    
+      <footer class="page-footer">
+        <address class="is-centered-y">
+          <div class="headshot-small"><img alt="Darshak Parikh's photo" src="/images/photo.webp"/> </div>
+          <div>
+            <p>Hello, I’m Darshak Parikh. I write apps
+              <a href="https://github.com/elfenware" target="_blank">for elementary OS</a>
+              and
+              <a href="https://github.com/dar5hak" target="_blank">the web</a>.
+                                And I read
+              <a href="digital-garden/books/">books</a>
+              and
+              <a href="digital-garden/manga-and-friends/">stuff</a>.
+            </p>
+            <p>
+              Know more <a href="/about">about me</a>, subscribe to my <a href="/atom.xml" target="_blank">feed</a>, or reach out to me on
+              <a href="https://im-in.space/@dubiousdisc" rel="noopener" target="_blank">Mastodon</a>.
+            </p>
+          </div>
+        </address>
+      </footer>
+    
+  </article>
+</main>
+     
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Projects
+ · prose&const</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Darshak Parikh">
+  <meta name="description" content="Darshak Parikh&#x27;s projects: web apps, elementary OS apps, CLI tools and ML models" />
+
+  <link rel="stylesheet" href="/main.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="module" src="https://cdn.skypack.dev/@hotwired/turbo"></script>
+
+  
+  <!-- Never style by tag name here. Turbo Drive will merge <head> and apply it to other pages -->
+  <style>
+    .projects {
+      max-width: 72rem;
+    }
+
+    .project {
+      background-color: var(--bg-color-bright);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      box-shadow: 0 0 6px 0 var(--glow-color);
+      display: inline-flex;
+      flex: 1 auto;
+      margin-top: 2.5rem;
+      padding: 1rem;
+    }
+
+    .projects .project-logo {
+      flex: 0 0 64px;
+    }
+
+    .projects .project-logo img {
+      border-style: none;
+      box-shadow: none;
+      margin: 0;
+      width: 48px;
+    }
+
+    .projects h3 {
+      margin: 0 0 0.5rem;
+    }
+
+    .projects p {
+      margin: 1em 0;
+    }
+
+    @media (min-width: 720px) {
+      .project {
+        flex: calc(50% - 2rem);
+      }
+
+      .projects .project-section-title {
+        margin-bottom: 2rem;
+      }
+
+      .projects h3 {
+        margin-top: 0;
+      }
+
+      @supports (gap: 2rem) {
+        .project-section {
+          gap: 2rem;
+        }
+
+        .project {
+          margin-top: 0;
+        }
+      }
+    }
+  </style>
+
+</head>
+
+<body class="default-style">
+  <section class="container">
+    <style>
+.main-header {
+  align-items: flex-end;
+  gap: 1.25rem;
+  justify-content: space-between;
+  min-width: 100%;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.main-header small {
+  color: var(--primary-color-dimmed);
+  font-size: 1em;
+  line-height: 1.2;
+  margin-inline-end: auto;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+.header-nav ul {
+  gap: 1.5rem;
+}
+
+@media (max-width: 719px) {
+  .header-nav ul {
+    gap: 0.75rem;
+  }
+}
+
+.header-nav a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--primary-color-dimmed);
+}
+</style>
+
+<header class="main-header is-flex is-flex-wrap">
+  <style>
+/* Fonts */
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff;base64,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")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Lacquer";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAToAA4AAAAACXgAAASUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGh4bXhweBmAAPBEICokwhl4LCAABNgIkAwwEIAWDaAcgGykHyMSH2NR/dxCpQ0uO1qkKycxq7lNNtn1Dvoh75v9waWNi2PNPEmBGf7X+aK1Fw8qwLFuUzju7M9h4wHSKutEJZnKRtUFAocrACvd3XETBuOSLaGSAFBRVNMAOfpRdWIyMD85Nwc5mCXhQ2EFIgkKyknEI367g/Qsko5QeQTe2HolI7HbzlJFTYUGOummLIsqTbUgXnCQDdI1UHqqqrirEg1CQxH3pXQPwu2nmsJn8Su+NKeCAj8eJSyKcwMQjRWnFl0soSLoGIRXvR953j4BoEK8XQQXnTGGVjeQ0edYEzlvkgOt43hua52wMsPlvswVYJw2DGVcznaUVdWZImmbm3JLmyw2a5GMGR2rw0oR2CLZ3zBW+bsNXY2wfM3zdBjMMxqI3MQyyjxHTlM+5IOKcGyLMc2TZZOz6aONsQvadI5vnyOdcIx2+Rr5ntXmFn36ZQ9cdbO4sh+44C3tD1xZX7ompMiV0qQTmGHPpqtRUXXd4iMeUzStkc5OgKfsKM+eRzcvA9HH0nFgTvo9IatKaVY5fKkmaQ3dk7tOhX7U79skMfHTg0qEN8VoL/hmyjzFDNpnh/p4WM3w197Vmr4zUzgT26lC5Iwi0eBaw5EVkLpL52T5jICf4Dz1T2qtBO1PCXofup6tPnPrlqVz87QczDsLa2P/G4Fk9V3zzrBm8rXjFiEskqghVEFwKiRM5CqWeK47Pi1WdJPfRgzuXlRply025OZQTtyRQCxFozSrwuZqN5gpinnL7191JlYxPs1ipzepvXXnXGWcMfjjy03BwCOlw7QhP9JMC1qSnL5f3RN97dsMTKZftE30urL149vcBnxeOfbahMi1WiHonsX3lOPM0XrvQWJ8X2xAHV/BI4HLDNQ0QSP5KsfXh1tQ2CYAFVMXllYaKK3vOrHd9N5DcWtKUcCiXCqflnNYbX2i4SlemSaUJu27O6bNYbdS3OP5QrlJ/nuCCIM77LeS54ujKCwHimXniwD9L+eaKgVUJUnL33qL7FsJcvwquqxvPPjr8w1LBPYWF5xYWtCdW+NvrC+K4kEZQITd4xayYC9oTULvPvlB/ZeHUfln1sVt8rZydT7dWsOCQks22m3tmP58/R61XnfGFO+qVELH5wWH3bzukwrg4URAbPEXjb1QQkInRqAB7osOiAABAAJCws9/+OiS0O2jDb3aO+xIA3vxhNg8A3toS/YJ3zX+vcM/yuwFYQQEABPTP78H94l3z3wL3rGBAOM2RX+EkpwL0dKQogxwfADu/A0sup9W4HUPCwcf7KKkr8XYBCALxrJJq7wccVsANeERjAlgQjjpgRTRWuALl1wAjWMACZrAO2cjGPPoxh1HMYAGmLMy/1wSyMI05DCMb1ShCBSrQi37MYhGDmEMm6jCIYSU2gV6FN3XgRb81jSkoUJEFFTnIkS0pC1M+ynpUoRpVKMT6Y1ZUVkwbzMc0ZrDtKXz4iX9ZgRM5ULEWChowgkEo1zlVgzlMYwyD6J88mItFLGDk8Z15KEj5LDmvJIYxOhhbRJ+5fT+mMYnsK/Oij9i80ClTRfhO8J4LJ1wAAAA=")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 420;
+  src: url("data:font/woff2;base64,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")
+    format("woff2");
+}
+
+/* Styles */
+
+.logo {
+  color: var(--primary-color-dimmed);
+  line-height: 0.9;
+  text-decoration: none;
+  word-spacing: -0.5ch;
+}
+
+.logo-prose {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  letter-spacing: -0.02rem;
+}
+
+.logo-and {
+  color: var(--accent-color);
+  font-family: "Lacquer", cursive;
+  font-size: 2rem;
+}
+
+.logo-const {
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  font-weight: 420;
+  letter-spacing: -0.13rem;
+}
+</style>
+
+<a href="/" class="logo">
+  <span class="logo-prose">prose</span>
+  <span class="logo-and">&</span>
+  <span class="logo-const">const</span>
+</a>
+  <small>Code and musings by Darshak Parikh</small>
+  
+  <nav class="header-nav">
+    <ul class="is-flex">
+      
+        <li>
+          <a href="&#x2F;blog">blog</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;digital-garden">digital garden</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;projects">projects</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;about">about</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+    
+  <main class="page-wrapper is-centered-y is-flex-column">
+    <article class="page projects">
+      <header>
+        <h1>Projects</h1>
+      </header>
+
+      <section class="page-body">
+        
+        
+          <h2 class="project-section-title">Apps</h2>
+          <div class="project-section is-flex is-flex-wrap">
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;badger-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>Badger</h3>
+                  <p>elementary OS app to remind you to be ergonomic</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;appcenter.elementary.io&#x2F;com.github.elfenware.badger">AppCenter</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;elfenware&#x2F;badger">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;otpea-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>OTPea</h3>
+                  <p>Time-based OTP generator for the web</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;otpea.surge.sh&#x2F;">Web app</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;otpea-web">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+          <h2 class="project-section-title">Command Line</h2>
+          <div class="project-section is-flex is-flex-wrap">
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;cli-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>generator-awesome-list</h3>
+                  <p>Yeoman generator for GitHub awesome lists</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;generator-awesome-list">npm</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;generator-awesome-list">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;cli-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>totodo</h3>
+                  <p>Simple CLI todo list</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;totodo">npm</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;totodo">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+          <h2 class="project-section-title">Educational + Experimental</h2>
+          <div class="project-section is-flex is-flex-wrap">
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;vulcan-salute-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>Lizard-Spock API</h3>
+                  <p>REST API to play Rock-Paper-Scissors-Lizard-Spock</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="http:&#x2F;&#x2F;backend.lizardspock.xyz&#x2F;api&#x2F;v1&#x2F;swagger&#x2F;index.html">Swagger</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;lizardspock-api">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;neural-net-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>Offline digit recognition</h3>
+                  <p>Recognizes handwritten digits in the browser using a TensorFlow.js model saved offline</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;dar5hak.github.io&#x2F;offline-mnist&#x2F;">Web app</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;dubiousdisc.xyz&#x2F;2019&#x2F;02&#x2F;22&#x2F;ml-offline-web-tfjs&#x2F;">Blog post</a> · 
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;offline-mnist">GitHub</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;neural-net-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>English-to-French translator</h3>
+                  <p>Final project for AI Nanodegree at Udacity; uses a bidirectional RNN to achieve 98% accuracy on the test data</p>
+
+                  
+                </div>
+              </div>
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;neural-net-48x48.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>Text sequence generator</h3>
+                  <p>Takes a line of text from <em>The Adventures of Sherlock Holmes</em>, and generates a silly continuation</p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;aind2-rnn&#x2F;blob&#x2F;master&#x2F;RNN_project.ipynb">Jupyter notebook (scroll to Problem 2)</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+          <h2 class="project-section-title">Google Summer of Code</h2>
+          <div class="project-section is-flex is-flex-wrap">
+            
+              <div class="project">
+                <div class="project-logo">
+                  
+                    <img src="&#x2F;images&#x2F;projects&#x2F;apertium.svg">
+                  
+                </div>
+                <div class="project-text">
+                  <h3>Apertium</h3>
+                  <p>Enhanced accuracy of English-to-Esperanto translation in Apertium, an open source machine translation program</p>
+<p><small>(<a target="_blank" rel="noopener nofollow" class="external free" href="http://wiki.apertium.org/wiki/Apertium_logo">Apertium logo</a> by Francis Tyers, Andrej Slapnik, <a target="_blank" rel="noopener nofollow" href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a target="_blank" rel="noopener nofollow" href="https://commons.wikimedia.org/w/index.php?curid=32939719">Link</a>)</small></p>
+
+                  
+                    <p>
+                      <a target="_blank" rel="noopener" href="https:&#x2F;&#x2F;wiki.apertium.org&#x2F;wiki&#x2F;User:Darshak&#x2F;GSoC_2014_Report">Project report</a>
+                      
+                    </p>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+      </section>
+    </article>
+  </main>
+
+     
+  </section>
+</body>
+
+</html>

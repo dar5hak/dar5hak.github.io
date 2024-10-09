@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How I got into Linux
+ · prose&const</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Darshak Parikh">
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="/main.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="module" src="https://cdn.skypack.dev/@hotwired/turbo"></script>
+
+  
+  
+    <meta name="keywords" content="">
+</head>
+
+<body class="default-style">
+  <section class="container">
+    <style>
+.main-header {
+  align-items: flex-end;
+  gap: 1.25rem;
+  justify-content: space-between;
+  min-width: 100%;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+}
+
+.main-header small {
+  color: var(--primary-color-dimmed);
+  font-size: 1em;
+  line-height: 1.2;
+  margin-inline-end: auto;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+.header-nav ul {
+  gap: 1.5rem;
+}
+
+@media (max-width: 719px) {
+  .header-nav ul {
+    gap: 0.75rem;
+  }
+}
+
+.header-nav a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--primary-color-dimmed);
+}
+</style>
+
+<header class="main-header is-flex is-flex-wrap">
+  <style>
+/* Fonts */
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff;base64,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")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Lacquer";
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAToAA4AAAAACXgAAASUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGh4bXhweBmAAPBEICokwhl4LCAABNgIkAwwEIAWDaAcgGykHyMSH2NR/dxCpQ0uO1qkKycxq7lNNtn1Dvoh75v9waWNi2PNPEmBGf7X+aK1Fw8qwLFuUzju7M9h4wHSKutEJZnKRtUFAocrACvd3XETBuOSLaGSAFBRVNMAOfpRdWIyMD85Nwc5mCXhQ2EFIgkKyknEI367g/Qsko5QeQTe2HolI7HbzlJFTYUGOummLIsqTbUgXnCQDdI1UHqqqrirEg1CQxH3pXQPwu2nmsJn8Su+NKeCAj8eJSyKcwMQjRWnFl0soSLoGIRXvR953j4BoEK8XQQXnTGGVjeQ0edYEzlvkgOt43hua52wMsPlvswVYJw2DGVcznaUVdWZImmbm3JLmyw2a5GMGR2rw0oR2CLZ3zBW+bsNXY2wfM3zdBjMMxqI3MQyyjxHTlM+5IOKcGyLMc2TZZOz6aONsQvadI5vnyOdcIx2+Rr5ntXmFn36ZQ9cdbO4sh+44C3tD1xZX7ompMiV0qQTmGHPpqtRUXXd4iMeUzStkc5OgKfsKM+eRzcvA9HH0nFgTvo9IatKaVY5fKkmaQ3dk7tOhX7U79skMfHTg0qEN8VoL/hmyjzFDNpnh/p4WM3w197Vmr4zUzgT26lC5Iwi0eBaw5EVkLpL52T5jICf4Dz1T2qtBO1PCXofup6tPnPrlqVz87QczDsLa2P/G4Fk9V3zzrBm8rXjFiEskqghVEFwKiRM5CqWeK47Pi1WdJPfRgzuXlRply025OZQTtyRQCxFozSrwuZqN5gpinnL7191JlYxPs1ipzepvXXnXGWcMfjjy03BwCOlw7QhP9JMC1qSnL5f3RN97dsMTKZftE30urL149vcBnxeOfbahMi1WiHonsX3lOPM0XrvQWJ8X2xAHV/BI4HLDNQ0QSP5KsfXh1tQ2CYAFVMXllYaKK3vOrHd9N5DcWtKUcCiXCqflnNYbX2i4SlemSaUJu27O6bNYbdS3OP5QrlJ/nuCCIM77LeS54ujKCwHimXniwD9L+eaKgVUJUnL33qL7FsJcvwquqxvPPjr8w1LBPYWF5xYWtCdW+NvrC+K4kEZQITd4xayYC9oTULvPvlB/ZeHUfln1sVt8rZydT7dWsOCQks22m3tmP58/R61XnfGFO+qVELH5wWH3bzukwrg4URAbPEXjb1QQkInRqAB7osOiAABAAJCws9/+OiS0O2jDb3aO+xIA3vxhNg8A3toS/YJ3zX+vcM/yuwFYQQEABPTP78H94l3z3wL3rGBAOM2RX+EkpwL0dKQogxwfADu/A0sup9W4HUPCwcf7KKkr8XYBCALxrJJq7wccVsANeERjAlgQjjpgRTRWuALl1wAjWMACZrAO2cjGPPoxh1HMYAGmLMy/1wSyMI05DCMb1ShCBSrQi37MYhGDmEMm6jCIYSU2gV6FN3XgRb81jSkoUJEFFTnIkS0pC1M+ynpUoRpVKMT6Y1ZUVkwbzMc0ZrDtKXz4iX9ZgRM5ULEWChowgkEo1zlVgzlMYwyD6J88mItFLGDk8Z15KEj5LDmvJIYxOhhbRJ+5fT+mMYnsK/Oij9i80ClTRfhO8J4LJ1wAAAA=")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 420;
+  src: url("data:font/woff2;base64,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")
+    format("woff2");
+}
+
+/* Styles */
+
+.logo {
+  color: var(--primary-color-dimmed);
+  line-height: 0.9;
+  text-decoration: none;
+  word-spacing: -0.5ch;
+}
+
+.logo-prose {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  letter-spacing: -0.02rem;
+}
+
+.logo-and {
+  color: var(--accent-color);
+  font-family: "Lacquer", cursive;
+  font-size: 2rem;
+}
+
+.logo-const {
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  font-weight: 420;
+  letter-spacing: -0.13rem;
+}
+</style>
+
+<a href="/" class="logo">
+  <span class="logo-prose">prose</span>
+  <span class="logo-and">&</span>
+  <span class="logo-const">const</span>
+</a>
+  <small>Code and musings by Darshak Parikh</small>
+  
+  <nav class="header-nav">
+    <ul class="is-flex">
+      
+        <li>
+          <a href="&#x2F;blog">blog</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;digital-garden">digital garden</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;projects">projects</a>
+        </li>
+      
+        <li>
+          <a href="&#x2F;about">about</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+    
+<main class="page-wrapper is-centered-y is-flex-column">
+  <article class="page is-flex-column">
+    <header>
+      <h1>How I got into Linux</h1>
+      <div class="byline-container">
+        <span class="byline date">
+          
+          
+        </span>
+        
+      </div>
+    </header>
+    <section class="page-body">
+      <p>A schoolbook had just blown my mind.</p>
+<p>I was in the 11th grade, and the Computers textbook had an intriguing chapter that had, as you know, blown my mind.</p>
+<p>It introduced the concept of open source software, and explained how there were programs whose code was just out there for anyone to see and modify.</p>
+<p>Now, the only programs I had written at that point were the ones where you print a triangular formation of asterisks using C. So I had no clue what it was like to write and maintain a real software project. Yet, the idea of open source hit home instantly, and lit a spark in my head. I wanted more than what the textbook gave me.</p>
+<hr />
+<p>That same year, the computers in the school lab were upgraded, and the new machines ran an OS we had never seen before: Ubuntu.</p>
+<p>There was a panel on top instead of bottom, and the brown colour scheme was a refreshing break from the corporatey blueness that had been Windows XP. The animations were delightful and the windows wobbly. It was more than software; it was an experience that felt like stepping out into a balcony and being greeted by a cool breeze.</p>
+<hr />
+<p>Back home, we had a desktop with a space gray CRT monitor and a big-ass CPU with a whopping 1.25 GB of RAM. My father used it for work, so any major changes to it were out of question.</p>
+<p>What I did do, however, was start using more open source software on Windows XP: Firefox instead of IE, VLC instead of Windows Media Player, PeaZip instead of WinZip, etc.</p>
+<p>While I had largely forgotten Ubuntu after that school year, I had at least made an important decision which would drive my software choices for the rest of my life.</p>
+<hr />
+<p>Three years later, a college textbook had failed to blow my mind.</p>
+<p>Still an XP user, I found myself in the third semester of an Information Technology course. The subject known as Operating Systems was like any other, full of walls of text, containing information I had no idea what to do with.</p>
+<p>But one day when I walked into the computer lab, I saw a few machines running an OS I hadn’t seen before: Ubuntu.</p>
+<p>It was not the Ubuntu I remembered from school. There was a thick, translucent panel on the left with huge icons. The windows were no longer wobbly. It felt like… a different OS altogether. It was still refreshing but not in the same way.</p>
+<hr />
+<p>This was in early 2012. Back home, my father no longer needed the computer, so I was the one calling shots on what goes into it.</p>
+<p>I had brought home two copies of Ubuntu from my tinkerer friends at college: the latest 11.10 and an older 10.10. Installing and uninstalling them was a piece of cake thanks to wubi, the Windows Ubuntu Installer. You go <em>Next</em>, <em>Next</em>, <em>Next</em> on a wizard inside Windows, then restart the machine, et voilà! You’ve got a dual boot!</p>
+<p>11.10 was what the college had been using. It was slow on my hardware, which had no GPU, not even an integrated one. And the RAM was still 1.25 GB. Unity did not deliver.</p>
+<p>10.10 looked similar to what I had used earlier at school. And boy, was it fast! It booted in about half the time as XP and was snappy as fuck! (No pun intended; this was 2012.) But the real metric where it wiped the floor with Windows was the shutdown time: XP used to take over half a minute before I could turn off the power supply. Ubuntu 10.10 took <em>four seconds tops</em>!</p>
+<p>Even the hardware support was great. On XP, I needed to install additional software to be able to go online using my USB-tethered Android phone or my 3G dongle. On Ubuntu, both worked out of the box. Not many people in 2012 could say this, but <em>my hardware worked better on Linux than on Windows</em>.</p>
+<p>Add to that the plethora of open source software in Ubuntu Software Center and their general get-out-of-the-way attitude, and I was more than impressed. It became my primary OS, and within two months, I had decided: I was going to remove Windows and single-boot Linux.</p>
+<hr />
+<p>But there was a problem. Ubuntu 10.10 would soon be outdated, so I would need to upgrade. Except that I could not upgrade. The upcoming 12.04 LTS would include the Unity desktop, which just barely ran on my box. I needed something else.</p>
+<p>Your curious creature had discovered DistroWatch. There were numerous lightweight distros out there. I had my eyes on the upcoming Peppermint Three, but it was taking some time to release, so I ended up choosing the freshly launched Xubuntu 12.04. And boy, was it fast!</p>
+<hr />
+<p>The next few years were a whirlpool of experimentation. I would try a new distro every couple of months, with Xubuntu being my “home distro,” something I could come back to and rely on, no matter what. I would go on to figure out how partitioning worked, what a desktop environment was, what a window manager was, what a package manager was — you get the idea.</p>
+<p>At one point, I successfully made my desktop unbootable due to some partition shenanigans. Now, I had no other computer and no USB drive that happened to be bootable. What I did have was a 256 MB microSD card with Puppy Linux on it. And for some reason, the aforementioned 3G dongle had a microSD card slot on it.</p>
+<p>I booted from it and got to work figuring out how to solve the partition problem using the unfamiliar Puppy system. I don’t remember how I did it, but over the course of an evening and a lifetime of head-scratching, my machine booted again. I breathed a sigh of disbelief.</p>
+<p>Yes, people, I had just fixed a bricked system using a microSD card and <em>a fucking 3G dongle</em>. AMA.</p>
+<hr />
+<p>The endless search for the perfect distro wasn’t endless after all. Sometime in 2015, I had installed elementary OS 0.3 Freya on my personal laptop, which I had bought with Ubuntu preinstalled two years before. And I had a new full-time job with little time to try out new distros every now and then. Having a stable, long-term OS was a must, and nothing worked better for me than elementary OS.</p>
+<p>Since then, I have quit the distrohopping. I do occasionally try out an interesting distro on a live USB, but never replace my new “home distro.”</p>
+<p>For what it’s worth, I have started investing my time in being a good citizen of the elementary community. I hang out on the community Slack and help people where I can. I make small code contributions once in a while. I developed a couple of apps for AppCenter, and will surely develop more.</p>
+<p>And you know what? It gives me as much joy as distrohopping did, if not more. Sure, trying out new stuff is a lot of fun, but there’s a different kind of fulfillment in sticking to something and doing your bit to make it better.</p>
+<p>And that is what I am trying to do today. That is what my Linux journey has led to. How about you?</p>
+
+    </section>
+    
+      <footer class="page-footer">
+        <address class="is-centered-y">
+          <div class="headshot-small"><img alt="Darshak Parikh's photo" src="/images/photo.webp"/> </div>
+          <div>
+            <p>Hello, I’m Darshak Parikh. I write apps
+              <a href="https://github.com/elfenware" target="_blank">for elementary OS</a>
+              and
+              <a href="https://github.com/dar5hak" target="_blank">the web</a>.
+                                And I read
+              <a href="digital-garden/books/">books</a>
+              and
+              <a href="digital-garden/manga-and-friends/">stuff</a>.
+            </p>
+            <p>
+              Know more <a href="/about">about me</a>, subscribe to my <a href="/atom.xml" target="_blank">feed</a>, or reach out to me on
+              <a href="https://im-in.space/@dubiousdisc" rel="noopener" target="_blank">Mastodon</a>.
+            </p>
+          </div>
+        </address>
+      </footer>
+    
+  </article>
+</main>
+     
+  </section>
+</body>
+
+</html>

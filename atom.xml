@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>prose&amp;const</title>
+    <subtitle>Code and musings by Darshak Parikh</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://proseandconst.xyz/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://proseandconst.xyz"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-08T00:00:00+00:00</updated>
+    <id>https://proseandconst.xyz/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Two-week Review of EvoFox Katana X2 Keyboard</title>
+        <published>2024-10-08T00:00:00+00:00</published>
+        <updated>2024-10-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/katana-x2-review/"/>
+        <id>https://proseandconst.xyz/blog/katana-x2-review/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/katana-x2-review/">&lt;p&gt;First things first: I’m no expert on mechanical keyboards.&lt;&#x2F;p&gt;
+&lt;p&gt;In fact, this is my first mechanical keyboard after spending half my life on membrane keyboards and being perfectly happy with them. So while this is not an experienced review, it does come from someone who has been somewhat sceptical of mechanical keyboards.&lt;&#x2F;p&gt;
+&lt;p&gt;Many people have told me about their superiority, but last month, a friend finally got into my head and I decided to try out an entry-level keyboard and see how it fares.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;katana-x2-review&#x2F;katana-x2.jpg&quot; alt=&quot;A wired black-coloured mechanical keyboard with its rainbow backlights on&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Spoiler alert: I wasn’t disappointed.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;buying-experience-3-5&quot;&gt;Buying experience: 3&#x2F;5&lt;&#x2F;h2&gt;
+&lt;p&gt;I got myself the tenkeyless variant of &lt;a href=&quot;https:&#x2F;&#x2F;www.amkette.com&#x2F;collections&#x2F;gaming-keyboards&#x2F;products&#x2F;evofox-katana-x2-tkl-mechanical-gaming-keyboard&quot;&gt;EvoFox Katana X2&lt;&#x2F;a&gt; with blue switches and black colour. They have a white one with full-size layout and red switches, but that’s the only other variant at the time of writing. And on Amazon, this is listed as a variant of older generation Katana keyboards.&lt;&#x2F;p&gt;
+&lt;p&gt;So while EvoFox makes good budget products, their cataloguing sucks.&lt;&#x2F;p&gt;
+&lt;p&gt;I say good products, because I already have a game controller from them, which works great. So I took a leap of faith despite there being no reviews of this product other than the scant customer reviews on Flipkart and Amazon — which are extremely favourable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;build-quality-4-5&quot;&gt;Build quality: 4&#x2F;5&lt;&#x2F;h2&gt;
+&lt;p&gt;The keyboard is sturdy and uses quality plastic. It is neither heavy nor light and can be easily carried in a backpack along with a laptop and a charger.&lt;&#x2F;p&gt;
+&lt;p&gt;The keycaps are fairly stable, but not the most stable I’ve seen. It also claims a lifetime of 50 million keystrokes and comes with swappable switches.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;typing-experience-5-5&quot;&gt;Typing experience: 5&#x2F;5&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;feel&quot;&gt;Feel&lt;&#x2F;h3&gt;
+&lt;p&gt;The tactile feedback is accurate, in that you can feel the exact millisecond the switch clicks. It is what you would expect from blue switches.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;sound&quot;&gt;Sound&lt;&#x2F;h3&gt;
+&lt;p&gt;My more experienced friends have called it somewhat on the thockier side. I’ve felt the thock only on the larger keys like &lt;kbd&gt;Enter&lt;&#x2F;kbd&gt;, &lt;kbd&gt;Backspace&lt;&#x2F;kbd&gt; and &lt;kbd&gt;Spacebar&lt;&#x2F;kbd&gt;, while the other keys sound clicky to me.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;speed&quot;&gt;Speed&lt;&#x2F;h3&gt;
+&lt;p&gt;On membrane keyboards, I used to hit 60 to 70 words per minute depending on which typing tutor I use to measure. With the Katana X2, I was at a good 50 within the first hour of usage, and by the second day, I was at my usual speeds.&lt;&#x2F;p&gt;
+&lt;p&gt;After a couple of weeks, I’m hitting 70 to 80 words per minute, which is slightly better than my previous best.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;other-stuff&quot;&gt;Other stuff&lt;&#x2F;h2&gt;
+&lt;p&gt;The keyboard comes with a handy volume control knob at the top right corner. It also lets you control the backlight brightness after a long press.&lt;&#x2F;p&gt;
+&lt;p&gt;Speaking of backlight, it has rainbow lighting, with fixed colours for each key. There are a bunch of lighting effects, but I’m not interested in backlights at all, so I have no opinion on that.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;If you’ve never tried mechanical keyboards and don’t want to spend a lot before you know you’re into the hobby, and you’re okay with a wired keyboard, then the EvoFox Katana X2 is for you. It’s a bargain at the price of ₹1799–₹1899.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Fixing the Stupid Defaults on macOS</title>
+        <published>2024-10-06T00:00:00+00:00</published>
+        <updated>2024-10-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/fix-macos-defaults/"/>
+        <id>https://proseandconst.xyz/blog/fix-macos-defaults/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/fix-macos-defaults/">&lt;h2 id=&quot;why&quot;&gt;Why&lt;&#x2F;h2&gt;
+&lt;p&gt;My work laptop is usually a MacBook, and installing Linux on that is not possible for various reasons.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, being stuck with macOS isn’t all that bad. I’d take it any day over Windows. I even get to sync my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;dotfiles&quot;&gt;dotfiles&lt;&#x2F;a&gt; across Linux and macOS.&lt;&#x2F;p&gt;
+&lt;p&gt;That said, one of the first things I do after receiving a new MacBook for a project is fixing some of its silly defaults and making it somewhat &lt;a href=&quot;https:&#x2F;&#x2F;elementary.io&#x2F;&quot;&gt;more sensible&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;auto-hide-the-dock&quot;&gt;Auto-hide the dock&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;System Settings&lt;&#x2F;strong&gt; &amp;gt; &lt;strong&gt;Desktop &amp;amp; Dock&lt;&#x2F;strong&gt; &amp;gt; turn on &lt;strong&gt;Automatically hide and show the Dock&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It’s not as smart as elementary OS, so it stays hidden even when there is no window blocking its space, but turning on this setting is more useful than giving so much real estate to something I &lt;a href=&quot;https:&#x2F;&#x2F;www.raycast.com&#x2F;&quot;&gt;rarely touch&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;stop-reordering-spaces&quot;&gt;Stop reordering spaces&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;System Settings&lt;&#x2F;strong&gt; &amp;gt; &lt;strong&gt;Desktop &amp;amp; Dock&lt;&#x2F;strong&gt; &amp;gt; turn off &lt;strong&gt;Automatically rearrange Spaces based on most recent use&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I don’t know who uses this, but I prefer to know exactly where my windows are instead of finding them by trial and error.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;scroll-reverser&quot;&gt;Scroll Reverser&lt;&#x2F;h2&gt;
+&lt;p&gt;Sometimes I use a mouse, sometimes the trackpad. I want natural scrolling on one but not the other, so I should change the setting for each of them, right?&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, my sweet summer child! Just because they are two different checkboxes doesn’t mean they are two different settings. They’re bound to the same thing. Changing one updates the other. The US really needs to do something about their drug problem.&lt;&#x2F;p&gt;
+&lt;p&gt;But until then, install &lt;a href=&quot;https:&#x2F;&#x2F;pilotmoon.com&#x2F;scrollreverser&#x2F;&quot;&gt;Scroll Reverser&lt;&#x2F;a&gt; to keep your sanity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;alttab&quot;&gt;AltTab&lt;&#x2F;h2&gt;
+&lt;p&gt;What are all these background apps doing in my &lt;kbd&gt;Cmd&lt;&#x2F;kbd&gt; + &lt;kbd&gt;Tab&lt;&#x2F;kbd&gt; switcher? Why do I see apps from other spaces? Who invited Finder?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;alt-tab-macos.netlify.app&#x2F;&quot;&gt;AltTab&lt;&#x2F;a&gt; fixes all that and lets you tweak it as per your needs.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bluesnooze&quot;&gt;Bluesnooze&lt;&#x2F;h2&gt;
+&lt;p&gt;You’re going for a walk, so you decide to play a podcast on your phone and listen to it on your earphones. But guess what? Your earphones get connected to your sleeping MacBook before your phone.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, you could open your backpack, take out your MacBook, unlock it, turn off Bluetooth and put it back in the pack. Or you could install &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;odlp&#x2F;bluesnooze&#x2F;&quot;&gt;Bluesnooze&lt;&#x2F;a&gt; and get on with your life.&lt;&#x2F;p&gt;
+&lt;p&gt;There used to be a setting to turn off this (even then) abominable default, but it’s gone now.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;hidden-bar&quot;&gt;Hidden Bar&lt;&#x2F;h2&gt;
+&lt;p&gt;No, this is not the name of a shady place you go to for cheap alcohol. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dwarvesf&#x2F;hidden&#x2F;&quot;&gt;Hidden Bar&lt;&#x2F;a&gt; is a tool to control the chaos of apps filling up your menu bar with icons you either never click or don’t want to look at because they’re ugly.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Two-week Review of Arc Browser</title>
+        <published>2022-11-11T00:00:00+00:00</published>
+        <updated>2023-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/arc-review/"/>
+        <id>https://proseandconst.xyz/blog/arc-review/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/arc-review/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arc.net&#x2F;&quot;&gt;Arc Browser&lt;&#x2F;a&gt; had been making waves in my social media circles, so I was mildly intrigued by what they were making. But it is in closed preview at the time of writing, so I didn’t bother taking a deeper look. I was happy with Firefox.&lt;&#x2F;p&gt;
+&lt;p&gt;That was until my friend Rahul mentioned he had been enjoying it and shared an invite to the preview. Now, after two weeks of using it as the primary browser on my macOS workstation, I want to share some thoughts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-i-like&quot;&gt;What I like&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;spaces-and-profiles&quot;&gt;Spaces and Profiles&lt;&#x2F;h3&gt;
+&lt;p&gt;Spaces are a way to group your tabs and bookmarks, which is Arc’s answer to multiple windows. Profiles, on the other hand, group your logins, much like Firefox Containers. The two features work well together.&lt;&#x2F;p&gt;
+&lt;p&gt;I use these to separate my personal browsing, my work browsing and my client work browsing. I even colour-coded the Spaces to match the brand colours of the said companies, while choosing an autumn orange for my Personal Space.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;arc-review&#x2F;personal-space.png&quot; alt=&quot;A screenshot of my Personal Space in Arc, with an autumn orange gradient background, showing my pinned tabs and folders in a sidebar on the left&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This way, I can tell at a vague glance the Space I’m in right now. Switching Spaces with the touchpad gesture has become second nature in a short time.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;easels&quot;&gt;Easels&lt;&#x2F;h3&gt;
+&lt;p&gt;You can capture any rectangular area on any web page and save it to a so-called Easel. This is like a sharable board to collect stuff from various parts of the web. You can even add text, pictures and arrows to it. Think of it like a love child of Excalidraw and Pinterest.&lt;&#x2F;p&gt;
+&lt;p&gt;And that rectangle you captured? By default, it is an ordinary screenshot with a link to the source page. But the magic starts when you press the Play button on it. This will make it update live, so you can keep an eye on a part of a page without opening the entire page. Nifty!&lt;&#x2F;p&gt;
+&lt;p&gt;I’ve been using an Easel to track my &lt;a href=&quot;https:&#x2F;&#x2F;inktober.com&#x2F;&quot;&gt;Inktober&lt;&#x2F;a&gt; progress. I added an image with the list of daily prompts and my to-do item which I could check right away. I also added links to the Mastodon and Twitter threads where I post the artworks.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;arc-review&#x2F;inktober-easel.png&quot; alt=&quot;A screenshot of my Inktober Easel in Arc, with a heading saying “Inktober”, an image containing a list of art prompts, a Habitica to-do item saying “Inktober” and screenshots of a Mastodon thread and a Twitter thread&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This lifts the overhead of deciding what to do next: everything is (literally) laid out in front of me.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;command-bar&quot;&gt;Command Bar&lt;&#x2F;h3&gt;
+&lt;p&gt;I use VS Code, so I’m used to summoning a genie text input and typing my wish.&lt;&#x2F;p&gt;
+&lt;p&gt;Arc has this feature, and it’s pretty smart. Enter a URL, a web search query or a browser action, and it will know what to do.&lt;&#x2F;p&gt;
+&lt;p&gt;Arc is also keyboard-friendly in general. Not only does it have good shortcuts, it also makes them easy to discover and change.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;little-arc&quot;&gt;Little Arc&lt;&#x2F;h3&gt;
+&lt;p&gt;You’re in another app, say, Slack, and you click a link. You don’t have to switch over to the main browser window. You can choose to open a smaller window right there, do your thing and close it without switching contexts.&lt;&#x2F;p&gt;
+&lt;p&gt;I use this to check out shared links and review small pull requests. If it needs more time and space, there’s a button to open it in the main browser window.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boosts&quot;&gt;Boosts&lt;&#x2F;h3&gt;
+&lt;p&gt;This is a fancy name for what are traditionally known as user styles and user scripts, except that you don’t need to install an extension.&lt;&#x2F;p&gt;
+&lt;p&gt;The idea is that you can add custom code to some or all websites and tweak them to your liking. People have used these to theme pages, add features and remove unwanted crap among other things.&lt;&#x2F;p&gt;
+&lt;p&gt;The major difference is that Boosts in Arc are more approachable. You can choose from pre-built templates, which come with nice code comments to guide you through the process.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m yet to write my own Boost, but I’m more likely to write one for Arc than any other browser.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, by giving it a simple name and making it more developer-friendly, Arc could even create a marketplace to share and install public Boosts. I haven’t heard of any plans to do so yet — it’s a complicated undertaking — but they could if they wanted to.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;split-view&quot;&gt;Split view&lt;&#x2F;h3&gt;
+&lt;p&gt;This is what it says on the tin. You can split the window to see multiple tabs at once.&lt;&#x2F;p&gt;
+&lt;p&gt;I have often wished for this in other browsers. While this can be solved by tiling two browser windows, I am not a fan of the window management in macOS, so a built-in split view is a boon.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-i-don-t-like&quot;&gt;What I don’t like&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;no-reader-mode&quot;&gt;No reader mode&lt;&#x2F;h3&gt;
+&lt;p&gt;Websites like to smother their articles with cookie banners, pop-ups and other annoyances.&lt;&#x2F;p&gt;
+&lt;p&gt;With a click of a button, I can get rid of it all and focus on the content, while being able to tweak the appearance to my liking. In Firefox, that is. I sorely miss this feature in Arc.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-s-only-for-macos-for-now&quot;&gt;It’s only for macOS (for now)&lt;&#x2F;h3&gt;
+&lt;p&gt;My other devices are a phone (running Android), a laptop and a Raspberry Pi (both running Linux). Firefox syncs among all these devices. Arc does not (yet).&lt;&#x2F;p&gt;
+&lt;p&gt;The next platform they’re planning to support is a logical choice, but one I couldn’t care less about: Windows.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-s-chromium&quot;&gt;It’s Chromium&lt;&#x2F;h3&gt;
+&lt;p&gt;It’s sad that yet another new browser has to contribute to the Chromium monopoly.&lt;&#x2F;p&gt;
+&lt;p&gt;Even if I do swallow that pill, what’s harder for me is to get used to Chromium devtools. The UX just doesn’t compare to that of Firefox devtools. And while there are some brilliant designers working on Arc, they’re unlikely to change the devtools.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, Arc uses the Chrome Web Store for extensions. This means I cannot install extensions which Google doesn’t like because they harm their ad business. The Firefox add-ons marketplace is much more relaxed in those terms.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;Overall, I’m happy with the direction Arc is going in. I love the features and happily use it as my default browser. That said, there are few important things missing, so I will likely switch back to Firefox soon.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are reading this as a part of the Arc team, I will keep cheering for you (unless you do something terrible). All the best, and keep up the great work!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;update-2023-03-25&quot;&gt;Update: 2023-03-25&lt;&#x2F;h3&gt;
+&lt;p&gt;Four months later, Arc is still my default browser, and I see no reason to switch away at this point. However, I am closely watching how the company plans to make profits. If they make a move that does not sit well with me ethically, I will pull out in a heartbeat.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>On Going Back to the Office</title>
+        <published>2022-04-25T00:00:00+00:00</published>
+        <updated>2022-04-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/back-to-office/"/>
+        <id>https://proseandconst.xyz/blog/back-to-office/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/back-to-office/">&lt;p&gt;My workplace has asked everyone to start coming to office at least thrice a week. Each team picks which three weekdays are best suited to them.&lt;&#x2F;p&gt;
+&lt;p&gt;This means that I will be moving to Bengaluru this week and find a place to stay somewhere close to work.&lt;&#x2F;p&gt;
+&lt;p&gt;I, for one, am excited about this.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;work-from-where&quot;&gt;Work From Where?&lt;&#x2F;h2&gt;
+&lt;p&gt;There’s a narrative that says knowledge workers no longer need offices, because they are equally productive working from home. While I respect their choice, I find myself to feel much better about my job — and life in general — while working from an office.&lt;&#x2F;p&gt;
+&lt;p&gt;For one, it helps you set a clear boundary between work and not-work. Your mind gets into either mode based on where you are.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore, as a developer, you do much more than just write code. You spend a lot of time talking to people. You discuss requirements, ask for help, give help, clarify things and review code to name a few.&lt;&#x2F;p&gt;
+&lt;p&gt;All this is possible to do over the internet, no doubt. But I find it much more organic, much more human to do it in person.&lt;&#x2F;p&gt;
+&lt;p&gt;Our brains are more accustomed to reading facial expressions and body language than they are at processing words. And it is much easier to showcase your intent through these. Heck, it’s harder to hide your intent.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, while providing critical feedback, you don’t want to come across as bossy or arrogant. No matter how good you are at language, this is hard to do with mere words and emoji. But wearing a kind, friendly expression on your face is so natural that you don’t even stop and think about it. Think about it.&lt;&#x2F;p&gt;
+&lt;p&gt;There’s a reason people are regularly misunderstood on social media.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt; I am saying all this from a subjective, neurotypical viewpoint. I mean no disrespect to people who cannot or don’t want to work from an office for any reason.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;not-work-work&quot;&gt;Not-work Work&lt;&#x2F;h2&gt;
+&lt;p&gt;Moving from living with my parents to living on my own also comes with an advantage. I get more time and space to work on things that matter the most to me: side projects, open source and pixel art.&lt;&#x2F;p&gt;
+&lt;p&gt;I have been procrastinating for far too long, and it’s about time I went back to following &lt;a href=&quot;&#x2F;blog&#x2F;creation-consumption&quot;&gt;my own advice&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Creating Underlined Hyperlinks in Inkscape</title>
+        <published>2021-02-11T00:00:00+00:00</published>
+        <updated>2022-07-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/underlined-link-inkscape/"/>
+        <id>https://proseandconst.xyz/blog/underlined-link-inkscape/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/underlined-link-inkscape/">&lt;p&gt;Sometimes you want to create a vector graphic résumé or an infographic and export it as PDF. Doing this is easy in Inkscape using its &lt;strong&gt;Print&lt;&#x2F;strong&gt; function to create a file instead of printing on paper.&lt;&#x2F;p&gt;
+&lt;p&gt;If your document has a web or email address, it is a good idea to make it clickable, so that anyone looking at the PDF doesn&#x27;t have to copy and paste the address.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ll show you how to do that.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;creating-a-link&quot;&gt;Creating a link&lt;&#x2F;h2&gt;
+&lt;p&gt;Using the &lt;strong&gt;Select&lt;&#x2F;strong&gt; tool (the mouse-pointer arrow thing), select the object which you want to turn into a hyperlink. This will usually be text, but it can be anything: a rectangle, a path, a vectorized taco, anything.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;text-unstyled.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now right click on this object and select &lt;strong&gt;Create Link&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This will open up a pane on the right that looks like this:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;attr-pane-empty.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Href&lt;&#x2F;strong&gt; field, type your address:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;attr-pane-filled.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s it. There&#x27;s no &lt;strong&gt;Apply&lt;&#x2F;strong&gt; button. Your object is now clickable. Go home.&lt;&#x2F;p&gt;
+&lt;p&gt;But there&#x27;s a problem. Our text doesn&#x27;t &lt;em&gt;look like&lt;&#x2F;em&gt; it&#x27;s clickable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;adding-an-underline&quot;&gt;Adding an underline&lt;&#x2F;h2&gt;
+&lt;p&gt;The most foolproof way to make text look like a link is to underline it.&lt;&#x2F;p&gt;
+&lt;p&gt;To do that, open the &lt;strong&gt;Object&lt;&#x2F;strong&gt; menu at the top of your window, and select an option called &lt;strong&gt;Selectors and CSS…&lt;&#x2F;strong&gt;. Then select your text object. This will open up another pane to the right:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;css-pane-default.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;What you see is a table of the various style properties applied to the text under the hood. These are the defaults, but we want to add one more property here.&lt;&#x2F;p&gt;
+&lt;p&gt;Click the &lt;strong&gt;+&lt;&#x2F;strong&gt; icon at the top left corner. It will add a new row.&lt;&#x2F;p&gt;
+&lt;p&gt;Start typing &lt;kbd&gt;text-decoration&lt;&#x2F;kbd&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;css-pane-text-decoration-typing.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can select the suggestion. Once done, press &lt;kbd&gt;Tab&lt;&#x2F;kbd&gt; to go to the next column. Here, type &lt;kbd&gt;underline&lt;&#x2F;kbd&gt; and hit &lt;kbd&gt;Enter&lt;&#x2F;kbd&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;css-pane-text-decoration.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Boom! You have your underline.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;text-black-underline.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;But it&#x27;s not over yet.&lt;&#x2F;p&gt;
+&lt;p&gt;What if you, like myself, are not a fan of pure black text on white, and prefer some colour in your life? A black underline is no good.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;colouring-the-underline&quot;&gt;Colouring the underline&lt;&#x2F;h2&gt;
+&lt;p&gt;Easy. In the same pane where you added the underline, add another property called &lt;kbd&gt;text-decoration-color&lt;&#x2F;kbd&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;css-pane-text-decoration-color-typing.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In the right column goes your colour&#x27;s hex code, &lt;kbd&gt;#156255&lt;&#x2F;kbd&gt; in my case.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;css-pane-text-decoration-color.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You should see the coloured underline now!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;underlined-link-inkscape&#x2F;text-coloured-underline.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;alpha.inkscape.org&#x2F;vectors&#x2F;www.inkscapeforum.com&#x2F;viewtopicb247.html?t=2025&quot;&gt;This one&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;wallpapersite.com&#x2F;en&#x2F;knowledge-base&#x2F;66990&#x2F;how-to-underline-text-in-inkscape&quot;&gt;This one&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;graphicdesign.stackexchange.com&#x2F;questions&#x2F;66990&#x2F;how-to-underline-text-in-inkscape&quot;&gt;And this one&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Implementing a ‘Select all’ Checkbox Using ES6 Set</title>
+        <published>2020-11-21T00:00:00+00:00</published>
+        <updated>2020-11-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/select-all-set/"/>
+        <id>https://proseandconst.xyz/blog/select-all-set/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/select-all-set/">&lt;h2 id=&quot;problem-statement&quot;&gt;Problem statement&lt;&#x2F;h2&gt;
+&lt;p&gt;Say you have a list of selectable items like emails or todos. There’s a checkbox next to each item, and the user can select multiple items to do some action with them.&lt;&#x2F;p&gt;
+&lt;p&gt;Since you love your users, you don’t want them to always select items one by one, so you provide a ‘Select all’ checkbox. There are four criteria you need to fulfill:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;On checking the ‘Select all’ checkbox, all item checkboxes should be checked.&lt;&#x2F;li&gt;
+&lt;li&gt;On unchecking the ‘Select all’ checkbox, all item checkboxes should be unchecked.&lt;&#x2F;li&gt;
+&lt;li&gt;On individually checking each item checkbox, the ‘Select all’ checkbox should also be checked.&lt;&#x2F;li&gt;
+&lt;li&gt;On unchecking at least one item checkbox, the ‘Select all’ checkbox should also be unchecked.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;why-use-a-set&quot;&gt;Why use a set?&lt;&#x2F;h2&gt;
+&lt;p&gt;You could use an array for this, and indeed, most of the code I have mentioned can be adapted for an array. However, we put our selected items in a set for these reasons:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;We don’t care about the order.&lt;&#x2F;li&gt;
+&lt;li&gt;Removing an item from a set is trivial: just call &lt;code&gt;.delete(item)&lt;&#x2F;code&gt;. It’s not so easy for arrays. You have to find the index of that item, either implicitly or explicitly.&lt;&#x2F;li&gt;
+&lt;li&gt;You don’t have to look out for duplicate items while adding or removing them.&lt;&#x2F;li&gt;
+&lt;li&gt;You don’t have to look out for empty slots after removing items.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I am going to provide a step-by-step solution to this. The code uses Svelte, but you should be able to adapt it to React, Angular, Vue or any other framework.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;step-1-display-the-checkboxes&quot;&gt;Step 1: Display the checkboxes&lt;&#x2F;h2&gt;
+&lt;p&gt;In our &lt;code&gt;&amp;lt;List&amp;gt;&lt;&#x2F;code&gt; component, we define an array of items and render each item in a list of checkboxes.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;ducks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Huey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Dewey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Louie&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;style&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae6;&quot;&gt;list-style-type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#f29668;&quot;&gt;none&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae6;&quot;&gt;padding-left&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;style&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {#each ducks as duck}
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {&#x2F;each}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This works as you might expect.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;select-all-set&#x2F;item-boxes-unchecked.png&quot; alt=&quot;Three checkboxes saying ‘Huey’, ‘Dewey’ and ‘Louie’&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;step-2-add-a-select-all-checkbox&quot;&gt;Step 2: Add a ‘Select all’ checkbox&lt;&#x2F;h2&gt;
+&lt;p&gt;We do this by adding another &lt;code&gt;&amp;lt;li&amp;gt;&lt;&#x2F;code&gt; above the loop.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;Select all&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {#each ducks as duck}
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {&#x2F;each}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It will, again, meet expectations.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;select-all-set&#x2F;all-boxes-unchecked.png&quot; alt=&quot;A ‘Select all’ checkbox in above three duck checkboxes&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;step-3-define-a-set-to-hold-the-selected-values&quot;&gt;Step 3: Define a set to hold the selected values&lt;&#x2F;h2&gt;
+&lt;p&gt;We initialize an empty set called &lt;code&gt;selectedDucks&lt;&#x2F;code&gt;. Every time a user checks a box, we add it to the set. Every time they uncheck one, we remove it from the set.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;ducks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Huey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Dewey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Louie&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;let &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;new &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;Set&lt;&#x2F;span&gt;&lt;span&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;onCheckDuck &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;event &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;checked) {
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;add&lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;value)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;else &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;delete&lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;value)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;    selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Notice how we add a redundant assignment? &lt;code&gt;selectedDucks = selectedDucks;&lt;&#x2F;code&gt; would do nothing in plain JavaScript, but we need it here to tell Svelte to rerender the component. Calling methods like &lt;code&gt;.add()&lt;&#x2F;code&gt; and &lt;code&gt;.delete()&lt;&#x2F;code&gt; on a set does not rerender it.&lt;&#x2F;p&gt;
+&lt;p&gt;Next, we bind &lt;code&gt;onCheckDuck&lt;&#x2F;code&gt; to the &lt;code&gt;change&lt;&#x2F;code&gt; event on the checkboxes.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;{#each ducks as duck}
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;checked&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{selectedDucks.has(duck)} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;on:change&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{onCheckDuck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;{&#x2F;each}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;We bind the &lt;code&gt;checked&lt;&#x2F;code&gt; attribute of each item to its presence in the set. We need to do this one-way binding so that if the set is updated from elsewhere (which it will), the checkbox gets checked too.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;step-4-bind-the-select-all-checkbox&quot;&gt;Step 4: Bind the ‘Select all’ checkbox&lt;&#x2F;h2&gt;
+&lt;p&gt;Just like the item checkboxes, we handle the &lt;code&gt;change&lt;&#x2F;code&gt; event on the ‘Select all’ checkbox too. The difference is that when it is checked, we add all the items to the set, and when it is unchecked, we clear the set. This will affect the &lt;code&gt;checked&lt;&#x2F;code&gt; attribute on item checkboxes, thus satisfying our first two criteria.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;js&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-js &quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;onSelectAll &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;event &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;checked) {
+&lt;&#x2F;span&gt;&lt;span&gt;    selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= new &lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;Set&lt;&#x2F;span&gt;&lt;span&gt;(ducks)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;else &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;clear&lt;&#x2F;span&gt;&lt;span&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }
+&lt;&#x2F;span&gt;&lt;span&gt;  selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;checked&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{selectedDucks.size&lt;&#x2F;span&gt;&lt;span&gt; === &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;ducks.length} on:change&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{onSelectAll}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;Select all&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Did you see how we bound the &lt;code&gt;checked&lt;&#x2F;code&gt; attribute based on the size of the set? This way, the ‘Select all’ checkbox will get automatically checked and unchecked depending on whether all the item checkboxes are checked. This satisfies the third and fourth criteria.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;that-s-all-folks&quot;&gt;That’s all, folks!&lt;&#x2F;h2&gt;
+&lt;p&gt;We used a set to define which items the user has selected. Based on the contents of the set, we checked and unchecked a ‘Select all’ button. We also handled user interaction on the ‘Select all’ checkbox to fill or empty the set, which in turn checks or unchecks the item checkboxes.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is the full code for your reference.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;ducks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Huey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Dewey&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;#39;Louie&amp;#39;&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;let &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;new &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;Set&lt;&#x2F;span&gt;&lt;span&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;onCheckDuck &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;event &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;checked) {
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;add&lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;value)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;else &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;delete&lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;value)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;    selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span&gt;onSelectAll &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;event &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(event&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;target&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;checked) {
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;new &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;Set&lt;&#x2F;span&gt;&lt;span&gt;(ducks)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;else &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;      selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;clear&lt;&#x2F;span&gt;&lt;span&gt;()&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;    selectedDucks &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;selectedDucks&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;style&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae6;&quot;&gt;list-style-type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#f29668;&quot;&gt;none&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae6;&quot;&gt;padding-left&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  }
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;style&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;checked&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{selectedDucks.size&lt;&#x2F;span&gt;&lt;span&gt; === &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;ducks.length} on:change&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{onSelectAll}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;select-all&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;Select all&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {#each ducks as duck}
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;input &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;checkbox&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;checked&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{selectedDucks.has(duck)} &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;on:change&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{onCheckDuck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;for&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;{duck}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;label&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  {&#x2F;each}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;{selectedDucks.size} ducks selected.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#39bae690;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Creation and Consumption</title>
+        <published>2020-11-05T00:00:00+00:00</published>
+        <updated>2020-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/creation-consumption/"/>
+        <id>https://proseandconst.xyz/blog/creation-consumption/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/creation-consumption/">&lt;p&gt;The activities you do in your free time fall into three categories: creation, recreation and consumption. In this post, I want to highlight the contrast and the relation between creation and consumption.&lt;&#x2F;p&gt;
+&lt;p&gt;Creation is when you produce something previously nonexistent. This includes writing, cooking, painting, playing music and coding to name a few. These are activities you will always find rewarding.&lt;&#x2F;p&gt;
+&lt;p&gt;Consumption is when you ingest content created by someone else. This could be reading, listening to music, watching a movie or browsing social media. Consumption may or may not be rewarding, depending on what you consume.&lt;&#x2F;p&gt;
+&lt;p&gt;Creation cannot exist in itself. You have to consume to create. You cannot be a chef without first understanding how your ingredients blend together. You cannot produce good music without having listened to some.&lt;&#x2F;p&gt;
+&lt;p&gt;Unlike creation, consumption can exist in itself. You can spend all your time consuming, but it won’t take you far. Sure, reading a good book or listening to an insightful podcast will give you knowledge. But knowledge alone is futile if you don’t also apply it.&lt;&#x2F;p&gt;
+&lt;p&gt;This is where creation comes in. It is the application of what you know from consumption.&lt;&#x2F;p&gt;
+&lt;p&gt;You will find your time to be the most fulfilling when you balance creation and consumption. The general principle you want to follow is:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spend as much time as you can creating something. Do it until you run out of ideas.&lt;&#x2F;li&gt;
+&lt;li&gt;When you’re out of ideas, consume. Not just anything, mind you. Consume with the intention to create more. Be a picky consumer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Once you fall into this virtuous cycle, you will never find yourself bored, idle or disappointed in yourself. It will give you a sense of achievement and satisfaction that you can never find with consumption alone.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Keyboard Is Mightier than the Pen</title>
+        <published>2020-09-24T00:00:00+00:00</published>
+        <updated>2020-09-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/keyboard-pen/"/>
+        <id>https://proseandconst.xyz/blog/keyboard-pen/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/keyboard-pen/">&lt;p&gt;We have all been “writing” since we were toddlers. But it’s only after a certain age that we start writing for ourselves, if at all.&lt;&#x2F;p&gt;
+&lt;p&gt;The mode in which we write depends on our personal choices, the time we were born in, and the environment we work or study in.&lt;&#x2F;p&gt;
+&lt;p&gt;As for me, any non-trivial writing I have ever done falls into one of three modes:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;handwriting: for all my formal education (~18 years)&lt;&#x2F;li&gt;
+&lt;li&gt;glide typing: since I started using a smartphone in 2011 (~9 years and counting)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Touch_typing&quot;&gt;touch typing&lt;&#x2F;a&gt; on a hardware keyboard: since I started my first job in 2014 (~6 years and counting)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I stopped using pen and paper the moment I stepped out of college. Few people will agree, but using the pen is an activity I find painful and tedious.&lt;&#x2F;p&gt;
+&lt;p&gt;This could be because my last memories of using a pen are largely negative. School and college required students to submit long, written assignments at the end of each term. Few students put any brain into it. I find this an unproductive, unnecessary chore which yields zero value to education.&lt;&#x2F;p&gt;
+&lt;p&gt;As if that is not enough, there is little focus on actual programming in courses like Computer Science and Information Technology. I graduated in the latter, and landed a software job, yet I could not touch type. Because I rarely needed to type at all.&lt;&#x2F;p&gt;
+&lt;p&gt;Such is the plight of the Indian education system.&lt;&#x2F;p&gt;
+&lt;p&gt;That said, I’m not the one to whine. My first role at the said job was that of a manual tester. And I was unamused at the prospect of listing test scenarios in a spreadsheet. So I used that to my advantage.&lt;&#x2F;p&gt;
+&lt;p&gt;I forced myself to touch type.&lt;&#x2F;p&gt;
+&lt;p&gt;It was painstaking at first: I would take three seconds to type one key. It would appear as though the spreadsheet program was stuck. But I had been watching Naruto at the time and had learnt not to give up.&lt;&#x2F;p&gt;
+&lt;p&gt;One month later, touch typing became second nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Thinking back, this month-long practice is one of the best life decisions I’ve made. To this day, I find touch typing to be the optimal way of putting down my thoughts. It puts me into a natural state of flow. Whether I am writing a blog post, styling a web page, or &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Free_writing&quot;&gt;free writing&lt;&#x2F;a&gt;, the experience is nothing short of meditative.&lt;&#x2F;p&gt;
+&lt;p&gt;Funnily though, this is the mode of writing I have spent the least time with: a mere third of what I have spent handwriting.&lt;&#x2F;p&gt;
+&lt;p&gt;As it happens, my preference of mode is inversely proportional to the time I have spent using it. Touch typing is my go-to solution. If not possible, I will glide type on my smartphone. I do not own a pen.&lt;&#x2F;p&gt;
+&lt;p&gt;And like any touch typist, I have strong preferences when it comes to the keyboard.&lt;&#x2F;p&gt;
+&lt;p&gt;I am a gentle typist. My previous boss used to say that it was always an enjoyable experience to watch me typing. He said that the way I swiftly but silently pressed the keys, the keyboard would last centuries.&lt;&#x2F;p&gt;
+&lt;p&gt;And when you type gently, a mechanical keyboard doesn’t work for you. Chiclet is the way to go. The one on my Dell Vostro is so perfect that it’s a reason I &lt;a href=&quot;&#x2F;blog&#x2F;life-with-low-end-hardware&quot;&gt;still use&lt;&#x2F;a&gt; the seven-year-old machine as my primary device.&lt;&#x2F;p&gt;
+&lt;p&gt;But never go too far with chiclets. &lt;a href=&quot;https:&#x2F;&#x2F;www.thenextweb.com&#x2F;plugged&#x2F;2019&#x2F;07&#x2F;07&#x2F;what-hell-apple-butterfly-keyboard-keys-design&#x2F;&quot;&gt;Apple did&lt;&#x2F;a&gt;. While I am by no means their fan, I need to use a MacBook Pro for work. And I’m glad the 2020 MacBooks got rid of that butterfly monstrosity.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Life with Low-end Hardware</title>
+        <published>2020-09-20T00:00:00+00:00</published>
+        <updated>2020-09-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/life-with-low-end-hardware/"/>
+        <id>https://proseandconst.xyz/blog/life-with-low-end-hardware/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/life-with-low-end-hardware/">&lt;p&gt;I am 28, and I have only owned two personal computers in my lifetime.&lt;&#x2F;p&gt;
+&lt;p&gt;Excluding workstations, I have had one desktop and one laptop.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;desktop-2007-2015&quot;&gt;Desktop (2007–2015)&lt;&#x2F;h2&gt;
+&lt;p&gt;This one had a CRT monitor, a single-core AMD Sempron processor, an 80 GB hard drive and 256 MB of RAM, later upgraded to 1.25 GB. It was my high school machine and my father’s occasional taxation machine.&lt;&#x2F;p&gt;
+&lt;p&gt;It came with Windows XP, which I later replaced with various Linux distributions.&lt;&#x2F;p&gt;
+&lt;p&gt;Now decommissioned and sold, I thank it for sparking in me the curiosity about computer science, programming and open source.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dell-vostro-2520-2013-present&quot;&gt;Dell Vostro 2520 (2013–present)&lt;&#x2F;h2&gt;
+&lt;p&gt;The laptop has a 15.6″ 1366×768 display, a dual-core 3rd generation i5, no dedicated graphics and 4 GB of RAM. I upgraded the 500 GB spinning hard drive to a 480 GB SSD last year.&lt;&#x2F;p&gt;
+&lt;p&gt;It is a clunky box with ancient tech: a DVD drive, an RJ45 port, a VGA port and (by today’s standards) an HDMI port. Forget Type-C, it does not even have USB 3.0. There are three USB 2.0 ports, supported well even today.&lt;&#x2F;p&gt;
+&lt;p&gt;I bought it with Ubuntu, then &lt;a href=&quot;https:&#x2F;&#x2F;www.urbandictionary.com&#x2F;define.php?term=distrohopper&quot;&gt;distrohopped&lt;&#x2F;a&gt; for a bit before settling down with &lt;a href=&quot;https:&#x2F;&#x2F;elementary.io&#x2F;&quot;&gt;elementary OS&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This has been my primary machine for seven years and counting.&lt;&#x2F;p&gt;
+&lt;p&gt;In 2020, this might sound like weak, barely running hardware, and you won’t be entirely wrong. Yet, I haven’t felt the need to replace it, even though I can afford it.&lt;&#x2F;p&gt;
+&lt;p&gt;Let me tell you why this machine is brilliant.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-is-economic&quot;&gt;It is economic.&lt;&#x2F;h3&gt;
+&lt;p&gt;I got it for ₹33,000 (about $450). Then I made two screen replacements, two battery replacements and one SSD upgrade. The total cost including purchase has been less than ₹65,000 (about $885).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-keyboard-is-excellent&quot;&gt;The keyboard is excellent.&lt;&#x2F;h3&gt;
+&lt;p&gt;The keys are neither as flimsy as MacBook’s butterfly keyboard nor as hard as a mechanical keyboard. They are “Goldilocks” easy to press.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-works&quot;&gt;It works.&lt;&#x2F;h3&gt;
+&lt;p&gt;It serves all my needs without breaking a sweat.&lt;&#x2F;p&gt;
+&lt;p&gt;Without the fans going off, it can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;citra-emu.org&#x2F;&quot;&gt;emulate&lt;&#x2F;a&gt; Nintendo 3DS games at 100% speed&lt;&#x2F;li&gt;
+&lt;li&gt;run Firefox, &lt;a href=&quot;https:&#x2F;&#x2F;vscodium.com&#x2F;&quot;&gt;VSCodium&lt;&#x2F;a&gt; and a Node.js server with no lag&lt;&#x2F;li&gt;
+&lt;li&gt;compile Vala apps in seconds&lt;&#x2F;li&gt;
+&lt;li&gt;build my website in milliseconds&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I realize that a lot of this is thanks to the SSD and would not have been so impressive before the upgrade. But as mentioned before, it is economic.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;but-it-s-growing-old&quot;&gt;But it’s growing old.&lt;&#x2F;h3&gt;
+&lt;p&gt;It’s not all rainbows and butterflies. The device’s age shows in a few areas:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The 1366×768 resolution is fine, but I am spoilt by my HiDPI workstation.&lt;&#x2F;li&gt;
+&lt;li&gt;The touchpad is tiny. (Again, spoilt by workstation, but I have a mouse).&lt;&#x2F;li&gt;
+&lt;li&gt;The camera applies funky filters to your image unless you pinch the bezel.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;There’s this balance of good and bad things about it, and it is inevitably approaching a tipping point where the bad outweighs the good. That being said, my old buddy can pull off a few months to a year before I need an upgrade.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;&#x2F;h2&gt;
+&lt;p&gt;The bottom line is that it is okay to be conservative about hardware purchases. Quality hardware will last several years without needing a replacement.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Making of This Site</title>
+        <published>2020-09-19T00:00:00+00:00</published>
+        <updated>2021-03-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/blog/making-of-site/"/>
+        <id>https://proseandconst.xyz/blog/making-of-site/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/blog/making-of-site/">&lt;p&gt;&lt;strong&gt;TL;DR:&lt;&#x2F;strong&gt; I moved from WordPress to a superfast static site. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;dar5hak.github.io&quot;&gt;Here’s the source code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is not my first site. I’ve had a WordPress blog hosted on this domain since 2013. And I recommend WordPress to anyone who wants their own site but cannot write HTML and CSS.&lt;&#x2F;p&gt;
+&lt;p&gt;Then why did I move away from it? Because I can. As an experienced web developer, I was itching to write my own site by hand. Reasons being:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;I wanted to tune the performance and accessibility in very specific ways.&lt;&#x2F;li&gt;
+&lt;li&gt;I wanted it to be a static site, which makes it inherently faster than WordPress.&lt;&#x2F;li&gt;
+&lt;li&gt;I wanted to add personal style and navigation that was only possible if I wrote the code myself.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;And thus began my hunt for the right tools.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;static-site-generator&quot;&gt;Static Site Generator&lt;&#x2F;h2&gt;
+&lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;www.staticgen.com&#x2F;&quot;&gt;static site generator&lt;&#x2F;a&gt; is a program which takes your content and puts it into nice-looking HTML pages. You can then host these on any static web server. No back end needed.&lt;&#x2F;p&gt;
+&lt;p&gt;There’s no shortage of such generators on the internet. But I needed something that could build my site in milliseconds, even on &lt;a href=&quot;&#x2F;blog&#x2F;life-with-low-end-hardware&quot;&gt;my low-end hardware&lt;&#x2F;a&gt;. This led me to two choices: &lt;a href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After trying them both for a while, I decided to go with Zola for its relative simplicity and ease of learning.&lt;&#x2F;p&gt;
+&lt;p&gt;I knew I’d miss out on the huge community that comes with Hugo. But thanks to Zola’s excellent documentation and forum, I rarely felt stuck. The number of community themes was irrelevant to me since I planned to write my own.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;turbolinks-turbo&quot;&gt;&lt;del&gt;Turbolinks&lt;&#x2F;del&gt; Turbo&lt;&#x2F;h2&gt;
+&lt;p&gt;One day, I landed on a post on &lt;a href=&quot;https:&#x2F;&#x2F;www.taniarascia.com&#x2F;&quot;&gt;taniarascia.com&lt;&#x2F;a&gt; from a web search. The site looked so clean that I decided to explore it, and was floored by how fast the navigation was. Unvisited pages opened as if they were stored offline. Something was fishy.&lt;&#x2F;p&gt;
+&lt;p&gt;I dug around the site to find &lt;a href=&quot;https:&#x2F;&#x2F;www.taniarascia.com&#x2F;migrating-from-wordpress-to-gatsby&#x2F;&quot;&gt;a post&lt;&#x2F;a&gt; about how it was made (much like this one). It uses Gatsby, which turns the site into a single-page application. Each page load is a JSON call, and even that is likely &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;HTML&#x2F;Preloading_content&quot;&gt;preloaded&lt;&#x2F;a&gt; by the current page.&lt;&#x2F;p&gt;
+&lt;p&gt;I had no intention of switching away from Zola, but I wanted this superpower. I remembered seeing a GitHub repo that can do something similar to a site using traditional navigation. I peeped into my Pensieve (read: Firefox history) and came out with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;turbolinks&#x2F;turbolinks&#x2F;&quot;&gt;Turbolinks&lt;&#x2F;a&gt;. (&lt;strong&gt;Update:&lt;&#x2F;strong&gt; Now using &lt;a href=&quot;https:&#x2F;&#x2F;turbo.hotwire.dev&#x2F;&quot;&gt;Turbo&lt;&#x2F;a&gt;, the successor to Turbolinks.)&lt;&#x2F;p&gt;
+&lt;p&gt;This library hijacks all same-origin hyperlinks on your site and fetches them in the background. Then, without causing a full page reload, it swaps out the &lt;code&gt;&amp;lt;body&amp;gt;&lt;&#x2F;code&gt; and merges the &lt;code&gt;&amp;lt;head&amp;gt;&lt;&#x2F;code&gt;, making navigation blazing fast. This way, you can still use old-school hyperlinks and your site will behave like a single-page application.&lt;&#x2F;p&gt;
+&lt;p&gt;The best part about Turbo that there’s nothing to configure. Load it in a &lt;code&gt;&amp;lt;script&amp;gt;&lt;&#x2F;code&gt; and it starts working. And if a browser doesn’t support JavaScript, links work like they always have. Everybody wins!&lt;&#x2F;p&gt;
+&lt;p&gt;Which brings me to—&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;progressive-enhancement&quot;&gt;Progressive Enhancement&lt;&#x2F;h2&gt;
+&lt;p&gt;It shouldn’t take a read-through of &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;resilientwebdesign.com&#x2F;&quot;&gt;Resilient Web Design&lt;&#x2F;a&gt;&lt;&#x2F;em&gt; to understand the importance of progressive enhancement. My site had to work on everything from a command-line browser to a full-blown Firefox.&lt;&#x2F;p&gt;
+&lt;p&gt;And that’s easy. Use accessible, semantic markup, and serve it without any client-side DOM manipulation. Everything else is an addition. Even CSS.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;snazzy-underlines&quot;&gt;Snazzy Underlines&lt;&#x2F;h3&gt;
+&lt;p&gt;I was itching to use the new &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=sZS-7RX_c7g&quot;&gt;underline styles&lt;&#x2F;a&gt; now possible with pure CSS. At the time of writing, they only fully work on Firefox. How do I &lt;a href=&quot;http:&#x2F;&#x2F;motherfuckingwebsite.com&#x2F;&quot;&gt;not break&lt;&#x2F;a&gt; over 90% of the web for some snazzy effect I felt like adding?&lt;&#x2F;p&gt;
+&lt;p&gt;Feature queries to the rescue.&lt;&#x2F;p&gt;
+&lt;p&gt;CSS supports the &lt;code&gt;@supports&lt;&#x2F;code&gt; at-rule to detect whether the browser supports a declaration. Then you can write separate styles for supporting and non-supporting browsers.&lt;&#x2F;p&gt;
+&lt;p&gt;The only problem is IE support. It doesn’t support &lt;code&gt;@supports&lt;&#x2F;code&gt;, so I don’t support it.&lt;&#x2F;p&gt;
+&lt;p&gt;Fine, I’ll stop saying ‘support’.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;keyboard-navigation&quot;&gt;Keyboard Navigation&lt;&#x2F;h3&gt;
+&lt;p&gt;You can navigate the menus and lists on some pages using arrow keys and Vim-style HJKL keys. You’re welcome.&lt;&#x2F;p&gt;
+&lt;p&gt;This is a feature that games and CLI apps offer out of the box but is rare on the web. I wrote &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;dar5hak.github.io&#x2F;blob&#x2F;master&#x2F;static&#x2F;scripts&#x2F;main.mjs&quot;&gt;some JavaScript&lt;&#x2F;a&gt; to enable it where it makes sense.&lt;&#x2F;p&gt;
+&lt;p&gt;This is another progressive enhancement. You can still click the links as usual, with or without JavaScript.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;&#x2F;h2&gt;
+&lt;p&gt;I felt I should let my retrogaming interest ooze into my site, so I originally designed it to look like a game straight out of 1990.&lt;&#x2F;p&gt;
+&lt;p&gt;The font I’d have used for headings and menus was &lt;a href=&quot;https:&#x2F;&#x2F;fonts.google.com&#x2F;specimen&#x2F;Press+Start+2P&quot;&gt;Press Start 2P&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is also why I wanted keyboard navigation: to emulate a game controller.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;making-of-site&#x2F;old-design.png&quot; alt=&quot;Old design&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;That dream did not last long.&lt;&#x2F;p&gt;
+&lt;p&gt;I picked the brilliant &lt;a href=&quot;https:&#x2F;&#x2F;www.recursive.design&#x2F;&quot;&gt;Recursive&lt;&#x2F;a&gt; font for body text. I tried it on headings too, and it looked so good that I dropped the whole blockiness idea and used Recursive for everything.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;update-2020-09-28&quot;&gt;Update 2020-09-28&lt;&#x2F;h3&gt;
+&lt;p&gt;After publishing the site online, I found myself writing about serious topics, and Recursive didn’t seem to fit the image of “serious”. But I was cautious about adding multiple fonts since Recursive offered so much in one font resource.&lt;&#x2F;p&gt;
+&lt;p&gt;After reading some typography advice from &lt;a href=&quot;https:&#x2F;&#x2F;learnui.design&#x2F;blog&#x2F;&quot;&gt;Erik D. Kennedy&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;www.typewolf.com&#x2F;&quot;&gt;Jeremiah Shoaf&lt;&#x2F;a&gt;, I decided to try a few different approaches to font selection. Some experimentation with Google Fonts and many iterations led me to what you see today: serious, but not too much so.&lt;&#x2F;p&gt;
+&lt;p&gt;I even added a nice light color scheme, which looks even better than the dark one with the new typography.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;update-2020-10-03&quot;&gt;Update 2020-10-03&lt;&#x2F;h3&gt;
+&lt;p&gt;I rebranded from &lt;em&gt;Dubious Disc&lt;&#x2F;em&gt; to &lt;em&gt;prose&amp;amp;const&lt;&#x2F;em&gt; and refreshed the home page and navigation styles. Again, I applied the UI design lessons learnt from the two brilliant folks mentioned above.&lt;&#x2F;p&gt;
+&lt;p&gt;Moreover, I no longer have to compete for search results with &lt;a href=&quot;https:&#x2F;&#x2F;bulbapedia.bulbagarden.net&#x2F;wiki&#x2F;Dubious_Disc&quot;&gt;Pokémon&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;making-of-site&#x2F;lighthouse.png&quot; alt=&quot;Google Lighthouse report with a Performance score of 100&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Need I say more?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;&#x2F;h2&gt;
+&lt;p&gt;While this lacks many common features, I am happy with the result. It’s fast, responsive, privacy-respecting, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dar5hak&#x2F;dar5hak.github.io&quot;&gt;open source&lt;&#x2F;a&gt;, and most importantly, it’s mine. It is exactly how I want it to be.&lt;&#x2F;p&gt;
+&lt;p&gt;I recommend this to anyone who knows HTML and CSS (and has the time): if you want to make a site, write it yourself. Not only does it give you street cred and bragging rights, it is also more satisfying and rewarding. And of course, you learn a lot along the way.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Machine Learning for the Offline Web</title>
+        <published>2019-02-22T00:00:00+00:00</published>
+        <updated>2019-02-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/2019/02/22/ml-offline-web-tfjs/"/>
+        <id>https://proseandconst.xyz/2019/02/22/ml-offline-web-tfjs/</id>
+        
+        <summary type="html">&lt;p&gt;Offline Web apps are finally a thing. The cleverest of ideas which were previously only imagination, are now reality.&lt;&#x2F;p&gt;
+&lt;p&gt;Thanks to the various storage mechanisms provided by modern browsers, it is now possible to save machine learning models directly on the client side. You can then use these to produce outputs without requiring a connection with the server.&lt;&#x2F;p&gt;
+&lt;p&gt;This post demonstrates how to do that.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Write Unfancy Web Apps</title>
+        <published>2015-12-19T00:00:00+00:00</published>
+        <updated>2015-12-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/2015/12/19/how-to-write-unfancy-web-apps/"/>
+        <id>https://proseandconst.xyz/2015/12/19/how-to-write-unfancy-web-apps/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/2015/12/19/how-to-write-unfancy-web-apps/">&lt;p&gt;Ever since the advent of HTML5 and ES6, the web is moving forward at the speed of the Millennium Falcon.&lt;&#x2F;p&gt;
+&lt;p&gt;While the world was still in awe at Angular&#x27;s superpowers, the React phenomenon happened. And while the average corporate Java dev gets over the overwhelming pace of events, Angular 2 and Polymer will be ready to refill their pile of things to be amazed at.&lt;&#x2F;p&gt;
+&lt;p&gt;And that is a good thing. It means better APIs, better developer ergonomics, and most importantly, better resulting products.&lt;&#x2F;p&gt;
+&lt;p&gt;However, sometimes people forget that they do not need a Batmobile to get to the grocery store. When you&#x27;re building a simple web app that does one small thing, you do not need an MV* framework, with a component-driven view layer, powered by a Swiss Army CSS Toolkit. All you need is the bare minimum abstraction, just enough to save you from the nitty-gritty of the raw JavaScript and CSS.&lt;!-- more --&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;my-toolbox&quot;&gt;My toolbox&lt;&#x2F;h2&gt;
+&lt;p&gt;At work, I often have to develop simple web-based utilities that Do One Thing and Do It Well™. For times like these, I carry a small toolbox that meets my needs in under 20 kB minified and gzipped.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zepto&quot;&gt;Zepto&lt;&#x2F;h3&gt;
+&lt;p&gt;Let&#x27;s face it. Even those who still use jQuery, do not use every nook and cranny of it. &lt;a href=&quot;http:&#x2F;&#x2F;zeptojs.com&#x2F;&quot;&gt;Zepto&lt;&#x2F;a&gt;, the lightweight jQuery-compatible library, meets most of your needs when it comes to DOM manipulation, event handling and AJAX. Usually, the only time you need the full weight of jQuery is when you&#x27;re using one of its add-ons like jQuery UI or jQuery Mobile. In most other cases, Zepto gets the job done just fine.&lt;&#x2F;p&gt;
+&lt;p&gt;That being said, using jQuery in 2016 is fine, really. If it works for you, then go use the heck out of it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;mustache&quot;&gt;Mustache&lt;&#x2F;h3&gt;
+&lt;p&gt;You could fill your DOM with AJAX-received data using Zepto alone, but it makes your code look like really delicious spaghetti. This is where (arguably) the simplest templating engine, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;janl&#x2F;mustache.js&quot;&gt;Mustache&lt;&#x2F;a&gt;, comes in. No nonsense, logicless templates.&lt;&#x2F;p&gt;
+&lt;p&gt;I like Mustache because it is simple &lt;em&gt;and&lt;&#x2F;em&gt; works cross-browser. However, it does have a slight learning curve. Some day, when the world stops using Internet Explorer, I plan on replacing Mustache in my toolbox with maybe &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;trueadm&#x2F;t7&quot;&gt;t7&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pure&quot;&gt;Pure&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;purecss.io&#x2F;&quot;&gt;Pure&lt;&#x2F;a&gt; is a tiny CSS library from Yahoo! which is surprisingly handy and beautiful for something that&#x27;s less than 4 kB. It doesn&#x27;t come with all the bells and whistles of Bootstrap, but if you want pretty forms, buttons, tables and grids, go for Pure.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;counter-argument&quot;&gt;Counter-argument&lt;&#x2F;h2&gt;
+&lt;p&gt;You might ask, why I prefer not to use more robust frameworks which make a far better developer experience.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Blunt answer:&lt;&#x2F;strong&gt; because this works.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Reasonable answer:&lt;&#x2F;strong&gt; because I&#x27;m not building a GitHub. I don&#x27;t see the point of adding more kilobytes to an application, unless absolutely needed. Better developer experience is no substitute for better user experience.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;These tiny tools are generally enough to build a nice, clean web app that is just a semi-dynamic interface to a fairly robust backend with a solid REST API.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not saying that Angular&#x2F;React&#x2F;Ember&#x2F;Bootstrap&#x2F; are useless. I&#x27;m just saying, don&#x27;t use them just because &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Law_of_the_instrument&quot;&gt;they are there and they are cool&lt;&#x2F;a&gt;. Ask yourself if you can do the job and still keep your code uncluttered without using them. Aim for less, not more.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;— Antoine de Saint-Exupéry, French writer&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;update&quot;&gt;Update&lt;&#x2F;h4&gt;
+&lt;p&gt;I just posted this on &lt;a href=&quot;http:&#x2F;&#x2F;www.echojs.com&#x2F;&quot;&gt;Echo JS&lt;&#x2F;a&gt;, and realized what a perfect example it is of a simple, unfancy web app. They run on just jQuery.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;update-2&quot;&gt;Update 2&lt;&#x2F;h4&gt;
+&lt;p&gt;Pedro Canterini developed &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pcanterini&#x2F;unfancy-starter&quot;&gt;this nifty Unfancy Starter&lt;&#x2F;a&gt;, which bundles a slightly modified and refined version of the aforementioned toolbox into an easy, preconfigured scaffold.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Making BCM43142 Wireless Chipset Work on Debian</title>
+        <published>2013-10-13T00:00:00+00:00</published>
+        <updated>2013-10-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://proseandconst.xyz/2013/10/13/making-bcm43142-wireless-driver-work-on-debian/"/>
+        <id>https://proseandconst.xyz/2013/10/13/making-bcm43142-wireless-driver-work-on-debian/</id>
+        
+        <content type="html" xml:base="https://proseandconst.xyz/2013/10/13/making-bcm43142-wireless-driver-work-on-debian/">&lt;p&gt;So I couldn&#x27;t get WiFi to work on my SolydK installation. It does come with a nifty tool called &#x27;Device Driver Manager&#x27;, but even that couldn&#x27;t find a driver for my wireless chipset, the Broadcom BCM43142. Some other Broadcom drivers sure are available in the Debian repos, but this one isn&#x27;t. So I did the only sensible thing to do: searched the Web. And here&#x27;s the solution.&lt;!-- more --&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt; I assume that you know the basics of &lt;code&gt;apt-get&lt;&#x2F;code&gt; and &lt;code&gt;cd&lt;&#x2F;code&gt; commands.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-s-your-chipset&quot;&gt;What&#x27;s your chipset?&lt;&#x2F;h3&gt;
+&lt;p&gt;Open the terminal and run&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;lspci &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;| &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;grep&lt;&#x2F;span&gt;&lt;span&gt; BCM
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;and check if the output contains &lt;code&gt;BCM43142&lt;&#x2F;code&gt;. If it does, this post is for you.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;get-the-driver&quot;&gt;Get the driver&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Run&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt-get install linux-headers-generic build-essential dkms broadcom-sta-modules
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;If it freaks out with the first package, just skip that one.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Download &lt;a href=&quot;https:&#x2F;&#x2F;drive.google.com&#x2F;open?id=0B1iuY5gfFnsyalVLOUxNNnotYk0&quot;&gt;this deb package&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cd&lt;&#x2F;code&gt; into the directory containing the package.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Install it using&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; dpkg&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt; -i&lt;&#x2F;span&gt;&lt;span&gt; wireless-bcm43142-dkms_6.20.55.19-1_amd64.deb
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Activate it.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;sh&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-sh &quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; modprobe wl
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Done. It should work now.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;what-s-inside&quot;&gt;What&#x27;s inside?&lt;&#x2F;h3&gt;
+&lt;p&gt;I haven&#x27;t checked, but there&#x27;s one thing I know: the person who has provided the deb package, has tweaked a copy of the driver package found inside an Ubuntu installation.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;source&quot;&gt;Source&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;jas.gemnetworks.com&quot;&gt;jas.gemnetworks.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
