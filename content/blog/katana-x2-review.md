@@ -18,7 +18,7 @@ Spoiler alert: I wasn’t disappointed.
 
 ## Buying experience: 3/5
 
-I got myself the tenkeyless variant of EvoFox Katana X2 with blue switches and black colour. They have a white one with full-size layout and red switches, but that’s the only other variant at the time of writing. And on Amazon, this is listed as a variant of older generation Katana keyboards.
+I got myself the tenkeyless variant of [EvoFox Katana X2](https://www.amkette.com/collections/gaming-keyboards/products/evofox-katana-x2-tkl-mechanical-gaming-keyboard) with blue switches and black colour. They have a white one with full-size layout and red switches, but that’s the only other variant at the time of writing. And on Amazon, this is listed as a variant of older generation Katana keyboards.
 
 So while EvoFox makes good budget products, their cataloguing sucks.
 
