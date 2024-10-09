@@ -13,13 +13,9 @@
   gap: 2.25em 1em;
   grid-template-columns: 1fr auto;
   margin-top: 3em;
-  
+
   @media (max-width: 639px) {
     grid-template-columns: auto;
-  }
-  
-  a[data-focusable] {
-    text-indent: -0.5rem;
   }
 
   time {
@@ -29,7 +25,7 @@
     justify-self: end;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    
+
     @media (max-width: 639px) {
       display: none;
     }
@@ -41,8 +37,4 @@
   flex-flow: row wrap;
   gap: 1em 1.5em;
   margin-top: 3em;
-  
-  a[data-focusable] {
-    text-indent: -0.5rem;
-  }
 }

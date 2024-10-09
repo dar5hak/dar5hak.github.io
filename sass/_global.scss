@@ -84,18 +84,6 @@ a {
 
 a:focus {
   outline: 4px solid var(--accent-color);
-}
-
-a[data-focusable]::before {
-  content: "▶";
-  display: inline-block;
-  font-size: 75%;
-  margin-right: 0.25rem;
-  visibility: hidden;
-}
-
-a[data-focusable]:focus::before {
-  visibility: visible;
   background-color: var(--accent-color);
   text-decoration: none;
 }

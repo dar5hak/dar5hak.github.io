@@ -10,7 +10,7 @@
       <h1>Tags</h1>
       <section class="tag-list">
         {% for tag in terms %}
-          <a href="{{ tag.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>#{{ tag.name }}</a>
+          <a href="{{ tag.permalink }}">#{{ tag.name }}</a>
         {% endfor %}
       </section>
     </article>

@@ -12,7 +12,7 @@
       </header>
       <section class="section-list">
         {% for page in term.pages %}
-          <a href="{{ page.permalink }}" data-focusable {% if loop.first %}data-autofocus{% endif %}>{{ page.title }}</a>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
           <time datetime="{{ page.date }}">{{ page.date | date(format="%-d %b %Y") }}</time>
         {% endfor %}
       </section>
