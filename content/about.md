@@ -8,14 +8,12 @@ hide_footer = true
 
 <div class="headshot"><img src="/images/photo.webp"></div>
 
-My name is Darshak Parikh. I am a UI developer living in India.
+My name is Darshak Parikh. I am a software developer living in India.
 
-I write about technology, open source software and psychology among other things.
+You’ll find me in communities about Linux, FOSS, programming, that kind of thing. I consider myself a “[hacker](https://en.wikipedia.org/wiki/Hacker_culture)”, in the [original sense of the word](https://en.wikipedia.org/wiki/Hacker#Definitions), not the [21st century bastardisation](https://en.wikipedia.org/wiki/Security_hacker).
 
-Web development caught my interest in 2015, and I haven’t looked back since. I enjoy writing fast, sexy web apps and sites. I do that professionally at [CoffeeBeans Consulting](https://www.coffeebeans.io).
+I host my [media server](https://jellyfin.org/) and [feed reader](https://miniflux.app/) on a Raspberry Pi 4 with [DietPi](https://dietpi.com/), while leaning towards open source solutions when using software hosted elsewhere. The daily driver on my laptop is [elementary OS](https://elementary.io/). I maintain [a couple of small apps](https://github.com/elfenware) for it.
 
-I also develop a bunch of [side projects](/projects), most of which are on [GitHub](https://github.com/dar5hak). I contribute to and develop apps for [elementary OS](https://elementary.io/).
+I like reading [books](/digital-garden/books), [comics, manga](/digital-garden/manga-and-friends), etc. I’m not a gamer, but I do occasionally play [retro games](/digital-garden/story-retrogaming).
 
-Besides programming, I create [pixel art](https://www.deviantart.com/blockydreams) and play retro games.
-
-If you want to talk about these or any other topics, hit me up on [Mastodon](https://im-in.space/@dubiousdisc). Or send me an email at _darshak_ at _protonmail.com_.
+You can find me on [Mastodon](https://im-in.space/@dubiousdisc).

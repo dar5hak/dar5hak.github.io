@@ -11,11 +11,6 @@
       "long": "Visit my digital garden"
     },
     {
-      "url": "/projects",
-      "text": "projects",
-      "long": "Look at my projects"
-    },
-    {
       "url": "/about",
       "text": "about",
       "long": "Know more about me"
