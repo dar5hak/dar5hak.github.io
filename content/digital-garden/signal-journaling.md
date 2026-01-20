@@ -1,5 +1,5 @@
 +++
-title = "My Journaling App is Signal"
+title = "My journaling app is Signal"
 +++
 
 I have been journaling on and off for years now, and decided to start afresh in 2026. As usual, this entailed choosing a suitable app. Day One? Org-mode? Silverbullet? Plain text files?
