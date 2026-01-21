@@ -16,12 +16,5 @@ taxonomies = [
 
 generate_feeds = true
 
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-[markdown]
-highlight_code = true
-highlight_theme = "ayu-dark"
-
-[extra]
-# Put all your custom variables here
-highlight_theme = "ayu-dark"
+[markdown.highlighting]
+theme = "ayu-dark"
