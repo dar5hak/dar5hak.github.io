@@ -11,7 +11,7 @@ Consider this: what do you need from a typical journaling app?
 - **Privacy**, first and foremost. Signal’s whole schtik is that it is secured with end-to-end encryption, and they can’t see your data even if they want to. Unlike WhatsApp, Signal’s encryption implementation is open source and its code can be audited by anyone.
 - **Timestamped entries**. That’s exactly what chat messages are.
 - **Media attachments**? Sure.
-- **Search**. You can do simple text searches across your history. I can’t imaging needing anything more sophisticated than that.
+- **Search**. You can do simple text searches across your history. I can’t imagine needing anything more sophisticated than that.
 - **Linked entries**. If I make an entry for to set a personal goal and then want to add more entries for milestones/progress, I can just reply to the original message. The replies button lets me see all replies at once.
 - **Cross-platform sync**? Pretty much. You don’t get a web app, but there are native apps for all major platforms, although the only ones I need are Linux and Android.
 - **Simple interface**? You can’t get much simpler than a chat application.
