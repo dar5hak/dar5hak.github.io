@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "url": "/blog",
+      "text": "blog",
+      "long": "Read my blog"
+    },
+    {
+      "url": "/digital-garden",
+      "text": "digital garden",
+      "long": "Visit my digital garden"
+    },
+    {
+      "url": "/about",
+      "text": "about",
+      "long": "Know more about me"
+    }
+  ]
+}
